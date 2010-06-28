@@ -1,4 +1,6 @@
-|fmt -w 72|sed 's,$,  ,'
+bin/nb tool
 git status
-git commit -a -m 'update README'
+git commit -a -m 'add bin/nb and nbindex for project root'
 git push origin master
+|fmt -w 72|sed 's,$,  ,'
+|sort|uniq

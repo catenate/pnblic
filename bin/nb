@@ -1,0 +1,17 @@
+#!/usr/local/plan9/bin/rc
+flag e +
+
+catalog=$HOME^'/nbindexes'
+if(test -r $catalog && ! ~ $1 ''){
+	list=`{cat $catalog}
+	grëp $* $list | sed 's,nbindex:[0-9]+: ,,'
+}
+
+grep -n '^nb ' * | sed 's,: +nb +, ,' > nbindex
+echo `{pwd}^'/nbindex' >> $catalog
+if(~ $TMPDIR ''){
+	TMPDIR=/var/tmp
+}
+tmp=$TMPDIR^'/nbindexes.'^$USER^'.'^$pid
+sort -u $catalog > $tmp
+mv $tmp $catalog

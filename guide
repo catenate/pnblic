@@ -1,0 +1,4 @@
+|fmt -w 72|sed 's,$,  ,'
+git status
+git commit -a -m 'Add guide and write README'
+git push origin master

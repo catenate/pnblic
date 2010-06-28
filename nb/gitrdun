@@ -1,0 +1,44 @@
+nb talk write accomplish postpone procrastinate plan report @rands
+Talking about what you're going to do isn't actually doing anything.
+
+
+nb ernesthemingway stop interrupt obvious progress roalddahl
+Stop when you least want to stop, to start again easy and avoid writer's
+block.
+
+EH: The best way is always to stop when you are going good and when you
+know what will happen next.  If you do that every day … you will never
+be stuck.  Always stop while you are going good and don’t think about
+it or worry about it until you start to write the next day.  That way
+your subconscious will work on it all the time.  But if you think about
+it consciously or worry about it you will kill it and your brain will be
+tired before you start.
+
+RD: I never come back to a blank page; I always finish about halfway
+through.  Hemingway taught me the finest trick: “When you are going
+good, stop writing.” You don’t go on writing and writing until you
+come to the end of it, because when you do, then you say, well, where am
+I going to go next?  You make yourself stop and you walk away.  And you
+can’t wait to get back because you know what you want to say next.
+
+
+nb search command
+echo; grep -n '^nb ' * | grep oamse | grep next | sed 's,: +nb +, ,'
+echo; grep -n '^nb ' * | grep oamse | grep waiting | sed 's,: +nb +, ,'
+echo; grep -n '^nb ' * | grep oamse | grep someday | sed 's,: +nb +, ,'
+echo; grep -n '^nb ' * | grep oamse | grep calendar | sed 's,: +nb +, ,'
+echo; grep -n '^nb ' * | grep oamse | grep done | sed 's,: +nb +, ,'
+
+
+nb finish task
+Getting Things Done
+http://en.wikipedia.org/wiki/Getting_Things_Done
+
+GTD rests on the principle that a person needs to move tasks out of the
+mind by recording them externally.  That way, the mind is freed from the
+job of remembering everything that needs to be done, and can concentrate
+on actually performing those tasks.
+
+
+nb cache status text fragment
+Cache text fragments by tag, change tags as status changes.

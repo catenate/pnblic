@@ -1,0 +1,105 @@
+clojure:1 new user development environment problem fail java ide build system compile @taoeffect
+clojure:47 mmemail library clojars leiningen @slagyr
+clojure:67 tdd programming @marick
+clojure:73 tdd closure test map each element @unclebobmartin
+clojure:78 clojure ruby consistent semantic æsthetic literal syntax first order function meta program @briancarper
+clojure:83 clojure ruby @fogus
+clojure:89 clojure book @fogus @chrishouser
+gitrdun:1 talk write accomplish postpone procrastinate plan report @rands
+gitrdun:5 ernesthemingway stop interrupt obvious progress roalddahl
+gitrdun:25 search command
+gitrdun:33 finish task
+gitrdun:43 cache status text fragment
+haskell:1 test tool suite strategy workflow
+haskell:5 develop web html5 css javascript @silkapp tag key value database
+haskell:10 anansi literate programming preprocessor noweb nuweb include tree
+haskell:21 rankntypes rank 2 polymorphism within function instance jwlato@gmail.com
+haskell:66 functional programming import interview johnhughes
+haskell:72 haskell parallel language status community @donsbot
+haskell:148 literate haskell example log analysis video
+haskell:153 potential x86 64 bit assembly haskell domain specific language embed dsl ghc haskell platform
+haskell:172 monad tutorial history timeline
+haskell:176 monad m unit bind haskell intro @sigfpe
+haskell:182 concurrent channel maybe producer sum consumer
+haskell:185 contact benjaminedwards email edwards.benj@googlemail.com
+haskell:193 contact deanherington elizabethlacey email heringtonlacey@mindspring.com
+haskell:229 bibliography donstewart book paper talk software
+haskell:235 parallel programming book paper list
+haskell:241 monad type class do notation presentation
+haskell:250 worker wrapper transform type recurse perform initial algebra semantic fold grahamhutton maurojaskelioff andygill
+haskell:267 pure functional data structure
+haskell:278 web framework unix
+haskell:292 tryhaskell repl
+haskell:296 monad intro exercise sigfpe
+haskell:301 style guide
+haskell:305 listeq test list equality equable typeclass
+haskell:314 shell script shebang edsl
+haskell:318 filter prelude
+haskell:322 null type bottom maybe just nothing
+haskell:326 convert cast number type
+haskell:330 list comprehension
+haskell:334 learn review
+haskell:343 grahamhutton
+haskell:373 linux kernel module
+haskell:381 lint
+haskell:391 fast haskell clang strict lazy recurse
+knowledge:1 learn new domain modest goal perfect solve @ecomba
+knowledge:6 lack anosognosia dilemma bank robbery make decision donaldrumsfeld dunning kruger effect incompetent
+lego:1 adult afol lego ted talk video
+lego:5 color temperature cool warm
+lego:11 gift wish list
+lego:18 monument building
+lego:57 pirate theme colonial army invasion active scene hand flipper roof fire beacon smoke cliff steps yardarm window jump
+lego:62 monastery dissolute monk soldier cathedral force abandon
+swcraft:1 environment forget change code rot care maintain test @docondev
+swcraft:6 manifesto signature
+swcraft:21 idealist mail list post
+swcraft:26 object mentor video index @unclebobmartin @mfeathers @deanwampler
+swcraft:30 group meeting israel video
+swcraft:34 podcast @paulwpagel @paytonrules
+swcraft:38 scna conference chicago @rayhightower best people volunteer religion
+swcraft:45 certify authority association @ecomba employ apprentice scratch child accept fail learn
+swcraft:72 @dougbradbury
+swcraft:76 @mfeathers
+swcraft:86 @trptcolin
+swcraft:93 boutique software shop technical leader gui user interface simple attractive intuitive æsthetic craftsman skill range depth @paulwpagel
+swcraft:115 boutique software shop gordonramsay team work ethic talent skill taste franchise @mfeathers
+swcraft:172 craftsman principle attribute clean code detail experience productive lead team standard
+swcraft:173 quality productivity punctuality bug feature fast perfect complete quick imperfect incomplete impermanent
+swcraft:193 hand eye feedback make medium language toolsmith personal transmit
+swcraft:216 profession value self employ @unclebobmartin
+swcraft:223 design decision consequence maturing understanding
+swcraft:238 agile unix design principles
+swcraft:245 coryfoy video
+swcraft:249 process quality care
+swcraft:254 pragmatic programmers magazine
+swcraft:258 robertmartin presentation
+swcraft:264 test problem improve design
+swcraft:269 educate julliard skill solfège theory instrument music jury
+swcraft:288 responsibility language feature ruby culture
+swcraft:292 97things programmer oreilly ebook pdf purchased
+swcraft:297 refactor task schedule chore pivotal tracker bobmartin
+swcraft:320 prototype
+swcraft:343 craftsman title
+swcraft:355 startup hacker painter paulgraham
+swcraft:359 productive efficient build unnecessary
+swcraft:364 todo github commit relevance functional koan haskell @abedra
+swcraft:368 tao
+swcraft:373 good enough sufficient design economy necessary refactor
+swcraft:389 software engineering professional craft coöperate game lean process alistaircockburn
+swcraft:422 semat software engineering alistaircockburn
+swcraft:427 user group city wiki
+swcraft:431 golang constraint design obligation master accept issue
+swcraft:496 work reward opportunity courage confidence experience jonassalk
+swcraft:513 daily refactor 3 hourly build error train skill real problem system knowledge
+swcraft:518 exclusionary society corrupt sound craftsmen friendship alice looking glass
+swcraft:589 maintain program theory refactor efficient peternaur paper practice learn experience
+swcraft:632 confident service
+swcraft:637 software practice variety works confident creative service
+swcraft:663 core size feature complexity perl
+swcraft:677 sql database design
+test:1 automate web site performance boomerang javascript github yahoo
+test:10 unit justify
+test:15 gotest regress function benchmark swdev
+test:51 discount use prototype inspect
+test:75 ease

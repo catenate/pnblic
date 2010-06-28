@@ -1,0 +1,92 @@
+nb new user development environment problem fail java ide build system compile @taoeffect
+Slepak, G. -20100627.  Clojure's n00b attraction problem.  Greg Slepak's Posterous.
+http://gregslepak.posterous.com/clojures-n00b-attraction-problem
+
+Now, once you've finally managed to obtain your clojure.jar of choice,
+you're faced with another problem: how do I get [my] IDE/source-editor
+to use it?  How do you use it across projects?
+
+A clj script is a script you either obtain from some random person, or
+you write yourself, and it essentially wraps the above command¹ in some
+logic so that you have the same [REPL] experience that you get from irb,
+python, lua, newlisp, etc.  It handles separating arguments passed to
+the java command from those passed to the script, and it sets up the
+classpath string.²
+ ¹ java -cp clojure.jar clojure.main /path/to/myscript.clj
+ ² And if you happen to be a [new user] to Java, it means you're at an instant
+disadvantage when it comes to Clojure, because "classpath string" means
+nothing to you, and it means you've got to learn yet another thing
+before you're able to get started.
+
+The fact that Clojure is based on Java is both a blessing and curse.
+A blessing because you get all those Java libraries for free, and a
+curse because you get to deal with Java and hell that comes with it
+(ant, maven, etc.).
+
+After a [new user] has obtained Clojure and graduated beyond 'clj' and the
+REPL, they'll want to edit source code and build jar files of their own.  …
+Now, say our [new user] is either wise and decides to shun the time-suck
+that is emacs, or is told to use an IDE.  They now have to figure out which
+IDE to use.  … One major problem is that there are no instructions for how
+to use the clojure.jar/clojure-contrib.jar files you've downloaded/compiled. …
+I think the Clojure community should "officially sanction" one of these
+IDEs and put their combined efforts into making it insanely great.  …
+That's not to say the other IDEs shouldn't be supported or listed, but just
+that from a [new user's] perspective, it would be great if there was a
+single, awesome go-to IDE to dive right in.
+
+Yet another set of choices [new users] are faced with is figuring out
+how to actually compile their source into an executable.  … [Leiningen]
+does describe the process, but it's not very clear to a [new user] who
+doesn't know all of the project.clj syntax for specifying the :main
+class and using :gen-class.  Nor does it mention how to include a jar
+file that's located locally on the drive and not obtained through the
+online repos.
+
+
+nb mmemail library clojars leiningen @slagyr
+Martin, M.  20100421.  MMEmail: My first Clojure open source contribution.
+8th Light blog.
+http://blog.8thlight.com/articles/2010/4/21/mmemail-my-first-clojure-open-source-contribution
+
+While working on website for my sister,¹ I was perturbed that there were
+no libraries on Clojars² for sending email.  I was using Leiningen³
+which will download and include all your dependancies for you (so sweet!).
+Yet, with the library I found,⁴ I had to manually download all the
+required jars.  Call me lazy but being forced to manually download
+dependancies seems like cruel and unusual punishment these days.
+So I solved the problem: MMEmail,⁵ a simple Clojure library for sending
+email, with just one jar!
+ ¹ http://potterycat.com/
+ ² http://clojars.org/
+ ³ http://github.com/technomancy/leiningen
+ ⁴http://nakkaya.com/2009/11/10/using-java-mail-api-from-clojure/
+ ⁵http://github.com/slagyr/mmemail
+
+
+nb tdd programming @marick
+Marick, B.  20100611.  TDD in Clojure: a sketch (part 1).
+Exploration through example.
+http://www.exampler.com/blog/2010/06/11/tdd-in-clojure-a-sketch-part-1/
+
+
+nb tdd closure test map each element @unclebobmartin
+Martin, R.C.  -20100603.  TDD in Clojure.  Object mentor: Uncle Bob's blatherings.
+http://blog.objectmentor.com/articles/2010/06/03/tdd-in-clojure
+
+
+nb clojure ruby consistent semantic æsthetic literal syntax first order function meta program @briancarper
+Carper, B.  20100609.  Clojure, from a Ruby perspective.
+http://briancarper.net/blog/clojure-from-a-ruby-perspective
+
+
+nb clojure ruby @fogus
+Fogus, M.  20100609.  clojure.rb.  Send more paramedics: Fogus' thoughts
+on life, programming, and mundania.
+http://blog.fogus.me/2010/06/09/clojure-rb/
+
+
+nb clojure book @fogus @chrishouser
+Fogus, M. and Houser, C.  2010.  The joy of Clojure: Thinking the
+Clojure way.  Manning publications.
+http://joyofclojure.com/

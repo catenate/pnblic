@@ -1,0 +1,411 @@
+nb test tool suite strategy workflow
+http://stackoverflow.com/questions/3120796/haskell-testing-workflow
+
+
+nb develop web html5 css javascript @silkapp tag key value database
+http://blog.typlab.com/2009/09/why-we-use-haskell/
+http://blog.typlab.com/category/haskell/
+
+
+nb anansi literate programming preprocessor noweb nuweb include tree
+Anansi: a literate programming preprocessor
+http://ianen.org/haskell/anansi/
+
+Anansi is a preprocessor for literate programs, in the model of NoWeb or nuweb.
+Literate programming allows computer code to extracted from a human-readable
+document.  Compared to NoWeb, Anansi's primary benefits are the ability to
+include separate files, and to automatically generate an entire directory tree
+from a project without having to enumerate each output.
+
+
+nb rankntypes rank 2 polymorphism within function instance jwlato@gmail.com
+Lato, J.  20100614.  [Haskell-cafe] Re: learning advanced haskell.
+haskell-cafe@haskell.org
+
+RankNTypes - Look at this function
+
+> makeString :: (Show b, Show c) => (a -> a) -> b -> c -> String
+> makeString f b c = show (f b) ++ show (f c)
+
+If you try to call it as e.g.
+
+> makeString id 0 "foo"
+
+GHC provides a type error.  This doesn't work because when GHC unifies
+the types, it does something like this:
+
+1) the first argument, f,  is a function with type a -> a
+2) the function f is applied to an Integer, so f :: Integer -> Integer
+3) the function f is applied to a String, so f :: String -> String
+4) there are conflicting types for f, so bail out
+
+Even though you declare f :: a -> a, that 'a' must be set to exactly
+*one* value within the call, where makeString tries to apply it to
+values with different types.  This is rank-1 polymorphism.  RankNTypes
+fixes this by allowing us to specify that the "f" function is supposed
+to be polymorphic within the makeString function (rank-2 polymorphism)
+as opposed to the standard rank-1 polymorphism:
+
+> makeString2 :: (Show b, Show c) => (forall a. a -> a) -> b -> c -> String
+
+calling makeString2 does the right thing.  That's pretty much the whole
+story of Rank2Polymorphism.  RankNPolymorphism is exactly the same with
+nested levels of forall's.
+
+One really useful feature of this is that it provides a sort of inversion-
+of-control for polymorphism.  Typically the caller has the ability to
+define the types when a function is called, as happens with the b and c
+parameters to makeString2.  But in the first argument the *callee*
+determines the type values of the function!  The caller knows only that
+the function must take one argument and return a result of the same type
+(which also means "id" is the only interesting function of the appro-
+priate type).  The callee is free to instantiate the given function with
+*any types it wants*.  This is also what makes the ST monad safe incidentally.
+
+
+nb functional programming import interview johnhughes
+Drobi, S. -20100608.  John Hughes on Why functional programming matters!
+QCon 2010.
+http://www.infoq.com/interviews/john-hughes-fp
+
+
+nb haskell parallel language status community @donsbot
+http://www.reddit.com/r/programming/comments/cdaha/why_functional_programming_matters_john_hughes/c0rtmkg
+
+Snap, a multicore-enabled scalable web server with great performance numbers.
+http://www.haskell.org/pipermail/haskell-cafe/2010-May/078005.html
+
+haskell-torrent - benchmarking a mulitcore-enabled bittorrent client in Haskell.
+http://jlouisramblings.blogspot.com/2009/12/concurrency-bittorrent-clients-and.html
+
+ghc 6.12.x series: with parallel performance improvements.
+http://article.gmane.org/gmane.comp.lang.haskell.general/17678
+
+Microsoft announces 2 years of funding to support commercial users of
+Parallel Haskell.
+http://blog.well-typed.com/2010/04/parallel-haskell-2-year-project-to-push-real-world-use/
+
+Google published their experience report on the use of Haskell.
+http://www.icfpconference.org/icfp2010/accepted_papers.html
+
+Intel announced the Concurrent Collections for Haskell library,
+including scalability numbers.
+http://software.intel.com/en-us/blogs/2010/05/27/announcing-intel-concurrent-collections-for-haskell-01/
+http://software.intel.com/en-us/blogs/2010/06/07/parallel-performance-in-intel-concurrent-collections-for-haskell-an-in-depth-example/
+
+Sun/Oracle bought us a machine and funded work on improving parallel performance.
+http://www.haskell.org/opensparc/
+http://ghcsparc.blogspot.com/
+
+Recent updates to the status of Data Parallelism in Haskell.
+http://www.youtube.com/watch?v=NWSZ4c9yqW8
+
+MSR released ThreadScope, a graphical profiler for parallel Haskell programs.
+http://research.microsoft.com/en-us/projects/threadscope/
+
+The GHC runtime got extensively tuned for sparks and futures.
+http://ghcmutterings.wordpress.com/2009/03/03/new-paper-runtime-support-for-multicore-haskell/
+
+There was a good discussion on additional ways to improve parallel performance.
+http://ghcmutterings.wordpress.com/2010/01/25/yielding-more-improvements-in-parallel-performance/
+
+I put up a collection of reading material on parallelism in Haskell to
+help you get started.
+http://donsbot.wordpress.com/2009/09/03/parallel-programming-in-haskell-a-reading-list/
+
+The Snap guys are getting 45k req/sec on their 4 way box, by using all
+the cores.
+http://gregorycollins.net/posts/2010/03/12/attoparsec-iteratee#comment-39671374
+
+Even the Erlang guys are taking notice.
+http://orbitz-erlang.blogspot.com/2009/09/impressed-with-haskells-concurrency.html
+
+Meanwhile, there is work to make the IO manager more scalable.
+http://www.serpentine.com/blog/2009/12/17/making-ghcs-io-manager-more-scalable/
+
+We're out there teaching people too, all over the place.
+http://www.slideshare.net/bos31337/bayfp-concurrent-and-multicore-haskell
+http://donsbot.wordpress.com/2010/06/01/open-source-bridge-talk-multicore-haskell-now/
+http://vimeo.com/channels/haskell#6680185
+http://ulf.wiger.net/weblog/2008/02/29/satnam-singh-declarative-programming-techniques-for-many-core-architectures/
+http://blip.tv/file/324976
+
+Starling Software wrote about their real time, multicore financial
+trading system in Haskell.
+http://www.starling-software.com/misc/icfp-2009-cjs.pdf
+
+And a new library for fast regular, parallel arrays appeared.
+http://trac.haskell.org/repa/
+http://hackage.haskell.org/package/repa
+
+Ericsson published a parallel language for DSP based on, and written in Haskell.
+http://hackage.haskell.org/package/feldspar-language
+
+And Haskell continues to do well on the quad-core shootout.
+http://shootout.alioth.debian.org/u64q/which-programming-languages-are-fastest.php#table
+
+
+nb literate haskell example log analysis video
+mightybyte.  20100610.  Log analysis commentary.  Software simply.
+http://softwaresimply.blogspot.com/2010/06/log-analysis-commentary.html
+
+
+nb potential x86 64 bit assembly haskell domain specific language embed dsl ghc haskell platform
+Carstens, T.  The Potential programming language: A type-safe embedding
+of x86-64 assembly into Haskell.
+http://potential-lang.org/
+http://github.com/intoverflow/Potential
+
+Potential is an embedding of x86-64 assembly into Haskell as a domain
+specific language.  Key features: Automatically manages pointer aliases,
+invalidating aliases when changes are made to data that have an effect
+on the underlying type.  Automatically tracks the evolution of machine
+state as instructions sequence together.  Haskell’s type inference
+eliminates the need for type annotations, while ghci provides the
+ability to inspect the types of functions to ensure that the code you
+write has the effect you want.  Easy to extend and modify the language
+to suit your application’s needs.  Requires GHC 6.12 and the Haskell
+Platform.¹
+ ¹ http://hackage.haskell.org/platform/
+
+
+nb monad tutorial history timeline
+http://www.haskell.org/haskellwiki/Monad_tutorials_timeline
+
+
+nb monad m unit bind haskell intro @sigfpe
+Piponi, D.  20060807.  You could have invented monads!  (And maybe you
+already have).  A neighborhood of infinity.
+http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html
+
+
+nb concurrent channel maybe producer sum consumer
+beginners@haskell.org Mon, 31 May 2010 13:33:07 -0400
+
+nb contact benjaminedwards email edwards.benj@googlemail.com
+Ben: I want my main thread to do the following.  (1) Make a channel.
+(2) Spawn a thread (producer) that will write a series of lists of
+integers to the the channel, then exit.  (3) Spawn another thread that
+will read from the channel and sum all of the input.  It should exit
+when both the channel is empty and and the producer thread has finished
+writing to it.  (4) Main thread should print the sum.
+
+nb contact deanherington elizabethlacey email heringtonlacey@mindspring.com
+Dean: By encoding end-of-data directly in the channel contents, you can
+simplify the code (and make it less prone to hangs such as the one
+you experienced.)  I've shown one way to do this below.  I've also
+made the accumulating count a simple parameter to the consumer
+function.  (Because the count is private to the consumer until it's
+passed to the main routine via the consumer's termination MVar,
+there's no need for additional inter-thread synchronization.)
+
+> module Main where
+> 
+> import Control.Concurrent
+> 
+> main :: IO ()
+> main = do oc <- newChan
+>           p <- forkJoin $ produce oc [1..1000]
+>           c <- forkJoin $ consume oc 0
+>           takeMVar c >>= print
+> 
+> produce :: Chan (Maybe [Integer]) -> [Integer] -> IO ()
+> produce ch [] = writeChan ch Nothing
+> produce ch xs = do let (hs,ts) = splitAt 100 xs
+>                    writeChan ch (Just hs)
+>                    produce ch ts
+> 
+> consume :: Chan (Maybe [Integer]) -> Integer -> IO Integer
+> consume ch cnt = do mbInts <- readChan ch
+>                     case mbInts of Just xs -> consume ch (cnt + sum xs)
+>                                    Nothing -> return cnt
+> 
+> forkJoin :: IO a -> IO (MVar a)
+> forkJoin task = do mv <- newEmptyMVar
+>                    forkIO (task >>= putMVar mv)
+>                    return mv
+
+
+nb bibliography donstewart book paper talk software
+Stewart, D.  20090121.  Papers.  Control.Monad.Writer
+http://donsbot.wordpress.com/papers/
+http://donsbot.wordpress.com/software/
+
+
+nb parallel programming book paper list
+Stewart, D.  20090903.  Parallel programming in Haskell: A reading list.
+Control.Monad.Writer
+http://donsbot.wordpress.com/2009/09/03/parallel-programming-in-haskell-a-reading-list/
+
+
+nb monad type class do notation presentation
+@tacticalgrace @thecolonial imho from a programming POV, the best way to
+view monads is as a programming pattern.  But instead of being informal,
+Haskell supports defining a monad entity (as a type class) and provides
+special syntactic support for the pattern (do notation) If interested,
+my fp-syd talk on monads http://bit.ly/a1qgg4 & @AndrePang's cont.
+http://bit.ly/acW3TI + http://bit.ly/9IFcaA
+
+
+nb worker wrapper transform type recurse perform initial algebra semantic fold grahamhutton maurojaskelioff andygill
+Hutton, G., Jaskelioff, M., and Gill, A.  2010.  Factorising folds for
+faster functions.  Journal of functional programming.
+http://www.cs.nott.ac.uk/~gmh/f5.pdf
+/home/jdc/Dropbox/doc/f5.pdf
+
+The worker/wrapper transformation is a general technique for improving
+the performance of recursive programs by changing their types.  The
+previous formalisation (Gill & Hutton, 2009) was based upon a simple
+fixed point semantics of recursion.  In this article we develop a more
+structured approach, based upon initial algebra semantics.  In
+particular, we show how the worker/wrapper transformation can be applied
+to programs defined using the structured pattern of recursion captured
+by fold operators, and illustrate our new technique with a number of
+examples.
+
+
+nb pure functional data structure
+Okasaki, C.  19990701.  Purely functional data structures.  Cambridge
+university press.  220p.
+http://www.amazon.com/dp/0521663504/?tag=stackoverfl08-20
+/home/jdc/Dropbox/doc/Purely-Functional-Data-Structures-_Chris-Okasaki_complete_300dpi_ocr.djvu
+
+Ghosh, D.  20100531.  Grokking functional data structures.
+Ruminations of a programmer.
+http://debasishg.blogspot.com/2010/05/grokking-functional-data-structures.html
+
+
+nb web framework unix
+http://snapframework.com/
+
+What is Snap?  Snap is a simple web development framework for unix
+systems, written in the Haskell programming language.  Snap is
+well-documented and has a test suite with a high level of code coverage,
+but it is early-stage software with still-evolving interfaces.  Snap is
+therefore likely to be most appropriate for early adopters and potential
+contributors.  Snap features a fast HTTP server library with an optional
+high-concurrency backend using the libev event loop library; a sensible
+and clean monad for web programming; and an XML-based templating system
+for generating HTML.
+
+
+nb tryhaskell repl
+http://tryhaskell.org/
+
+
+nb monad intro exercise sigfpe
+sigfpe.  20070428.  The trivial monad.  A neighborhood of infinity.
+http://blog.sigfpe.com/2007/04/trivial-monad.html
+
+
+nb style guide
+http://www.haskell.org/haskellwiki/Things_to_avoid
+
+
+nb listeq test list equality equable typeclass
+We can’t compare just anything for equality, so we constrain the type
+of /a/ to the Equable typeclass. (This is equivalent to == for lists.)
+
+> listeq :: Eq a ⇒ [a] → [a] → Bool
+> listeq (x:xs) (y:ys) ⇐ (x =? y) ⋀ (listeq xs ys)
+> listeq _ _ ⇐ True
+
+
+nb shell script shebang edsl
+http://benctechnicalblog.blogspot.com/2010/05/making-haskell-edsls-shebangable.html
+
+
+nb filter prelude
+http://www.zvon.org/other/haskell/Outputprelude/filter_f.html
+
+
+nb null type bottom maybe just nothing
+http://rosettacode.org/wiki/Undefined_values/Check_if_a_variable_is_defined#Haskell
+
+
+nb convert cast number type
+http://www.haskell.org/haskellwiki/Converting_numbers
+
+
+nb list comprehension
+http://en.wikibooks.org/wiki/Haskell/List_processing
+
+
+nb learn review
+Raymond, E.S.  20100310.  On learning Haskell.¹ Armed and dangerous.
+ ¹ http://esr.ibiblio.org/?p=1796
+
+
+@planet_lang [Haskell] Course in mathematical logic with applications to
+computer science: I am a mathematics professor.  I.. http://bit.ly/rQYsT
+
+
+nb grahamhutton
+Graham Hutton: Publications
+http://www.cs.nott.ac.uk/~gmh/bib.html
+
+
+@reddit_haskell Emulating Shared Mutable Variables with Message-Passing
+Processes : Communicating Haskell Processes http://bit.ly/rLhLK
+
+
+@bos31337 The power of #haskell platform and cabal -- up and running
+with GHC + all needed libs in < 10 minutes on loaner laptop.  (via
+@robgreayer)
+
+
+@reddit_haskell Lazy Time Reversal, and Automatic Differentiation [PDF]
+http://bit.ly/pljs8
+
+
+@reddit_haskell Comments sought for position paper on Haskell and EDSLs
+for new hardware architectures http://bit.ly/UqssC
+
+
+@bos31337 @donsbot writes a great post about amazing user-level
+"compiler" optimization possible in Haskell: http://bit.ly/bz2hf
+
+
+@reddit_haskell Self-optimizing data structures: using types to make
+lists faster http://bit.ly/BJRzi
+
+
+nb linux kernel module
+@galoisinc Galois Tech Talk: Writing Linux Kernel Modules with Haskell:
+http://www.galois.com/blog/2009/10/13/haskellkernelmodules/
+
+@reddit_haskell Linux Kernel Modules in Haskell - Ubuntu 9.04 Details
+http://bit.ly/mCn9q
+
+
+nb lint
+HLint 1.6.8.  Neil Mitchell announced HLint 1.6.8.  HLint is a tool for
+suggesting improvements to your source code.  It suggests the use of
+library functions you may have been unaware of, finds patterns of
+recursion that are really folds/maps, hints about extensions you aren't
+using and much more.  HLint is now one of the top 20 applications on
+Hackage, and is used by the darcs project to improve and statically
+check their code base.
+
+
+nb fast haskell clang strict lazy recurse
+Write Haskell as fast as C: exploiting strictness, laziness and
+recursion - http://cgi.cse.unsw.edu.au/~dons/blog/2008/05/16
+(Vinu Rajashekhar, 9fans 20090907.0405)
+
+Lesson 1: To write predictably fast Haskell -- the kind that competes
+with C day in and out -- use tail recursion, and ensure all types
+are inferred as simple machine types, like Int, Word, Float or Double
+that simple machine representations. The performance is there if you
+want it.
+
+Lesson 2: Laziness has an overhead -- while it allows you to write new
+kinds of programs (where lists may be used as control structures),
+the memory traffic that results can be a penalty if it appears in
+tight inner loops. Don't rely laziness to give you performance in
+your inner loops.
+
+Lesson 3: For heavy optimisation, the C backend to GHC is still the
+way to go. Later this year a new bleeding edge native code generator
+will be added to GHC, but until then, the C backend is still an
+awesome weapon.

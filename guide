@@ -1,6 +1,13 @@
 bin/nb tool
 git status
-git commit -a -m 'add bin/nb and nbindex for project root'
+git commit -a -m 'mv latest note files from dropbox'
 git push origin master
+ls -ltr /home/jdc/Dropbox/nb|tail
 |fmt -w 72|sed 's,$,  ,'
 |sort|uniq
+
+cd /home/jdc/Dropbox/nb
+n=20
+topics=`{ls -tr |grep -v acme.dump | grep -v guide | grep -v '\.sed' | grep -v nbindex | grep -v twitter | grep -v swtools2 | tail -$n}
+echo $topics
+echo $topics | wc -c

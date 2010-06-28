@@ -1,0 +1,1585 @@
+/home/jdc/git/pnblic
+/usr/local/plan9/font/times/latin1.7a.font
+/home/jdc/opt/src/icons/icons.14.font
+  0.0000000  59.9218750
+w Newcol Kill Putall Dump acme.dump Exit 
+c          0 New Cut Paste Snarf Sort Zerox Delcol 
+c          1 New Cut Paste Snarf Sort Zerox Delcol 
+f          0           2           0           0   2.0697168 
+          2          43          53           1           0 /home/jdc/git/pnblic/ Del Snarf Get | Look 
+f          0           3         347         347  10.6753813 
+          3          83         347           0           0 /home/jdc/git/pnblic/README.md Del Snarf Undo | Look Font 
+f          0           9           0           0  23.9651416 
+          9          46          78           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
+f          0          19           0           0  29.8474946 
+         19          49        5846           0           0 /home/jdc/git/pnblic/nb/nbindex Del Snarf | Look 
+F          1           0       93414       93414   2.0697168       93414 
+          4          46       93414           0           1 /home/jdc/git/pnblic/+Errors Del Snarf | Look 
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#
+# Untracked files:
+#   (use "git add guide
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   guide
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   guide
+#
+[master 2016010] Add guide and write README
+ 2 files changed, 8 insertions(+), 0 deletions(-)
+ create mode 100644 guide
+To git@github.com:catenate/pnblic.git
+   14f1b5c..2016010  master -> master
+[master d91fad3] update README
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+To git@github.com:catenate/pnblic.git
+   2016010..d91fad3  master -> master
+# On branch master
+nothing to commit (working directory clean)
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+/home/jdc/Dropbox/go/langspec/myscanner.nb:7 release update hg merge swtools blog post discuss support done
+/home/jdc/Dropbox/nb/9like:1 9base shell command tools minimal set
+/home/jdc/Dropbox/nb/agile:11 tool set whiteboard marker flip chart pair work station computer index card toy food sticky postit note sharpie avoidance technology cubicle meeting project management team communicate collaborate
+/home/jdc/Dropbox/nb/agile:62 agile whiteboard affordance tool
+/home/jdc/Dropbox/nb/apprentice:15 tool minor repair discover @journeymandev
+/home/jdc/Dropbox/nb/apprentice:94 appropriate tool first language
+/home/jdc/Dropbox/nb/clearcase:1 clearcase cleartool find example tutorial reference ibm rational
+/home/jdc/Dropbox/nb/clearcase:10 cleartool setview mount view server active path rsh uname
+/home/jdc/Dropbox/nb/debug:7 symbols library executable cleartool catcr build script source code
+/home/jdc/Dropbox/nb/dsl:1 self solve problem application adapt tool improve feature sigfpe
+/home/jdc/Dropbox/nb/facebook:1 privacy setting browser tool
+/home/jdc/Dropbox/nb/golang:500 go unix plan9 cli tool
+/home/jdc/Dropbox/nb/graphics:1 x11 xlib toolkit paper hello world
+/home/jdc/Dropbox/nb/haskell:1 test tool suite strategy workflow
+/home/jdc/Dropbox/nb/kanban:170 flowio web tool
+/home/jdc/Dropbox/nb/macosx:9 dvorak keyboard setup keycap system preference tool input process image
+/home/jdc/Dropbox/nb/people:63 maker motive child influence real tool bench emulate
+/home/jdc/Dropbox/nb/ruby:57 jruby jvm manage library pc erb template html javascript embed web browser java native access jna os drb best tool productive language deploy client
+/home/jdc/Dropbox/nb/simple:391 gnu configure autotools tex
+/home/jdc/Dropbox/nb/swcraft:193 hand eye feedback make medium language toolsmith personal transmit
+/home/jdc/Dropbox/nb/swtools:1 online notepad web site change url add password share save plain text input minimal
+/home/jdc/Dropbox/nb/swtools:5 tool usage
+/home/jdc/Dropbox/nb/swtools:14 heirloom unix tradition standard osx port
+/home/jdc/Dropbox/nb/swtools:32 curses nox app
+/home/jdc/Dropbox/nb/swtools:37 manual unix att research
+/home/jdc/Dropbox/nb/swtools:287 backup version control age aged todo
+/home/jdc/Dropbox/nb/swtools:293 backup list file rdup
+/home/jdc/Dropbox/nb/swtools:297 spideroak distributed backup sync share file todo
+/home/jdc/Dropbox/nb/swtools:306 parse perl markdown generate html solve small problem connect
+/home/jdc/Dropbox/nb/swtools2:3 paulgraham mccarthy lisp history functional programming
+/home/jdc/Dropbox/nb/swtools2:17 free wallpaper texture image
+/home/jdc/Dropbox/nb/swtools2:22 photoshop vintage journal map polaroid tutorial
+/home/jdc/Dropbox/nb/swtools2:28 plan9 sources host machine uptime
+/home/jdc/Dropbox/nb/swtools2:33 tile plane periodic
+/home/jdc/Dropbox/nb/swtools2:38 voronoi plane tile
+/home/jdc/Dropbox/nb/swtools2:43 online code review clearcase ucm
+/home/jdc/Dropbox/nb/swtools2:48 psychology human nature fail
+/home/jdc/Dropbox/nb/swtools2:53 eclipse ide fail
+/home/jdc/Dropbox/nb/swtools2:59 data visual
+/home/jdc/Dropbox/nb/swtools2:64 python utility
+/home/jdc/Dropbox/nb/swtools2:69 immutable constructor subclass partial interface
+/home/jdc/Dropbox/nb/swtools2:74 haskell quicksort
+/home/jdc/Dropbox/nb/swtools2:79 user experience programmer kitchen analogy
+/home/jdc/Dropbox/nb/swtools2:97 infocom text adventure archive interact fiction
+/home/jdc/Dropbox/nb/swtools2:102 neilgaiman library
+/home/jdc/Dropbox/nb/swtools2:107 italic manual hand write cursive practice
+/home/jdc/Dropbox/nb/swtools2:112 clearcase file name
+/home/jdc/Dropbox/nb/swtools2:118 reverse xor cryptography
+/home/jdc/Dropbox/nb/swtools2:123 rob interview
+/home/jdc/Dropbox/nb/swtools2:128 food porn pictures recipe forskiur
+/home/jdc/Dropbox/nb/swtools2:133 academic paper comment journal fail
+/home/jdc/Dropbox/nb/swtools2:138 lua history
+/home/jdc/Dropbox/nb/swtools2:143 plan9 paper book
+/home/jdc/Dropbox/nb/swtools2:149 escher book crystal graph
+/home/jdc/Dropbox/nb/swtools2:154 gpl gnu software legal license fail
+/home/jdc/Dropbox/nb/swtools2:163 silence music
+/home/jdc/Dropbox/nb/swtools2:169 processing visual programming language image animate interact
+/home/jdc/Dropbox/nb/swtools2:183 troff source code
+/home/jdc/Dropbox/nb/swtools2:188 market blog course forskiur
+/home/jdc/Dropbox/nb/swtools2:193 google reader usage
+/home/jdc/Dropbox/nb/swtools2:198 clean windows xp startup disable service msconfig
+/home/jdc/Dropbox/nb/swtools2:203 clearcase cleartool find example ibm rational
+/home/jdc/Dropbox/nb/swtools2:208 clearcase cleartool find tutorial example
+/home/jdc/Dropbox/nb/swtools2:213 clearcase merge kdiff3
+/home/jdc/Dropbox/nb/swtools2:218 startup finance interview
+/home/jdc/Dropbox/nb/swtools2:224 startup interview
+/home/jdc/Dropbox/nb/swtools2:230 gmail getmail download pop backup email
+/home/jdc/Dropbox/nb/swtools2:235 pattern islamic art math knot lace
+/home/jdc/Dropbox/nb/swtools2:240 ubuntu firefox search fix
+/home/jdc/Dropbox/nb/swtools2:248 plan9 security authorize factotum secstore
+/home/jdc/Dropbox/nb/swtools2:253 agile early problem project risk estimate
+/home/jdc/Dropbox/nb/swtools2:262 twitter ddos cyberwar traceroute acl
+/home/jdc/Dropbox/nb/swtools2:267 firefox image resize forskiur
+/home/jdc/Dropbox/nb/swtools2:276 telegraph twitter code vocabulary
+/home/jdc/Dropbox/nb/swtools2:281 child book fail
+/home/jdc/Dropbox/nb/swtools2:286 programmer management fail
+/home/jdc/Dropbox/nb/swtools2:291 plan9 contrib patch
+/home/jdc/Dropbox/nb/swtools2:296 programmer management
+/home/jdc/Dropbox/nb/swtools2:304 calculator
+/home/jdc/Dropbox/nb/swtools2:309 plan9 web server scheme ruby python perl c contrib paper
+/home/jdc/Dropbox/nb/swtools2:316 plan9 tutorial intro
+/home/jdc/Dropbox/nb/swtools2:321 science video lecture ted
+/home/jdc/Dropbox/nb/swtools2:326 pinkfloyd 2001 music
+/home/jdc/Dropbox/nb/swtools2:336 programmer management
+/home/jdc/Dropbox/nb/swtools2:341 license music writing
+/home/jdc/Dropbox/nb/swtools2:353 programmer management time schedule
+/home/jdc/Dropbox/nb/swtools2:358 upgrade legacy system
+/home/jdc/Dropbox/nb/swtools2:363 career
+/home/jdc/Dropbox/nb/swtools2:368 plan9 fgb user idiom
+/home/jdc/Dropbox/nb/swtools2:373 gnu build system autoconf configure
+/home/jdc/Dropbox/nb/swtools2:378 plan9 c program code style
+/home/jdc/Dropbox/nb/swtools2:384 economy banking money government
+/home/jdc/Dropbox/nb/swtools2:389 lego library
+/home/jdc/Dropbox/nb/swtools2:394 local mountain bike trail nearwork
+/home/jdc/Dropbox/nb/swtools2:404 local mountain bike trail
+/home/jdc/Dropbox/nb/swtools2:414 local mountain bike trail
+/home/jdc/Dropbox/nb/swtools2:425 local mountain bike trail nearwork
+/home/jdc/Dropbox/nb/swtools2:437 local mountain bike trail
+/home/jdc/Dropbox/nb/swtools2:447 local mountain bike trail
+/home/jdc/Dropbox/nb/swtools2:459 plan9 pc hardware
+/home/jdc/Dropbox/nb/swtools2:464 plan9 software contrib
+/home/jdc/Dropbox/nb/swtools2:469 mercurial book online
+/home/jdc/Dropbox/nb/swtools2:474 google chrome os
+/home/jdc/Dropbox/nb/swtools2:479 manners
+/home/jdc/Dropbox/nb/swtools2:485 presume correct contradiction
+/home/jdc/Dropbox/nb/swtools2:498 business management democracy participative egalitarian
+/home/jdc/Dropbox/nb/swtools2:503 sr71 blackbird spy plane anecdotes
+/home/jdc/Dropbox/nb/swtools2:508 ascii code table international
+/home/jdc/Dropbox/nb/swtools2:513 ascii code table international
+/home/jdc/Dropbox/nb/swtools2:518 ascii ebcdic code table graphic
+/home/jdc/Dropbox/nb/swtools2:523 web site build online free
+/home/jdc/Dropbox/nb/swtools2:528 parenting praise effort intelligence forskiur
+/home/jdc/Dropbox/nb/swtools2:536 programmer management
+/home/jdc/Dropbox/nb/swtools2:541 delete twitter followers
+/home/jdc/Dropbox/nb/swtools2:546 software price
+/home/jdc/Dropbox/nb/swtools2:551 architect programmer
+/home/jdc/Dropbox/nb/swtools2:567 esteem discipline grades
+/home/jdc/Dropbox/nb/swtools2:586 language sapirwhorf rosch
+/home/jdc/Dropbox/nb/swtools2:598 coherent qemu ubuntu vmware osx emulate
+/home/jdc/Dropbox/nb/swtools2:603 plan9 qemu ubuntu
+/home/jdc/Dropbox/nb/swtools2:608 moleskine pen
+/home/jdc/Dropbox/nb/swtools2:614 fountain pen ink moleskine
+/home/jdc/Dropbox/nb/swtools2:619 fountain ink pen moleskine
+/home/jdc/Dropbox/nb/swtools2:624 fieldnotes notebook
+/home/jdc/Dropbox/nb/swtools2:629 fountain pen
+/home/jdc/Dropbox/nb/swtools2:634 fountain pen ink
+/home/jdc/Dropbox/nb/swtools2:639 fountain pen ink moleskine paper
+/home/jdc/Dropbox/nb/swtools2:645 fountain pen ink bleed fade smear
+/home/jdc/Dropbox/nb/swtools2:650 electriccloud linkedin
+/home/jdc/Dropbox/nb/swtools2:655 rational linkedin
+/home/jdc/Dropbox/nb/swtools2:660 galois linkedin
+/home/jdc/Dropbox/nb/swtools2:665 motorola linkedin
+/home/jdc/Dropbox/nb/swtools2:670 bzip2 compressor
+/home/jdc/Dropbox/nb/swtools2:675 sketch visual conference notes
+/home/jdc/Dropbox/nb/swtools2:680 emergent puzzle roguelike game
+/home/jdc/Dropbox/nb/swtools2:701 estimate history
+/home/jdc/Dropbox/nb/swtools2:713 visual data tool mozilla thunderbird
+/home/jdc/Dropbox/nb/swtools2:723 jimihendrix acoustic guitar music
+/home/jdc/Dropbox/nb/swtools2:728 intro programming child
+/home/jdc/Dropbox/nb/swtools2:740 firefox image resize config option
+/home/jdc/Dropbox/nb/swtools2:747 variant programmer management
+/home/jdc/Dropbox/nb/swtools2:752 tool brain body
+/home/jdc/Dropbox/nb/swtools2:760 social media backup
+/home/jdc/Dropbox/nb/swtools2:765 perfume lovecraft
+/home/jdc/Dropbox/nb/swtools2:771 programming paradigm review
+/home/jdc/Dropbox/nb/swtools2:776 source code build linux distribution
+/home/jdc/Dropbox/nb/swtools2:784 plan9 paper library
+/home/jdc/Dropbox/nb/swtools2:789 ubuntu software
+/home/jdc/Dropbox/nb/swtools2:794 ubuntu file share
+/home/jdc/Dropbox/nb/swtools2:799 cat game
+/home/jdc/Dropbox/nb/swtools2:804 parthenon paint color blue belt passive radiation
+/home/jdc/Dropbox/nb/swtools2:816 sapirwhorf language perception
+/home/jdc/Dropbox/nb/swtools2:821 textbook rant
+/home/jdc/Dropbox/nb/swtools2:834 system admin forum
+/home/jdc/Dropbox/nb/swtools2:839 google native client web application
+/home/jdc/Dropbox/nb/swtools2:844 emacs xemacs feature history
+/home/jdc/Dropbox/nb/swtools2:849 plan9 mk paper
+/home/jdc/Dropbox/nb/swtools2:854 oscon conference schedule
+/home/jdc/Dropbox/nb/swtools2:860 plan9port mercurial hg manual
+/home/jdc/Dropbox/nb/swtools2:865 rsc unix people
+/home/jdc/Dropbox/nb/swtools2:870 future motorola cellphone design
+/home/jdc/Dropbox/nb/swtools2:876 hengsoft lisp job
+/home/jdc/Dropbox/nb/swtools2:881 9fans plan9 forum
+/home/jdc/Dropbox/nb/swtools2:886 unix history graph
+/home/jdc/Dropbox/nb/swtools2:901 git tutorial version control
+/home/jdc/Dropbox/nb/swtools2:907 microtest unit test
+/home/jdc/Dropbox/nb/swtools2:912 git documentation distributed version control
+/home/jdc/Dropbox/nb/swtools2:917 haskell shell script time
+/home/jdc/Dropbox/nb/swtools2:923 plan9 news
+/home/jdc/Dropbox/nb/swtools2:928 inferno
+/home/jdc/Dropbox/nb/swtools2:933 plan9 plumber
+/home/jdc/Dropbox/nb/swtools2:938 acme
+/home/jdc/Dropbox/nb/swtools2:943 inferno documentation
+/home/jdc/Dropbox/nb/swtools2:948 plan9port man intro
+/home/jdc/Dropbox/nb/swtools2:953 plan9 2ed man intro
+/home/jdc/Dropbox/nb/swtools2:958 stackoverflow job board
+/home/jdc/Dropbox/nb/swtools2:963 computer programming beginner book
+/home/jdc/Dropbox/nb/swtools2:969 palm pre smartphone
+/home/jdc/Dropbox/nb/swtools2:975 social media history bbs twitter wave irc web p2p phone
+/home/jdc/Dropbox/nb/swtools2:980 regex tutorial
+/home/jdc/Dropbox/nb/swtools2:985 regex online test
+/home/jdc/Dropbox/nb/swtools2:990 gmail search operator
+/home/jdc/Dropbox/nb/swtools2:995 free open source software company community conversation
+/home/jdc/Dropbox/nb/swtools2:1000 startup culture paulgraham
+/home/jdc/Dropbox/nb/swtools2:1005 name pathology humor maintenance
+/home/jdc/Dropbox/nb/swtools2:1010 c c++ index reference etags ctags doxygen toolbox
+/home/jdc/Dropbox/nb/swtools2:1015 inbox regular expression regex library forum archive
+/home/jdc/Dropbox/nb/swtools2:1020 transparent reference change result humor
+/home/jdc/Dropbox/nb/swtools2:1025 test development tdd pair programming agile
+/home/jdc/Dropbox/nb/swtools2:1034 twitter tool graph
+/home/jdc/Dropbox/nb/swtools2:1040 twitter inbox
+/home/jdc/Dropbox/nb/swtools2:1045 twitter inbox
+/home/jdc/Dropbox/nb/swtools2:1050 petergabriel music workspace
+/home/jdc/Dropbox/nb/swtools2:1055 music bearmccreary bsg
+/home/jdc/Dropbox/nb/swtools2:1060 acme wily comparison
+/home/jdc/Dropbox/nb/swtools2:1065 translate unix command plan9
+/home/jdc/Dropbox/nb/swtools2:1070 higher order perl functional programming
+/home/jdc/Dropbox/nb/swtools2:1078 haskell algorithm data structure scheme
+/home/jdc/Dropbox/nb/swtools2:1083 unix people web bwk dmr ken rob esr aho
+/home/jdc/Dropbox/nb/swtools2:1088 telvin music workspace
+/home/jdc/Dropbox/nb/swtools2:1093 taksim music workspace
+/home/jdc/Dropbox/nb/swtools2:1098 taksim music workspace
+/home/jdc/Dropbox/nb/swtools2:1103 music workspace
+/home/jdc/Dropbox/nb/swtools2:1108 telvin music workspace
+/home/jdc/Dropbox/nb/swtools2:1113 telvin jazz guitar music
+/home/jdc/Dropbox/nb/swtools2:1118 music workspace
+/home/jdc/Dropbox/nb/swtools2:1123 music workspace
+/home/jdc/Dropbox/nb/swtools2:1128 music workspace
+/home/jdc/Dropbox/nb/swtools2:1133 music workspace
+/home/jdc/Dropbox/nb/swtools2:1138 music workspace
+/home/jdc/Dropbox/nb/swtools2:1144 music workspace
+/home/jdc/Dropbox/nb/swtools2:1149 music workspace
+/home/jdc/Dropbox/nb/swtools2:1154 music workspace
+/home/jdc/Dropbox/nb/swtools2:1159 twitter shirt
+/home/jdc/Dropbox/nb/swtools2:1164 plan9 font paper rob ken
+/home/jdc/Dropbox/nb/swtools2:1169 true type font plan9 convert
+/home/jdc/Dropbox/nb/swtools2:1174 plan9 name space rob ken
+/home/jdc/Dropbox/nb/swtools2:1179 inconsolata font open type
+/home/jdc/Dropbox/nb/swtools2:1184 inconsolata font open type postscript
+/home/jdc/Dropbox/nb/swtools2:1189 open type latex
+/home/jdc/Dropbox/nb/swtools2:1194 inconsolata font
+/home/jdc/Dropbox/nb/swtools2:1199 inconsolata font latex
+/home/jdc/Dropbox/nb/swtools2:1204 social clipboard tool web twitter workspace
+/home/jdc/Dropbox/nb/swtools2:1209 twitter humor
+/home/jdc/Dropbox/nb/swtools2:1214 monospace programming font inconsolata
+/home/jdc/Dropbox/nb/swtools2:1219 twitter workspace
+/home/jdc/Dropbox/nb/swtools2:1224 twitter workspace
+/home/jdc/Dropbox/nb/swtools2:1229 twient feature
+/home/jdc/Dropbox/nb/swtools2:1236 music workspace doudouk
+/home/jdc/Dropbox/nb/swtools2:1241 music workspace
+/home/jdc/Dropbox/nb/swtools2:1247 alankay computer history arpa parc
+/home/jdc/Dropbox/nb/swtools2:1252 haskell string static type security
+/home/jdc/Dropbox/nb/swtools2:1258 workspace music
+/home/jdc/Dropbox/nb/swtools2:1263 workspace music
+/home/jdc/Dropbox/nb/swtools2:1268 workspace music
+/home/jdc/Dropbox/nb/swtools2:1273 haskell workspace islamic
+/home/jdc/Dropbox/nb/swtools2:1278 rob rms patent protest
+/home/jdc/Dropbox/nb/swtools2:1283 job
+/home/jdc/Dropbox/nb/swtools2:1289 twitter workspace
+/home/jdc/Dropbox/nb/swtools2:1294 workspace music
+/home/jdc/Dropbox/nb/swtools2:1299 workspace music
+/home/jdc/Dropbox/nb/swtools2:1304 workspace music
+/home/jdc/Dropbox/nb/swtools2:1309 piano workspace music
+/home/jdc/Dropbox/nb/swtools2:1314 ksh shell documentation
+/home/jdc/Dropbox/nb/swtools2:1319 sed tutorial
+/home/jdc/Dropbox/nb/swtools2:1324 workspace music traditional islamic
+/home/jdc/Dropbox/nb/swtools2:1331 haskell question programming community practice workspace
+/home/jdc/Dropbox/nb/swtools2:1336 resume layout
+/home/jdc/Dropbox/nb/swtools2:1341 fortress programming language review
+/home/jdc/Dropbox/nb/swtools2:1346 backus naur form language grammar compiler yacc bison
+/home/jdc/Dropbox/nb/swtools2:1357 lean kanban management book library
+/home/jdc/Dropbox/nb/swtools2:1362 dreyfus skill model kanban
+/home/jdc/Dropbox/nb/swtools2:1382 collaborate process design twitter format
+/home/jdc/Dropbox/nb/swtools2:1390 lean kanban book library
+/home/jdc/Dropbox/nb/swtools2:1395 kanban card process work flow waste efficiency service tool team
+/home/jdc/Dropbox/nb/swtools2:1416 c program style
+/home/jdc/Dropbox/nb/swtools2:1421 agile model story task epic theme
+/home/jdc/Dropbox/nb/swtools2:1431 functional programming paper library course
+/home/jdc/Dropbox/nb/swtools2:1445 twitter identi.ca unix cli
+/home/jdc/Dropbox/nb/swtools2:1453 twitter workspace conftag
+/home/jdc/Dropbox/nb/swtools2:1458 music workspace bearmccreary
+/home/jdc/Dropbox/nb/swtools2:1465 bash map reduce
+/home/jdc/Dropbox/nb/swtools2:1470 oberon tile window manager zoom desktop
+/home/jdc/Dropbox/nb/swtools2:1475 wimax chip market
+/home/jdc/Dropbox/nb/swtools2:1488 designer twitterer
+/home/jdc/Dropbox/nb/swtools2:1493 typography design detail
+/home/jdc/Dropbox/nb/swtools2:1501 twitter workspace
+/home/jdc/Dropbox/nb/swtools2:1506 twitter workspace haskell
+/home/jdc/Dropbox/nb/swtools2:1511 twitter workspace
+/home/jdc/Dropbox/nb/swtools2:1516 shell script course sh ksh
+/home/jdc/Dropbox/nb/swtools2:1521 c c++ tutorial book library
+/home/jdc/Dropbox/nb/swtools2:1526 compiler interpretation specialize partial evaluation projection
+/home/jdc/Dropbox/nb/swtools2:1533 perl regex name capture grammar
+/home/jdc/Dropbox/nb/swtools2:1538 facebook photo storage cache server architecture file scale
+/home/jdc/Dropbox/nb/swtools2:1553 workspace music bsg bearmccreary
+/home/jdc/Dropbox/nb/swtools2:1560 haskell bowling score
+/home/jdc/Dropbox/nb/swtools2:1565 acm conference conftag workspace
+/home/jdc/Dropbox/nb/swtools2:1570 conftag workspace ieee conference
+/home/jdc/Dropbox/nb/swtools2:1575 conftag workspace
+/home/jdc/Dropbox/nb/swtools2:1580 blog todo code quality
+/home/jdc/Dropbox/nb/swtools2:1588 c standard history bwk dmr ansi
+/home/jdc/Dropbox/nb/swtools2:1593 publish referee computer science article
+/home/jdc/Dropbox/nb/swtools2:1604 conftag workspace
+/home/jdc/Dropbox/nb/swtools2:1609 conftag workspace
+/home/jdc/Dropbox/nb/swtools2:1614 conftag workspace
+/home/jdc/Dropbox/nb/swtools2:1619 conftag workspace
+/home/jdc/Dropbox/nb/swtools2:1624 conference hashtag
+/home/jdc/Dropbox/nb/swtools2:1629 current acm conference event calendar
+/home/jdc/Dropbox/nb/swtools2:1634 ghc build architecture
+/home/jdc/Dropbox/nb/swtools2:1639 personal productivity pen index card reminder
+/home/jdc/Dropbox/nb/swtools2:1645 current twitter trend
+/home/jdc/Dropbox/nb/swtools2:1651 obsolete unix command
+/home/jdc/Dropbox/nb/swtools2:1657 software craftsmanship action
+/home/jdc/Dropbox/nb/swtools2:1662 software craftsmanship wiki inbox
+/home/jdc/Dropbox/nb/swtools2:1667 thoughtworks mingle agile project management
+/home/jdc/Dropbox/nb/swtools2:1683 enterprise haskell usage project build management galois
+/home/jdc/Dropbox/nb/swtools2:1693 conference
+/home/jdc/Dropbox/nb/swtools2:1698 conference
+/home/jdc/Dropbox/nb/swtools2:1703 conference
+/home/jdc/Dropbox/nb/swtools2:1708 current pestilence swine influenza google map
+/home/jdc/Dropbox/nb/swtools2:1715 current conference
+/home/jdc/Dropbox/nb/swtools2:1720 conference c c++ programming
+/home/jdc/Dropbox/nb/swtools2:1725 conference current information security
+/home/jdc/Dropbox/nb/swtools2:1730 scratch tutorial
+/home/jdc/Dropbox/nb/swtools2:1735 go
+/home/jdc/Dropbox/nb/swtools2:1740 japan go terms
+/home/jdc/Dropbox/nb/swtools2:1745 atom dsl embedded hard realtime haskell
+/home/jdc/Dropbox/nb/swtools2:1752 dictionary algorithm data structure index
+/home/jdc/Dropbox/nb/swtools2:1765 education learning school self study group unschooling curriculum
+/home/jdc/Dropbox/nb/swtools2:1787 automate build test continuous integration python
+/home/jdc/Dropbox/nb/swtools2:1803 google profile
+/home/jdc/Dropbox/nb/swtools2:1808 twitter government
+/home/jdc/Dropbox/nb/swtools2:1813 tail recursion time space order complexity
+/home/jdc/Dropbox/nb/swtools2:1824 google application engine host cloud python tutorial
+/home/jdc/Dropbox/nb/swtools2:1829 shakespeare twitter
+/home/jdc/Dropbox/nb/swtools2:1834 inbox open micro blog wordpress openid
+/home/jdc/Dropbox/nb/swtools2:1839 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1844 semantic tag wikipedia bookmark
+/home/jdc/Dropbox/nb/swtools2:1850 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1855 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1861 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1868 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1873 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1879 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1885 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1891 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1897 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1902 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1907 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1912 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1917 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1923 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1928 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1934 twitter humor
+/home/jdc/Dropbox/nb/swtools2:1940 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1946 twitter protocol
+/home/jdc/Dropbox/nb/swtools2:1951 micro blog platform inbox
+/home/jdc/Dropbox/nb/swtools2:1956 haskell twitter twibe community workspace
+/home/jdc/Dropbox/nb/swtools2:1961 real world haskell workspace ghc hackage sts
+/home/jdc/Dropbox/nb/swtools2:1966 gnuplot tutorial reference
+/home/jdc/Dropbox/nb/swtools2:1971 programming language tutorial library c c++ java python perl ruby visualbasic php c# ocaml haskell lisp scheme
+/home/jdc/Dropbox/nb/swtools2:1976 collaborate debugging code inbox
+/home/jdc/Dropbox/nb/swtools2:1985 twitter feature community
+/home/jdc/Dropbox/nb/swtools2:2005 unix command tutorial reference
+/home/jdc/Dropbox/nb/swtools2:2010 functional programming wiki book
+/home/jdc/Dropbox/nb/swtools2:2031 programming analogy writing craftsmanship
+/home/jdc/Dropbox/nb/swtools2:2048 programming question forum inbox stackoverflow reputation community
+/home/jdc/Dropbox/nb/swtools2:2057 regular expression tutorial regex
+/home/jdc/Dropbox/nb/swtools2:2062 twitter usage metric
+/home/jdc/Dropbox/nb/swtools2:2067 gnuplot makefile snmpwalk kplot workspace sts
+/home/jdc/Dropbox/nb/swtools2:2072 shell script sh ksh bash kplot workspace sts
+/home/jdc/Dropbox/nb/swtools2:2082 twitter group web client
+/home/jdc/Dropbox/nb/swtools2:2088 family jasoncatena
+/home/jdc/Dropbox/nb/swtools2:2093 twitter greasemonkey web script
+/home/jdc/Dropbox/nb/swtools2:2101 china mobile motorola workspace sts
+/home/jdc/Dropbox/nb/swtools2:2114 lte wimax motorola workspace sts
+/home/jdc/Dropbox/nb/swtools2:2119 jasoncatena workspace twitter haskell
+/home/jdc/Dropbox/nb/swtools2:2124 twitter history
+/home/jdc/Dropbox/nb/swtools2:2129 graph realtime data gnuplot
+/home/jdc/Dropbox/nb/swtools2:2134 twitter client feature mac tweetie
+/home/jdc/Dropbox/nb/swtools2:2139 realtime plot data graph rtp
+/home/jdc/Dropbox/nb/swtools2:2146 curate work conference tweets
+/home/jdc/Dropbox/nb/swtools2:2155 graph world development statistics
+/home/jdc/Dropbox/nb/swtools2:2160 current twitter hashtag trend directory
+/home/jdc/Dropbox/nb/swtools2:2165 computer tech job board
+/home/jdc/Dropbox/nb/swtools2:2173 software simple user interface design
+/home/jdc/Dropbox/nb/swtools2:2184 twitter clothes distributed royalty pay paypal inbox
+/home/jdc/Dropbox/nb/swtools2:2196 experiment fail fast try again
+/home/jdc/Dropbox/nb/swtools2:2201 sort algorithm graph python
+/home/jdc/Dropbox/nb/swtools2:2221 twitter paypal pay finance widget inbox
+/home/jdc/Dropbox/nb/swtools2:2226 twitter background graphic
+/home/jdc/Dropbox/nb/swtools2:2231 deploy twitter social media work
+/home/jdc/Dropbox/nb/swtools2:2245 gnu screen remote desktop tutorial
+/home/jdc/Dropbox/nb/swtools2:2250 uladoo jasoncatena twitter graph data
+/home/jdc/Dropbox/nb/swtools2:2261 script writing free online editor
+/home/jdc/Dropbox/nb/swtools2:2266 floatingpoint implementation
+/home/jdc/Dropbox/nb/swtools2:2271 bwk
+/home/jdc/Dropbox/nb/swtools2:2276 computer course bwk princeton
+/home/jdc/Dropbox/nb/swtools2:2292 english language syntax
+/home/jdc/Dropbox/nb/swtools2:2304 record company disintermediation artist talent twitter followers fans
+/home/jdc/Dropbox/nb/swtools2:2312 sideline twitter search air
+/home/jdc/Dropbox/nb/swtools2:2317 computer science conference calendar current
+/home/jdc/Dropbox/nb/swtools2:2322 trade show event calendar
+/home/jdc/Dropbox/nb/swtools2:2327 trade show event calendar
+/home/jdc/Dropbox/nb/swtools2:2332 work attention
+/home/jdc/Dropbox/nb/swtools2:2337 go ko rules
+/home/jdc/Dropbox/nb/swtools2:2342 google talk proxy setup
+/home/jdc/Dropbox/nb/swtools2:2348 twitter poll
+/home/jdc/Dropbox/nb/swtools2:2353 acm ethics
+/home/jdc/Dropbox/nb/swtools2:2358 facebook social network limit
+/home/jdc/Dropbox/nb/swtools2:2366 roncrocker xp scale
+/home/jdc/Dropbox/nb/swtools2:2371 roncrocker agile software development book
+/home/jdc/Dropbox/nb/swtools2:2376 selective facebook twitter update
+/home/jdc/Dropbox/nb/swtools2:2381 physics quote library
+/home/jdc/Dropbox/nb/swtools2:2386 math quote library
+/home/jdc/Dropbox/nb/swtools2:2391 latex math symbol
+/home/jdc/Dropbox/nb/swtools2:2396 college independent academic transcript
+/home/jdc/Dropbox/nb/swtools2:2406 facebook inbox
+/home/jdc/Dropbox/nb/swtools2:2425 shorten url service review
+/home/jdc/Dropbox/nb/swtools2:2430 google commodity server data center battery power
+/home/jdc/Dropbox/nb/swtools2:2450 chief programmer team analysis master journeyman apprentice
+/home/jdc/Dropbox/nb/swtools2:2462 chief programmer team analysis
+/home/jdc/Dropbox/nb/swtools2:2473 software craftsmanship ethics
+/home/jdc/Dropbox/nb/swtools2:2478 software craftsmanship community group
+/home/jdc/Dropbox/nb/swtools2:2483 track shorten url multiple account twitter post widget conftag
+/home/jdc/Dropbox/nb/swtools2:2489 periodic table encyclopedia property orbital isotope forskiur
+/home/jdc/Dropbox/nb/swtools2:2494 emacs gtd org mode
+/home/jdc/Dropbox/nb/swtools2:2501 unix tutorial mkdir tar or and quote subshell xargs awk grep wc cat
+/home/jdc/Dropbox/nb/swtools2:2508 optimize meeting
+/home/jdc/Dropbox/nb/swtools2:2527 combine web business startup roles
+/home/jdc/Dropbox/nb/swtools2:2537 rss delicious facebook twitter flickr wordpress widget
+/home/jdc/Dropbox/nb/swtools2:2542 open internet service command line interface widget toolbox
+/home/jdc/Dropbox/nb/swtools2:2550 bookmark widget inbox
+/home/jdc/Dropbox/nb/swtools2:2555 tufte design widget inbox
+/home/jdc/Dropbox/nb/swtools2:2563 whitespace web design humanist reading
+/home/jdc/Dropbox/nb/swtools2:2574 cornell notes keyword question summary
+/home/jdc/Dropbox/nb/swtools2:2615 generate graph paper pdf
+/home/jdc/Dropbox/nb/swtools2:2628 learn haskell takeList state transform implicit explicit recursion
+/home/jdc/Dropbox/nb/swtools2:2648 twitter manager
+/home/jdc/Dropbox/nb/swtools2:2653 social network web client facebook twitter flickr digg linkedin
+/home/jdc/Dropbox/nb/swtools2:2658 leksah haskell ide
+/home/jdc/Dropbox/nb/swtools2:2670 askell regex tutorial Maybe monad match String ByteString polymorphic
+/home/jdc/Dropbox/nb/swtools2:2682 spj pure functional programming effect
+/home/jdc/Dropbox/nb/swtools2:2692 left fold enumerator io haskell performance safe
+/home/jdc/Dropbox/nb/swtools2:2707 ibm rational pure atria clearcase version control forum
+/home/jdc/Dropbox/nb/swtools2:2719 ibm buildforge forum build process automation
+/home/jdc/Dropbox/nb/swtools2:2731 ibm buildforge build process automation
+/home/jdc/Dropbox/nb/swtools2:2736 electriccloud user forum emake build process automation parallel
+/home/jdc/Dropbox/nb/swtools2:2755 electriccloud community library
+/home/jdc/Dropbox/nb/swtools2:2764 notes
+/home/jdc/Dropbox/nb/swtools2:2769 book library widget
+/home/jdc/Dropbox/nb/swtools2:2774 notes
+/home/jdc/Dropbox/nb/swtools2:2779 cloud file storage share directory widget dropbox
+/home/jdc/Dropbox/nb/swtools2:2787 google rss reader widget inbox
+/home/jdc/Dropbox/nb/swtools2:2792 google mail widget inbox
+/home/jdc/Dropbox/nb/swtools2:2797 google application document widget
+/home/jdc/Dropbox/nb/swtools2:2802 current google calendar inbox
+/home/jdc/Dropbox/nb/swtools2:2807 work network business social widget inbox
+/home/jdc/Dropbox/nb/swtools2:2812 twitter converse widget inbox
+/home/jdc/Dropbox/nb/swtools2:2822 haskell library build version control darcs test package cabal
+/home/jdc/Dropbox/nb/swtools2:2842 gnuplot manual
+/home/jdc/Dropbox/nb/swtools2:2847 maritime signal flag graphic code
+/home/jdc/Dropbox/nb/swtools2:2852 lisp haskell comparison syntax macro closure parallel community
+/home/jdc/Dropbox/nb/swtools2:2860 color data graph multiple symbol variant
+/home/jdc/Dropbox/nb/swtools2:2871 tufte course notes
+/home/jdc/Dropbox/nb/swtools2:2889 pi approximation day
+/home/jdc/Dropbox/nb/swtools2:2899 social network sense people machine community gestalt
+/home/jdc/Dropbox/nb/swtools2:2909 programming language paradigm inheritance flow
+/home/jdc/Dropbox/nb/swtools2:2914 haskell category theory
+/home/jdc/Dropbox/nb/swtools2:2926 tufte lecture
+/home/jdc/Dropbox/nb/swtools2:2932 compiler optimize haskell search option genetic algorithm
+/home/jdc/Dropbox/nb/swtools2:2941 arch linux haskell
+/home/jdc/Dropbox/nb/swtools2:2946 arch linux distribution comparison ubuntu
+/home/jdc/Dropbox/nb/swtools2:2966 flower value
+/home/jdc/Dropbox/nb/swtools2:2974 flower value
+/home/jdc/Dropbox/nb/swtools2:2987 bailout incentive upgrade technology
+/home/jdc/Dropbox/nb/swtools2:2997 epigram programming perlis
+/home/jdc/Dropbox/nb/swtools2:3011 compression lzjb gzip measurement
+/home/jdc/Dropbox/nb/swtools2:3017 haskell tutorial
+/home/jdc/Dropbox/nb/swtools2:3037 management pomodoro time tomato
+/home/jdc/Dropbox/nb/swtools2:3042 tweetdeck install
+/home/jdc/Dropbox/nb/swtools2:3047 abstract parallel programming
+/home/jdc/Dropbox/nb/swtools2:3056 agile card index practice
+/home/jdc/Dropbox/nb/swtools2:3063 haskell multicore paper parallel
+/home/jdc/Dropbox/nb/swtools2:3097 chat collaborate notes tool widget
+/home/jdc/Dropbox/nb/swtools2:3102 library paper programming software
+/home/jdc/Dropbox/nb/swtools2:3110 haskell library paper
+/home/jdc/Dropbox/nb/swtools2:3115 book borges commented function haskell type
+/home/jdc/Dropbox/nb/swtools2:3124 article google paper search
+/home/jdc/Dropbox/nb/swtools2:3129 article citation paper search
+/home/jdc/Dropbox/nb/swtools2:3137 iverson notation theory tool paper
+/home/jdc/Dropbox/nb/swtools2:3142 twitter viewer
+/home/jdc/Dropbox/nb/swtools2:3154 resume
+/home/jdc/Dropbox/nb/swtools2:3175 architecture book development open software source
+/home/jdc/Dropbox/nb/swtools2:3184 review xmonad
+/home/jdc/Dropbox/nb/swtools2:3189 setup xfce xmonad
+/home/jdc/Dropbox/nb/swtools2:3203 7zip bzip2 compression compressor lzma reviews
+/home/jdc/Dropbox/nb/swtools2:3217 haskell review
+/home/jdc/Dropbox/nb/swtools2:3222 manager tile wiki window xmonad
+/home/jdc/Dropbox/nb/swtools2:3229 haskell empty list show commented
+/home/jdc/Dropbox/nb/swtools2:3239 1985 building naur programming theory commented
+/home/jdc/Dropbox/nb/swtools2:3251 class haskell type
+/home/jdc/Dropbox/nb/swtools2:3257 gtd jello outlook
+/home/jdc/Dropbox/nb/swtools2:3265 fold haskell rwh
+/home/jdc/Dropbox/nb/swtools2:3276 technical debt code refactor
+/home/jdc/Dropbox/nb/swtools2:3289 haskell wiki
+/home/jdc/Dropbox/nb/swtools2:3307 haskell package cabal search
+/home/jdc/Dropbox/nb/swtools2:3318 haskell library document search
+/home/jdc/Dropbox/nb/swtools2:3328 haskell library search
+/home/jdc/Dropbox/nb/swtools2:3337 ghc haskell compiler
+/home/jdc/Dropbox/nb/swtools2:3349 haskell language
+/home/jdc/Dropbox/nb/swtools2:3362 haskell module library
+/home/jdc/Dropbox/nb/swtools2:3373 haskell humor
+/home/jdc/Dropbox/nb/swtools2:3385 aspect dictionary
+/home/jdc/Dropbox/nb/swtools2:3390 usa constitution transcript
+/home/jdc/Dropbox/nb/swtools2:3395 iso character latex code
+/home/jdc/Dropbox/nb/swtools2:3402 program design quality
+/home/jdc/Dropbox/nb/swtools2:3419 topograph map national geographic nature
+/home/jdc/Dropbox/nb/swtools2:3424 haskell feature review
+/home/jdc/Dropbox/nb/swtools2:3438 feynman video
+/home/jdc/Dropbox/nb/swtools2:3444 programmer management
+/home/jdc/Dropbox/nb/swtools2:3460 programmer management
+/home/jdc/Dropbox/nb/swtools2:3475 print date model technical paper
+/home/jdc/Dropbox/nb/swtools2:3496 programming faq community review
+/home/jdc/Dropbox/nb/swtools2:3506 paulgraham programmer management efficiency
+/home/jdc/Dropbox/nb/swtools2:3511 seibel lisp naur sapir whorf java dispatch error macro video graham
+/home/jdc/Dropbox/nb/swtools2:3533 naur paper book
+/home/jdc/Dropbox/nb/swtools2:3538 algorithm reason book dijkstra
+/home/jdc/Dropbox/nb/swtools2:3544 haskell lexical analysis
+/home/jdc/Dropbox/nb/swtools2:3549 happy haskell generate parser
+/home/jdc/Dropbox/nb/swtools2:3554 haskell book
+/home/jdc/Dropbox/nb/swtools2:3576 simple design tool
+/home/jdc/Dropbox/nb/swtools2:3585 video game ai
+/home/jdc/Dropbox/nb/swtools2:3590 translate map name
+/home/jdc/Dropbox/nb/swtools2:3595 designer management programmer
+/home/jdc/Dropbox/nb/swtools2:3607 veridian design minimalist brucesterling beauty utility value
+/home/jdc/Dropbox/nb/swtools2:3614 email productivity communication
+/home/jdc/Dropbox/nb/swtools2:3621 publish email community
+/home/jdc/Dropbox/nb/swtools2:3632 recursion combinator algorithm
+/home/jdc/Dropbox/nb/swtools2:3641 latex color name
+/home/jdc/Dropbox/nb/swtools2:3646 latex color gray rgb
+/home/jdc/Dropbox/nb/swtools2:3651 latex font command
+/home/jdc/Dropbox/nb/swtools2:3656 latex font command parameter
+/home/jdc/Dropbox/nb/swtools2:3661 latex font
+/home/jdc/Dropbox/nb/swtools2:3666 latex documentation
+/home/jdc/Dropbox/nb/swtools2:3671 bird synonym map
+/home/jdc/Dropbox/nb/swtools2:3681 productivity focus priority
+/home/jdc/Dropbox/nb/swtools2:3693 tufte sparkline text graphic
+/home/jdc/Dropbox/nb/swtools2:3698 bad data display technique
+/home/jdc/Dropbox/nb/swtools2:3703 productivity tutorial
+/home/jdc/Dropbox/nb/swtools2:3716 education ppt
+/home/jdc/Dropbox/nb/swtools2:3729 zappa rehearsal
+/home/jdc/Dropbox/nb/swtools2:3734 zappa rehearsal
+/home/jdc/Dropbox/nb/swtools2:3739 zappa rehearsal
+/home/jdc/Dropbox/nb/swtools2:3744 zappa rehearsal
+/home/jdc/Dropbox/nb/swtools2:3749 borges library review
+/home/jdc/Dropbox/nb/swtools2:3764 typography announcement
+/home/jdc/Dropbox/nb/swtools2:3772 history graphics
+/home/jdc/Dropbox/nb/swtools2:3777 cloud computing service distributed server
+/home/jdc/Dropbox/nb/swtools2:3788 pinkfloyd warmup
+/home/jdc/Dropbox/nb/swtools2:3793 vote security
+/home/jdc/Dropbox/nb/swtools2:3798 zte telecom infrastructure china
+/home/jdc/Dropbox/nb/swtools2:3810 baltimore wimax xohm review sprintnextel intel lenovo
+/home/jdc/Dropbox/nb/swtools2:3824 baltimore wimax xohm review sprintnextel
+/home/jdc/Dropbox/nb/swtools2:3838 programmer productivity management
+/home/jdc/Dropbox/nb/swtools2:3851 programming question community wiki forum widget
+/home/jdc/Dropbox/nb/swtools2:3856 parser regex grammar lex yacc peg leg
+/home/jdc/Dropbox/nb/swtools2:3872 argument paulgraham
+/home/jdc/Dropbox/nb/swtools2:3881 programmer ability communication
+/home/jdc/Dropbox/nb/swtools2:3890 regex book
+/home/jdc/Dropbox/nb/swtools2:3895 management programmer motivation
+/home/jdc/Dropbox/nb/swtools2:3900 tufte layout
+/home/jdc/Dropbox/nb/swtools2:3905 ibm data text visualization
+/home/jdc/Dropbox/nb/swtools2:3910 powerpoint usage
+/home/jdc/Dropbox/nb/swtools2:3922 internet literacy reading
+/home/jdc/Dropbox/nb/swtools2:3931 word tag cloud tool
+/home/jdc/Dropbox/nb/swtools2:3936 particle physics rap video
+/home/jdc/Dropbox/nb/swtools2:3941 google chrome browser defect
+/home/jdc/Dropbox/nb/swtools2:3946 work life
+/home/jdc/Dropbox/nb/swtools2:3955 clock chime
+/home/jdc/Dropbox/nb/swtools2:3960 material instrument
+/home/jdc/Dropbox/nb/swtools2:3965 brief tuning sea orchestra instrument
+/home/jdc/Dropbox/nb/swtools2:3970 chamber orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:3975 band group tuning instrument
+/home/jdc/Dropbox/nb/swtools2:3980 symphony tuning instrument
+/home/jdc/Dropbox/nb/swtools2:3985 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:3990 orchestra tuning instrument quiet
+/home/jdc/Dropbox/nb/swtools2:3995 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4000 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4005 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4010 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4015 orchestra tuning
+/home/jdc/Dropbox/nb/swtools2:4020 orchestra tuning woodwind
+/home/jdc/Dropbox/nb/swtools2:4025 orchestra tuning
+/home/jdc/Dropbox/nb/swtools2:4030 orchestra tuning
+/home/jdc/Dropbox/nb/swtools2:4035 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4040 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4045 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4050 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4055 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4060 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4065 symphony orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4070 symphony orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4075 symphony orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4080 symphony orchestra tuning jazz
+/home/jdc/Dropbox/nb/swtools2:4085 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4090 orchestra tuning material
+/home/jdc/Dropbox/nb/swtools2:4095 orchestra tuning instrument
+/home/jdc/Dropbox/nb/swtools2:4100 build test branch refactor baseline
+/home/jdc/Dropbox/nb/swtools2:4110 home office work
+/home/jdc/Dropbox/nb/swtools2:4115 wateen wimax motorola news forskiur
+/home/jdc/Dropbox/nb/swtools2:4120 scm practice
+/home/jdc/Dropbox/nb/swtools2:4125 cut copy paste memory clipboard
+/home/jdc/Dropbox/nb/swtools2:4130 visual data links
+/home/jdc/Dropbox/nb/swtools2:4136 technical debt goodenough refactor
+/home/jdc/Dropbox/nb/swtools2:4141 refactor waste productivity
+/home/jdc/Dropbox/nb/swtools2:4146 online child library forskiur
+/home/jdc/Dropbox/nb/swtools2:4151 online library
+/home/jdc/Dropbox/nb/swtools2:4156 online child library forskiur
+/home/jdc/Dropbox/nb/swtools2:4161 online child library forskiur
+/home/jdc/Dropbox/nb/swtools2:4166 company relationship forskiur
+/home/jdc/Dropbox/nb/swtools2:4171 coffee
+/home/jdc/Dropbox/nb/swtools2:4176 programming fine art degree
+/home/jdc/Dropbox/nb/swtools2:4181 self book publish
+/home/jdc/Dropbox/nb/swtools2:4186 haskell monad state language
+/home/jdc/Dropbox/nb/swtools2:4192 knuth
+/home/jdc/Dropbox/nb/swtools2:4197 automation
+/home/jdc/Dropbox/nb/swtools2:4202 y combinator ruby learn
+/home/jdc/Dropbox/nb/swtools2:4212 curry y combinator scheme
+/home/jdc/Dropbox/nb/swtools2:4220 javascript y combinator
+/home/jdc/Dropbox/nb/swtools2:4225 scm branch build workspace merge strategy
+/home/jdc/Dropbox/nb/swtools2:4230 customer programmer rotate
+/home/jdc/Dropbox/nb/swtools2:4240 programmer management
+/home/jdc/Dropbox/nb/swtools2:4245 year page calendar
+/home/jdc/Dropbox/nb/swtools2:4250 haskell math expression futurama list comprehension
+/home/jdc/Dropbox/nb/swtools2:4255 innovation word
+/home/jdc/Dropbox/nb/swtools2:4260 minard map russia napoleon
+/home/jdc/Dropbox/nb/swtools2:4266 programmer management military
+/home/jdc/Dropbox/nb/swtools2:4271 language library design self host efficiency ruby
+/home/jdc/Dropbox/nb/swtools2:4276 privacy
+/home/jdc/Dropbox/nb/swtools2:4281 graph chart minard nightingale playfair
+/home/jdc/Dropbox/nb/swtools2:4286 sapirwhorf functional language determinism
+/home/jdc/Dropbox/nb/swtools2:4294 typography element style
+/home/jdc/Dropbox/nb/swtools2:4299 typography element style
+/home/jdc/Dropbox/nb/swtools2:4304 typography element style
+/home/jdc/Dropbox/nb/swtools2:4309 iterate increment deliver scope agile
+/home/jdc/Dropbox/nb/swtools2:4314 tao programmer learn
+/home/jdc/Dropbox/nb/swtools2:4319 google chart api sparkline
+/home/jdc/Dropbox/nb/swtools2:4324 travel time map japan
+/home/jdc/Dropbox/nb/swtools2:4329 time geography free assemble
+/home/jdc/Dropbox/nb/swtools2:4334 mit college course game theory mechanism ai
+/home/jdc/Dropbox/nb/swtools2:4340 mit college course innovation startup
+/home/jdc/Dropbox/nb/swtools2:4346 mit college course scheme functional programming sicp
+/home/jdc/Dropbox/nb/swtools2:4353 mit college course
+/home/jdc/Dropbox/nb/swtools2:4358 tufte data analysis book
+/home/jdc/Dropbox/nb/swtools2:4363 tufte graph design technique guide data color
+/home/jdc/Dropbox/nb/swtools2:4368 tufte presentation design reference finance notes
+/home/jdc/Dropbox/nb/swtools2:4373 tufte presentation design notes
+/home/jdc/Dropbox/nb/swtools2:4379 poster presentation humor
+/home/jdc/Dropbox/nb/swtools2:4384 tufte presentation display analysis interface finance data
+/home/jdc/Dropbox/nb/swtools2:4392 tufte presentation reference
+/home/jdc/Dropbox/nb/swtools2:4402 tufte graph web design analysis presentation
+/home/jdc/Dropbox/nb/swtools2:4411 tufte presentation notes
+/home/jdc/Dropbox/nb/swtools2:4416 tufte presentation graph design table annotate sparkline ppt notes
+/home/jdc/Dropbox/nb/swtools2:4423 writing paulgraham
+/home/jdc/Dropbox/nb/swtools2:4428 latex page layout
+/home/jdc/Dropbox/nb/swtools2:4433 latex symbol
+/home/jdc/Dropbox/nb/swtools2:4438 latex tex catalog
+/home/jdc/Dropbox/nb/swtools2:4443 latex figure float caption wrapfig
+/home/jdc/Dropbox/nb/swtools2:4449 commodore 64 history
+/home/jdc/Dropbox/nb/swtools2:4454 continuous integration
+/home/jdc/Dropbox/nb/swtools2:4459 build schedule process
+/home/jdc/Dropbox/nb/swtools2:4464 build schedule process
+/home/jdc/Dropbox/nb/swtools2:4469 script build
+/home/jdc/Dropbox/nb/swtools2:4474 document build process
+/home/jdc/Dropbox/nb/swtools2:4479 lorem ipsum text generate
+/home/jdc/Dropbox/nb/swtools2:4484 programmer education time
+/home/jdc/Dropbox/nb/swtools2:4494 latex manual
+/home/jdc/Dropbox/nb/swtools2:4499 programmer defect performance data schedule
+/home/jdc/Dropbox/nb/swtools2:4504 paper workspace usage
+/home/jdc/Dropbox/nb/swtools2:4509 expert skill practice
+/home/jdc/Dropbox/nb/swtools2:4514 conway law system design community communicate
+/home/jdc/Dropbox/nb/swtools2:4519 stage gate fail
+/home/jdc/Dropbox/nb/swtools2:4524 agile article lead plan code requirement
+/home/jdc/Dropbox/nb/swtools2:4529 resume tufte latex
+/home/jdc/Dropbox/nb/swtools2:4536 nasa technical report guide
+/home/jdc/Dropbox/nb/swtools2:4541 people meeting
+/home/jdc/Dropbox/nb/swtools2:4551 prime number curves
+/home/jdc/Dropbox/nb/swtools2:4556 programming language relationship history
+/home/jdc/Dropbox/nb/swtools2:4561 circle graph graphviz radial
+/home/jdc/Dropbox/nb/swtools2:4566 book page typography tex latex
+/home/jdc/Dropbox/nb/swtools2:4571 tufte sparklines visual data
+/home/jdc/Dropbox/nb/swtools2:4576 stock market map forskiur
+/home/jdc/Dropbox/nb/swtools2:4582 client relationship management
+/home/jdc/Dropbox/nb/swtools2:4592 memoir ctan latex class
+/home/jdc/Dropbox/nb/swtools2:4599 typography element style web
+/home/jdc/Dropbox/nb/swtools2:4605 agile pair programming cockburn
+/home/jdc/Dropbox/nb/swtools2:4610 lean project management
+/home/jdc/Dropbox/nb/swtools2:4616 programmer management
+/home/jdc/Dropbox/nb/swtools2:4622 design team meeting customer
+/home/jdc/Dropbox/nb/swtools2:4627 ontology catalog links tag del.icio.us yahoo library classification
+/home/jdc/Dropbox/nb/swtools2:4632 programmer management automate
+/home/jdc/Dropbox/nb/swtools2:4640 standard binary prefix
+/home/jdc/Dropbox/nb/swtools2:4645 iterate project product management
+/home/jdc/Dropbox/nb/swtools2:4650 password hash table crack
+/home/jdc/Dropbox/nb/swtools2:4655 c++ data parallel thread library open source intel
+/home/jdc/Dropbox/nb/swtools2:4660 parallel hardware multicore task schedule intel
+/home/jdc/Dropbox/nb/swtools2:4666 amdahl parallel performance concurrent
+/home/jdc/Dropbox/nb/swtools2:4673 automate parallel compiler
+/home/jdc/Dropbox/nb/swtools2:4679 latex wiki book
+/home/jdc/Dropbox/nb/swtools2:4684 programming garden analogy unix software tool
+/home/jdc/Dropbox/nb/swtools2:4695 programming analogy
+/home/jdc/Dropbox/nb/swtools2:4700 programming garden analogy
+/home/jdc/Dropbox/nb/swtools2:4705 programming analogy
+/home/jdc/Dropbox/nb/swtools2:4710 programming garden analogy
+/home/jdc/Dropbox/nb/swtools2:4715 programming garden analogy
+/home/jdc/Dropbox/nb/swtools2:4720 architect title
+/home/jdc/Dropbox/nb/swtools2:4725 automate management
+/home/jdc/Dropbox/nb/swtools2:4730 ambiguous language productivity
+/home/jdc/Dropbox/nb/swtools2:4735 rob concurrent message newsqueak csp
+/home/jdc/Dropbox/nb/swtools2:4741 software reuse survey
+/home/jdc/Dropbox/nb/swtools2:4750 spj video haskell data parallel
+/home/jdc/Dropbox/nb/swtools2:4755 book list review
+/home/jdc/Dropbox/nb/swtools2:4760 software reuse survey
+/home/jdc/Dropbox/nb/swtools2:4769 functional javascript google gears offline database application
+/home/jdc/Dropbox/nb/swtools2:4774 nature language programming lazy functional
+/home/jdc/Dropbox/nb/swtools2:4780 beauty code criticism
+/home/jdc/Dropbox/nb/swtools2:4785 trait object meta
+/home/jdc/Dropbox/nb/swtools2:4790 compile object meta generic morph
+/home/jdc/Dropbox/nb/swtools2:4796 startup product
+/home/jdc/Dropbox/nb/swtools2:4801 compose productivity pointer dynamic memory garbage collection global
+/home/jdc/Dropbox/nb/swtools2:4807 wimax market review forskiur
+/home/jdc/Dropbox/nb/swtools2:4814 shell script port
+/home/jdc/Dropbox/nb/swtools2:4819 english literate writing style
+/home/jdc/Dropbox/nb/swtools2:4824 programmer management flow stuck interrupt
+/home/jdc/Dropbox/nb/swtools2:4829 software estimate zen skill parallel management productivity customer
+/home/jdc/Dropbox/nb/swtools2:4841 wikipedia article editor analysis forskiur
+/home/jdc/Dropbox/nb/swtools2:4846 sapir language book
+/home/jdc/Dropbox/nb/swtools2:4851 christopheralexander generate code custom
+/home/jdc/Dropbox/nb/swtools2:4856 christopheralexander generate code
+/home/jdc/Dropbox/nb/swtools2:4861 christopheralexander review
+/home/jdc/Dropbox/nb/swtools2:4867 christopheralexander connectivegeometry center nature order pattern
+/home/jdc/Dropbox/nb/swtools2:4873 christopheralexander nature order refactor book review
+/home/jdc/Dropbox/nb/swtools2:4878 vote machine security
+/home/jdc/Dropbox/nb/swtools2:4886 del.icio.us filter pipes haskell
+/home/jdc/Dropbox/nb/swtools2:4891 lsof tutorial
+/home/jdc/Dropbox/nb/swtools2:4896 safe security
+/home/jdc/Dropbox/nb/swtools2:4901 cli haskell
+/home/jdc/Dropbox/nb/swtools2:4906 computer ergonomics
+/home/jdc/Dropbox/nb/swtools2:4911 christopheralexander pattern order nature bradapp
+/home/jdc/Dropbox/nb/swtools2:4916 business career startup
+/home/jdc/Dropbox/nb/swtools2:4921 research
+/home/jdc/Dropbox/nb/swtools2:4926 programmer management
+/home/jdc/Dropbox/nb/swtools2:4932 bitmap tutorial
+/home/jdc/Dropbox/nb/swtools2:4937 programmer management ego
+/home/jdc/Dropbox/nb/swtools2:4942 rewrite
+/home/jdc/Dropbox/nb/swtools2:4947 programmer management
+/home/jdc/Dropbox/nb/swtools2:4953 ghc haskell compiler development wiki
+/home/jdc/Dropbox/nb/swtools2:4958 programmer management mind model program
+/home/jdc/Dropbox/nb/swtools2:4976 paulgraham programming
+/home/jdc/Dropbox/nb/swtools2:4981 computer science education
+/home/jdc/Dropbox/nb/swtools2:4987 programmer pay management
+/home/jdc/Dropbox/nb/swtools2:4993 programming language idiom
+/home/jdc/Dropbox/nb/swtools2:4998 sed reference
+/home/jdc/Dropbox/nb/swtools2:5003 bruceschneier vote machine security
+/home/jdc/Dropbox/nb/swtools2:5008 vote machine security
+/home/jdc/Dropbox/nb/swtools2:5013 vote machine security
+/home/jdc/Dropbox/nb/swtools2:5018 vote machine security
+/home/jdc/Dropbox/nb/swtools2:5023 vote machine security
+/home/jdc/Dropbox/nb/swtools2:5028 grep awk sed more tail cli shell automate
+/home/jdc/Dropbox/nb/swtools2:5033 career title
+/home/jdc/Dropbox/nb/swtools2:5038 rpm gpg signature
+/home/jdc/Dropbox/nb/swtools2:5043 rpm gpg signature
+/home/jdc/Dropbox/nb/swtools2:5048 parser expression grammar
+/home/jdc/Dropbox/nb/swtools2:5053 stock market optimize haskell literate
+/home/jdc/Dropbox/nb/swtools2:5058 vote machine security
+/home/jdc/Dropbox/nb/swtools2:5063 vote machine security
+/home/jdc/Dropbox/nb/swtools2:5069 vote machine security
+/home/jdc/Dropbox/nb/swtools2:5074 vote machine security
+/home/jdc/Dropbox/nb/swtools2:5079 joy functional language stack compose quote meta combinator
+/home/jdc/Dropbox/nb/swtools2:5084 agile build collaborate
+/home/jdc/Dropbox/nb/swtools2:5089 christopheralexander pattern theory refactor
+/home/jdc/Dropbox/nb/swtools2:5094 publish book
+/home/jdc/Dropbox/nb/swtools2:5099 book writing publish
+/home/jdc/Dropbox/nb/swtools2:5105 python book recommend
+/home/jdc/Dropbox/nb/swtools2:5110 metaphor comparison design criticism
+/home/jdc/Dropbox/nb/swtools2:5115 programmer management
+/home/jdc/Dropbox/nb/swtools2:5120 gnu echo humor
+/home/jdc/Dropbox/nb/swtools2:5125 wily sam emacs ed vi comparison
+/home/jdc/Dropbox/nb/swtools2:5133 cpu load average
+/home/jdc/Dropbox/nb/swtools2:5138 scratch child programmer education mit
+/home/jdc/Dropbox/nb/swtools2:5143 meta programming interpretation lisp
+/home/jdc/Dropbox/nb/swtools2:5148 abbreviate complex abstract
+/home/jdc/Dropbox/nb/swtools2:5153 facebook tutorial directory
+/home/jdc/Dropbox/nb/swtools2:5159 database shard design criticism
+/home/jdc/Dropbox/nb/swtools2:5165 agile refactor metric technical debt
+/home/jdc/Dropbox/nb/swtools2:5170 lex yacc tutorial
+/home/jdc/Dropbox/nb/swtools2:5175 debugging
+/home/jdc/Dropbox/nb/swtools2:5180 floatingpoint
+/home/jdc/Dropbox/nb/swtools2:5186 software security liability insurance
+/home/jdc/Dropbox/nb/swtools2:5192 debugging
+/home/jdc/Dropbox/nb/swtools2:5197 mccarthy lisp common
+/home/jdc/Dropbox/nb/swtools2:5202 windows vista content protection drm cost
+/home/jdc/Dropbox/nb/swtools2:5207 eclipse plugins
+/home/jdc/Dropbox/nb/swtools2:5213 haskell library monad programmer
+/home/jdc/Dropbox/nb/swtools2:5218 common lisp shell
+/home/jdc/Dropbox/nb/swtools2:5223 functional programming criticism
+/home/jdc/Dropbox/nb/swtools2:5229 functional programming criticism
+/home/jdc/Dropbox/nb/swtools2:5234 functional programming criticism defense
+/home/jdc/Dropbox/nb/swtools2:5239 functional programming criticism
+/home/jdc/Dropbox/nb/swtools2:5245 haskell common lisp comparison
+/home/jdc/Dropbox/nb/swtools2:5250 ruby erlang comparison
+/home/jdc/Dropbox/nb/swtools2:5255 tag cloud text
+/home/jdc/Dropbox/nb/swtools2:5260 undo confirm interface design
+/home/jdc/Dropbox/nb/swtools2:5265 compiler parser syntax object tutorial
+/home/jdc/Dropbox/nb/swtools2:5270 fold
+/home/jdc/Dropbox/nb/swtools2:5275 product design
+/home/jdc/Dropbox/nb/swtools2:5280 coupling cohesion lean
+/home/jdc/Dropbox/nb/swtools2:5285 programmer management
+/home/jdc/Dropbox/nb/swtools2:5290 tech social event
+/home/jdc/Dropbox/nb/swtools2:5295 programmer management
+/home/jdc/Dropbox/nb/swtools2:5300 haskell erlang productivity concurrent
+/home/jdc/Dropbox/nb/swtools2:5305 build system design
+/home/jdc/Dropbox/nb/swtools2:5310 rest polymorph url web service noun verb get put post standard
+/home/jdc/Dropbox/nb/swtools2:5315 bash script language guide
+/home/jdc/Dropbox/nb/swtools2:5320 windows dvorak keyboard
+/home/jdc/Dropbox/nb/swtools2:5326 programming theory literate
+/home/jdc/Dropbox/nb/swtools2:5332 startup company equity stock
+/home/jdc/Dropbox/nb/swtools2:5337 agile change control process
+/home/jdc/Dropbox/nb/swtools2:5342 tdd test development new code
+/home/jdc/Dropbox/nb/swtools2:5347 ksh
+/home/jdc/Dropbox/nb/swtools2:5352 shell comparison
+/home/jdc/Dropbox/nb/swtools2:5357 source code search
+/home/jdc/Dropbox/nb/swtools2:5363 open source programmer social network
+/home/jdc/Dropbox/nb/swtools2:5368 skill perceive calibrate ability perception knowledge dunning kruger effect
+/home/jdc/Dropbox/nb/swtools2:5373 wimax 3g lte tech review forskiur
+/home/jdc/Dropbox/nb/swtools2:5378 scm metric
+/home/jdc/Dropbox/nb/swtools2:5383 agile scm
+/home/jdc/Dropbox/nb/swtools2:5388 gnu make escape variable
+/home/jdc/Dropbox/nb/swtools2:5393 software development process
+/home/jdc/Dropbox/nb/swtools2:5399 social software group community design
+/home/jdc/Dropbox/nb/swtools2:5404 build time tool usage
+/home/jdc/Dropbox/nb/swtools2:5409 designer management
+/home/jdc/Dropbox/nb/swtools2:5414 program management quality
+/home/jdc/Dropbox/nb/swtools2:5419 python iterator usage performance
+/home/jdc/Dropbox/nb/swtools2:5425 powerpc e500 instruction set reference manual
+/home/jdc/Dropbox/nb/swtools2:5430 haskell tutorial
+/home/jdc/Dropbox/nb/swtools2:5435 multiple language program
+/home/jdc/Dropbox/nb/swtools2:5440 bash debugger
+/home/jdc/Dropbox/nb/swtools2:5445 gnu make debugger
+/home/jdc/Dropbox/nb/swtools2:5450 programmer test relationship
+/home/jdc/Dropbox/nb/swtools2:5455 haskell grammar parser
+/home/jdc/Dropbox/nb/swtools2:5460 python list comprehensions map filter
+/home/jdc/Dropbox/nb/swtools2:5466 cmu ai ftp archive program language lisp scheme smalltalk
+/home/jdc/Dropbox/nb/swtools2:5471 video programming lecture
+/home/jdc/Dropbox/nb/swtools2:5477 programmer management
+/home/jdc/Dropbox/nb/swtools2:5482 compiler education
+/home/jdc/Dropbox/nb/swtools2:5487 programmer productivity
+/home/jdc/Dropbox/nb/swtools2:5492 discoverability usability design
+/home/jdc/Dropbox/nb/swtools2:5497 language chomsky sapir whorf amazon indian tribe
+/home/jdc/Dropbox/nb/swtools2:5503 haskell tutorial
+/home/jdc/Dropbox/nb/swtools2:5508 program design
+/home/jdc/Dropbox/nb/swtools2:5513 lisp macro symbol derivative
+/home/jdc/Dropbox/nb/swtools2:5518 agile programming management
+/home/jdc/Dropbox/nb/swtools2:5523 regex tutorial
+/home/jdc/Dropbox/nb/swtools2:5528 version control program review
+/home/jdc/Dropbox/nb/swtools2:5534 regex tutorial
+/home/jdc/Dropbox/nb/swtools2:5540 agile priority
+/home/jdc/Dropbox/nb/swtools2:5545 lean scm paper bib
+/home/jdc/Dropbox/nb/swtools2:5551 wimax wireless broadband
+/home/jdc/Dropbox/nb/swtools2:5556 lte wireless broadband
+/home/jdc/Dropbox/nb/swtools2:5561 functional programming tutorial directory
+/home/jdc/Dropbox/nb/swtools2:5566 schedule parallel thread memory
+/home/jdc/Dropbox/nb/swtools2:5571 unix editor choice koan
+/home/jdc/Dropbox/nb/swtools2:5576 language development
+/home/jdc/Dropbox/nb/swtools2:5581 test development
+/home/jdc/Dropbox/nb/swtools2:5586 choice video option
+/home/jdc/Dropbox/nb/swtools2:5591 usage data feature usability
+/home/jdc/Dropbox/nb/swtools2:5596 donaldknuth directory
+/home/jdc/Dropbox/nb/swtools2:5601 multiple processor programming language
+/home/jdc/Dropbox/nb/swtools2:5606 code kanso program design
+/home/jdc/Dropbox/nb/swtools2:5611 code size maintenance generality
+/home/jdc/Dropbox/nb/swtools2:5616 code kanso
+/home/jdc/Dropbox/nb/swtools2:5621 generate program
+/home/jdc/Dropbox/nb/swtools2:5626 criticism
+/home/jdc/Dropbox/nb/swtools2:5631 criticism lead
+/home/jdc/Dropbox/nb/swtools2:5636 publish paper peer review
+/home/jdc/Dropbox/nb/swtools2:5641 criticism
+/home/jdc/Dropbox/nb/swtools2:5647 criticism
+/home/jdc/Dropbox/nb/swtools2:5652 criticism writing
+/home/jdc/Dropbox/nb/swtools2:5657 criticism
+/home/jdc/Dropbox/nb/swtools2:5662 criticism
+/home/jdc/Dropbox/nb/swtools2:5667 build deploy
+/home/jdc/Dropbox/nb/swtools2:5672 resume cover letter
+/home/jdc/Dropbox/nb/swtools2:5677 program writing
+/home/jdc/Dropbox/nb/swtools2:5682 label version control
+/home/jdc/Dropbox/nb/swtools2:5688 software development principle
+/home/jdc/Dropbox/nb/swtools2:5693 sequential functional logic object research language directory
+/home/jdc/Dropbox/nb/swtools2:5698 perl operator
+/home/jdc/Dropbox/nb/swtools2:5703 perl functional programming
+/home/jdc/Dropbox/nb/swtools2:5708 software architect
+/home/jdc/Dropbox/nb/swtools2:5713 latex page fancyhdr
+/home/jdc/Dropbox/nb/swtools2:5718 computer book review directory
+/home/jdc/Dropbox/nb/swtools2:5723 user design
+/home/jdc/Dropbox/nb/swtools2:5728 user design
+/home/jdc/Dropbox/nb/swtools2:5734 user design
+/home/jdc/Dropbox/nb/swtools2:5739 alankay quote
+/home/jdc/Dropbox/nb/swtools2:5744 continuous integration permute code
+/home/jdc/Dropbox/nb/swtools2:5749 editor feature
+/home/jdc/Dropbox/nb/swtools2:5755 software aging
+/home/jdc/Dropbox/nb/swtools2:5760 biology computer network
+/home/jdc/Dropbox/nb/swtools2:5765 dougmcilroy coroutines concurrent process
+/home/jdc/Dropbox/nb/swtools2:5770 google rss reader widget
+/home/jdc/Dropbox/nb/swtools2:5775 lambda calculus game
+/home/jdc/Dropbox/nb/swtools2:5780 ieee computer press style guide
+/home/jdc/Dropbox/nb/swtools2:5785 design criticism
+/home/jdc/Dropbox/nb/swtools2:5790 latex strikethrough
+/home/jdc/Dropbox/nb/swtools2:5795 functional pearl directory
+/home/jdc/Dropbox/nb/swtools2:5800 lean directory
+/home/jdc/Dropbox/nb/swtools2:5805 lean rational
+/home/jdc/Dropbox/nb/swtools2:5810 temporary program development
+/home/jdc/Dropbox/nb/swtools2:5815 philipwadler haskell java generics typeclass
+/home/jdc/Dropbox/nb/swtools2:5820 mashup pipe yahoo
+/home/jdc/Dropbox/nb/swtools2:5825 lambda calculus syntax semantic
+/home/jdc/Dropbox/nb/swtools2:5830 visual template
+/home/jdc/Dropbox/nb/swtools2:5835 programmer management
+/home/jdc/Dropbox/nb/swtools2:5840 agile architect
+/home/jdc/Dropbox/nb/swtools2:5845 higher order perl functional programming
+/home/jdc/Dropbox/nb/swtools2:5852 philipwadler parameter polymorph programming language video
+/home/jdc/Dropbox/nb/swtools2:5858 philipwadler faith evolution programming language video
+/home/jdc/Dropbox/nb/swtools2:5863 pipe haskell program
+/home/jdc/Dropbox/nb/swtools2:5868 bibtex
+/home/jdc/Dropbox/nb/swtools2:5873 speech fashion style paulgraham
+/home/jdc/Dropbox/nb/swtools2:5878 euler formula e i pi 1 0 identity sine cosine addition multiplication
+/home/jdc/Dropbox/nb/swtools2:5883 skill perceive calibrate ability perception
+/home/jdc/Dropbox/nb/swtools2:5891 design taste paulgraham
+/home/jdc/Dropbox/nb/swtools2:5896 programmer management paulgraham
+/home/jdc/Dropbox/nb/swtools2:5901 market network popularity chaos
+/home/jdc/Dropbox/nb/swtools2:5906 functional excel spj
+/home/jdc/Dropbox/nb/swtools2:5912 computer science article
+/home/jdc/Dropbox/nb/swtools2:5917 programmer theory naur
+/home/jdc/Dropbox/nb/swtools2:5924 go software development
+/home/jdc/Dropbox/nb/swtools2:5929 geek flame forskiur
+/home/jdc/Dropbox/nb/swtools2:5934 phd review forskiur
+/home/jdc/Dropbox/nb/swtools2:5939 sed regex
+/home/jdc/Dropbox/nb/swtools2:5944 bash reference
+/home/jdc/Dropbox/nb/swtools2:5949 functional programming tutorial hughes
+/home/jdc/Dropbox/nb/swtools2:5954 functional programming hughes paper
+/home/jdc/Dropbox/nb/swtools2:5959 functional programming review map
+/home/jdc/Dropbox/nb/swtools2:5965 haskell quicksort tree flatten
+/home/jdc/Dropbox/nb/swtools2:5970 sicp programming book
+/home/jdc/Dropbox/nb/swtools2:5975 sicp lecture video
+/home/jdc/Dropbox/nb/swtools2:5980 functional programming lambda calculus caml college lecture
+/home/jdc/Dropbox/nb/swtools2:5985 computer language regular expression parser mit college lecture
+/home/jdc/Dropbox/nb/swtools2:5992 parallel thread mit college lecture
+/home/jdc/Dropbox/nb/swtools2:5999 haskell college lecture
+/home/jdc/Dropbox/nb/swtools2:6004 java haskell programming college lecture
+/home/jdc/Dropbox/nb/swtools2:6009 programming college lecture
+/home/jdc/Dropbox/nb/swtools2:6014 functional programming scheme college lecture
+/home/jdc/Dropbox/nb/swtools2:6019 computer science college lecture
+/home/jdc/Dropbox/nb/swtools2:6024 programming language college lecture
+/home/jdc/Dropbox/nb/swtools2:6029 programming tool college lecture
+/home/jdc/Dropbox/nb/swtools2:6034 programming language semantic haskell college lecture
+/home/jdc/Dropbox/nb/swtools2:6039 college lecture
+/home/jdc/Dropbox/nb/swtools2:6044 programming book
+/home/jdc/Dropbox/nb/swtools2:6049 ken login cc security
+/home/jdc/Dropbox/nb/swtools2:6055 brand mind map forskiur
+/home/jdc/Dropbox/nb/swtools2:6063 mind map tool
+/home/jdc/Dropbox/nb/swtools2:6068 visual del.icio.us
+/home/jdc/Dropbox/nb/swtools2:6073 monad design paper
+/home/jdc/Dropbox/nb/swtools2:6078 monad review
+/home/jdc/Dropbox/nb/swtools2:6083 agile review bradapp abstract
+/home/jdc/Dropbox/nb/swtools2:6088 programmer management
+/home/jdc/Dropbox/nb/swtools2:6093 haskell tutorial book
+/home/jdc/Dropbox/nb/swtools2:6098 fp c functional programming
+/home/jdc/Dropbox/nb/swtools2:6103 ewd backus fp functional programming review
+/home/jdc/Dropbox/nb/swtools2:6108 backus fp functional programming review
+/home/jdc/Dropbox/nb/swtools2:6113 ocaml pdf literate program
+/home/jdc/Dropbox/nb/swtools2:6118 latex template sigplan acm
+/home/jdc/Dropbox/nb/swtools2:6123 perl map grep functional programming
+/home/jdc/Dropbox/nb/swtools2:6128 research people science
+/home/jdc/Dropbox/nb/swtools2:6133 c history dmr
+/home/jdc/Dropbox/nb/swtools2:6138 lisp humor
+/home/jdc/Dropbox/nb/swtools2:6143 lex yacc tutorial
+/home/jdc/Dropbox/nb/swtools2:6148 lex yacc tutorial
+/home/jdc/Dropbox/nb/swtools2:6153 lex yacc tutorial
+/home/jdc/Dropbox/nb/swtools2:6158 yacc lex tutorial
+/home/jdc/Dropbox/nb/swtools2:6163 rob rms patent
+/home/jdc/Dropbox/nb/swtools2:6168 haskell file filter
+/home/jdc/Dropbox/nb/swtools2:6174 module design metric
+/home/jdc/Dropbox/nb/swtools2:6179 motorola technical publish library
+/home/jdc/Dropbox/nb/swtools2:6184 visual graphical interface design unread
+/home/jdc/Dropbox/nb/swtools2:6189 bash parameter tutorial
+/home/jdc/Dropbox/nb/swtools2:6194 regular expression regex text editor theory
+/home/jdc/Dropbox/nb/swtools2:6199 programmer training
+/home/jdc/Dropbox/nb/swtools2:6205 english consonant pair frequency
+/home/jdc/Dropbox/nb/swtools2:6210 fortress fortify latex newtonraphson
+/home/jdc/Dropbox/nb/swtools2:6215 unix history dmr ken
+/home/jdc/Dropbox/nb/swtools2:6220 unix design programming esr
+/home/jdc/Dropbox/nb/swtools2:6225 software engineer ethics practice
+/home/jdc/Dropbox/nb/swtools2:6230 software engineer ethics practice
+/home/jdc/Dropbox/nb/swtools2:6236 google getopt malloc hash map template open source c++ python
+/home/jdc/Dropbox/nb/swtools2:6241 rewrite notinventedhere tool
+/home/jdc/Dropbox/nb/swtools2:6246 whitespace
+/home/jdc/Dropbox/nb/swtools2:6251 pair programming experience
+/home/jdc/Dropbox/nb/swtools2:6257 scheme xml little language
+/home/jdc/Dropbox/nb/swtools2:6262 scheme macro little language
+/home/jdc/Dropbox/nb/swtools2:6267 lambda calculus tutorial reduce
+/home/jdc/Dropbox/nb/swtools2:6272 partial evaluation book
+/home/jdc/Dropbox/nb/swtools2:6277 parallel concurrent distributed
+/home/jdc/Dropbox/nb/swtools2:6282 latex resume document class
+/home/jdc/Dropbox/nb/swtools2:6287 programming interview
+/home/jdc/Dropbox/nb/swtools2:6293 lisp usage
+/home/jdc/Dropbox/nb/swtools2:6298 programming language theory book catalog
+/home/jdc/Dropbox/nb/swtools2:6303 haskell tutorial review
+/home/jdc/Dropbox/nb/swtools2:6309 abstract joelspolsky
+/home/jdc/Dropbox/nb/swtools2:6314 realloc malloc free c string pascal sql record joelspolsky
+/home/jdc/Dropbox/nb/swtools2:6319 agile principle
+/home/jdc/Dropbox/nb/swtools2:6324 plan9 network
+/home/jdc/Dropbox/nb/swtools2:6329 latex hyperref manual
+/home/jdc/Dropbox/nb/swtools2:6334 acm computer library classification
+/home/jdc/Dropbox/nb/swtools2:6340 book submission guide writing
+/home/jdc/Dropbox/nb/swtools2:6345 computer science book catalog
+/home/jdc/Dropbox/nb/swtools2:6350 acm transactions document latex style
+/home/jdc/Dropbox/nb/swtools2:6355 acm transactions document latex style
+/home/jdc/Dropbox/nb/swtools2:6360 konradzuse
+/home/jdc/Dropbox/nb/swtools2:6365 functional programming backus
+/home/jdc/Dropbox/nb/swtools2:6370 backus fortran
+/home/jdc/Dropbox/nb/swtools2:6375 haskell review
+/home/jdc/Dropbox/nb/swtools2:6380 programmer profession management
+/home/jdc/Dropbox/nb/swtools2:6385 paulgraham lisp book
+/home/jdc/Dropbox/nb/swtools2:6392 haskell literate comment
+/home/jdc/Dropbox/nb/swtools2:6397 english writing georgeorwell
+/home/jdc/Dropbox/nb/swtools2:6402 math writing donaldknuth
+/home/jdc/Dropbox/nb/swtools2:6407 numerical recipe C book
+/home/jdc/Dropbox/nb/swtools2:6412 acm computer library classification
+/home/jdc/Dropbox/nb/swtools2:6417 fortress
+/home/jdc/Dropbox/nb/swtools2:6422 design kanso
+/home/jdc/Dropbox/nb/swtools2:6427 haskell programming book
+/home/jdc/Dropbox/nb/swtools2:6432 haskell parallel programming language mit course
+/home/jdc/Dropbox/nb/swtools2:6439 functional imperative logic programming language mit college course
+/home/jdc/Dropbox/nb/swtools2:6445 computability mit course
+/home/jdc/Dropbox/nb/swtools2:6451 computability scheme mit course
+/home/jdc/Dropbox/nb/swtools2:6457 functional programming course
+/home/jdc/Dropbox/nb/swtools2:6462 latex symbol
+/home/jdc/Dropbox/nb/swtools2:6467 functional programming course
+/home/jdc/Dropbox/nb/swtools2:6472 programming book
+/home/jdc/Dropbox/nb/swtools2:6477 programming book
+/home/jdc/Dropbox/nb/swtools2:6482 programming language higher order function
+/home/jdc/Dropbox/nb/swtools2:6487 scheme book
+/home/jdc/Dropbox/nb/swtools2:6492 programming language higher order function
+/home/jdc/Dropbox/nb/swtools2:6497 programming language book
+/home/jdc/Dropbox/nb/swtools2:6502 programming language review
+/home/jdc/Dropbox/nb/swtools2:6507 haskell optimize performance
+/home/jdc/Dropbox/nb/swtools2:6512 language design
+/home/jdc/Dropbox/nb/swtools2:6517 language program design
+/home/jdc/Dropbox/nb/swtools2:6522 programmer management
+/home/jdc/Dropbox/nb/swtools2:6527 programmer management toolsmith
+/home/jdc/Dropbox/nb/swtools2:6532 make analysis opus gnu nmake jam cook build system configure script
+/home/jdc/Dropbox/nb/swtools2:6538 autoconf analysis make cons scons imake
+/home/jdc/Dropbox/nb/swtools2:6544 map reduce functional programming joelspolsky
+/home/jdc/Dropbox/nb/swtools2:6549 haskell interact io tutorial
+/home/jdc/Dropbox/nb/swtools2:6554 aspect design application programming scheme
+/home/jdc/Dropbox/nb/swtools2:6560 posix
+/home/jdc/Dropbox/nb/swtools2:6565 sed tutorial
+/home/jdc/Dropbox/nb/swtools2:6570 lex
+/home/jdc/Dropbox/nb/swtools2:6575 gnu bison parser manual
+/home/jdc/Dropbox/nb/swtools2:6580 macintosh text editor
+/home/jdc/Dropbox/nb/swtools2:6585 latex reference
+/home/jdc/Dropbox/nb/swtools2:6590 latex reference
+/home/jdc/Dropbox/nb/swtools2:6595 latex tutorial
+/home/jdc/Dropbox/nb/swtools2:6600 literate programming search bibtex
+/home/jdc/Dropbox/nb/swtools2:6605 lex yacc flex bison
+/home/jdc/Dropbox/nb/swtools2:6610 gnu make manual
+/home/jdc/Dropbox/nb/swtools2:6615 software aging
+/home/jdc/Dropbox/nb/swtools2:6620 date time standard format
+/home/jdc/Dropbox/nb/swtools2:6625 version
+/home/jdc/Dropbox/nb/swtools2:6630 discuss literate programming
+/home/jdc/Dropbox/nb/swtools2:6635 literate programming donaldknuth
+/home/jdc/Dropbox/nb/swtools2:6640 literate programming donaldknuth dougmcilroy
+/home/jdc/Dropbox/nb/swtools2:6645 user design
+/home/jdc/Dropbox/nb/swtools2:6651 user control
+/home/jdc/Dropbox/nb/swtools2:6656 haskell tutorial
+/home/jdc/Dropbox/nb/swtools2:6661 haskell wiki
+/home/jdc/Dropbox/nb/swtools2:6666 haskell ghc
+/home/jdc/Dropbox/nb/swtools2:6671 haskell perl bash
+/home/jdc/Dropbox/nb/swtools2:6676 3d sketch google
+/home/jdc/Dropbox/nb/swtools2:6681 programmer forskiur
+/home/jdc/Dropbox/nb/swtools2:6687 programmer management forskiur
+/home/jdc/Dropbox/nb/swtools2:6693 programmer philosophy
+/home/jdc/Dropbox/nb/swtools2:6698 programmer book review
+/home/jdc/Dropbox/nb/swtools2:6703 team programmer reuse rewrite
+/home/jdc/Dropbox/nb/swtools2:6708 programming language design for closure parallel
+/home/jdc/Dropbox/nb/swtools2:6713 programmer code review
+/home/jdc/Dropbox/nb/swtools2:6718 code review
+/home/jdc/Dropbox/nb/swtools2:6723 functional programming language design for closure fold map filter
+/home/jdc/Dropbox/nb/swtools2:6729 programming team
+/home/jdc/Dropbox/nb/swtools2:6734 donaldknuth group interview
+/home/jdc/Dropbox/nb/swtools2:6739 grammar literate program
+/home/jdc/Dropbox/nb/swtools2:6744 xml database literate programming
+/home/jdc/Dropbox/nb/swtools2:6749 ruby literate program parser
+/home/jdc/Dropbox/nb/swtools2:6754 programming skill
+/home/jdc/Dropbox/nb/swtools2:6759 refactor
+/home/jdc/Dropbox/nb/swtools2:6764 haskell tutorial
+/home/jdc/Dropbox/nb/swtools2:6769 haskell tutorial
+/home/jdc/Dropbox/nb/swtools2:6774 haskell tutorial
+/home/jdc/Dropbox/nb/swtools2:6779 haskell unix script
+/home/jdc/Dropbox/nb/swtools2:6784 literate program print binary
+/home/jdc/Dropbox/nb/swtools2:6789 literate programming haskell
+/home/jdc/Dropbox/nb/swtools2:6794 literate program print binary
+/home/jdc/Dropbox/nb/swtools2:6799 ada lovelace literate program bernoulli difference engine
+/home/jdc/Dropbox/nb/swtools2:6804 literate programming review
+/home/jdc/Dropbox/nb/swtools2:6809 literate programming review
+/home/jdc/Dropbox/nb/swtools2:6814 deploy noweb
+/home/jdc/Dropbox/nb/swtools2:6819 literate programming review
+/home/jdc/Dropbox/nb/swtools2:6824 literate programming noweb
+/home/jdc/Dropbox/nb/swtools2:6829 literate programming review
+/home/jdc/Dropbox/nb/swtools2:6834 program translate language
+/home/jdc/Dropbox/nb/swtools2:6839 daily literate programming wiki
+/home/jdc/Dropbox/nb/swtools2:6844 literate programming wiki
+/home/jdc/Dropbox/nb/swtools2:6849 literate programming noweb
+/home/jdc/Dropbox/nb/swtools2:6857 literate programming noweb algorithm
+/home/jdc/Dropbox/nb/swtools2:6863 literate programming
+/home/jdc/Dropbox/nb/swtools2:6868 windows linux program
+/home/jdc/Dropbox/nb/swtools2:6874 copyright program
+/home/jdc/Dropbox/nb/swtools2:6880 literate programming noweb toolbox toolsmith
+/home/jdc/Dropbox/nb/swtools2:6885 programming language tutorial
+/home/jdc/Dropbox/nb/swtools2:6891 free online book
+/home/jdc/Dropbox/nb/swtools2:6896 rake build language
+/home/jdc/Dropbox/nb/swtools2:6901 programming language syntax
+/home/jdc/Dropbox/nb/swtools2:6906 suse server install setup tutorial
+/home/jdc/Dropbox/nb/swtools2:6912 peer review encyclopedia computer science
+/home/jdc/Dropbox/nb/swtools2:6917 code snippet archive directory
+/home/jdc/Dropbox/nb/swtools2:6922 learning programming
+/home/jdc/Dropbox/nb/swtools2:6927 linux unix programming tutorial article directory
+/home/jdc/Dropbox/nb/swtools2:6932 programming
+/home/jdc/Dropbox/nb/swtools2:6939 design choice kanso
+/home/jdc/Dropbox/nb/swtools2:6946 data graph
+/home/jdc/Dropbox/nb/swtools2:6951 continuous integration review directory
+/home/jdc/Dropbox/nb/swtools2:6956 pair programming
+/home/jdc/Dropbox/nb/swtools2:6962 kanso
+/home/jdc/Dropbox/nb/swtools2:6967 gpg privacy book
+/home/jdc/Dropbox/nb/swtools2:6972 continuous integration build process
+/home/jdc/Dropbox/nb/swtools2:6977 build process architecture
+/home/jdc/Dropbox/nb/swtools2:6982 build process structure
+/home/jdc/Dropbox/nb/swtools2:6987 build process principle
+/home/jdc/Dropbox/nb/swtools2:6994 jabberwocky
+/home/jdc/Dropbox/nb/swtools2:6999 jabberwocky
+/home/jdc/Dropbox/nb/swtools2:7004 jabberwocky
+/home/jdc/Dropbox/nb/swtools2:7009 linux windows tool directory
+/home/jdc/Dropbox/nb/swtools2:7014 latex tutorial
+/home/jdc/Dropbox/nb/swtools2:7020 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7026 programmer management
+/home/jdc/Dropbox/nb/swtools2:7031 agile branch
+/home/jdc/Dropbox/nb/swtools2:7036 linux windows tool
+/home/jdc/Dropbox/nb/swtools2:7042 decorator aspect weave
+/home/jdc/Dropbox/nb/swtools2:7047 software architect
+/home/jdc/Dropbox/nb/swtools2:7052 unit test programming
+/home/jdc/Dropbox/nb/swtools2:7057 forskiur
+/home/jdc/Dropbox/nb/swtools2:7062 touch interface
+/home/jdc/Dropbox/nb/swtools2:7067 programming management
+/home/jdc/Dropbox/nb/swtools2:7072 optimize algorithm
+/home/jdc/Dropbox/nb/swtools2:7077 gcc shift multiply
+/home/jdc/Dropbox/nb/swtools2:7082 aspect c c++ research wiki
+/home/jdc/Dropbox/nb/swtools2:7087 aspect tool wiki
+/home/jdc/Dropbox/nb/swtools2:7092 aspect research wiki
+/home/jdc/Dropbox/nb/swtools2:7097 aspect programming wiki
+/home/jdc/Dropbox/nb/swtools2:7102 open source programming
+/home/jdc/Dropbox/nb/swtools2:7107 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7113 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7119 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7124 text format
+/home/jdc/Dropbox/nb/swtools2:7129 makefile debugging
+/home/jdc/Dropbox/nb/swtools2:7134 version control
+/home/jdc/Dropbox/nb/swtools2:7139 version control scm agile subversion cvs
+/home/jdc/Dropbox/nb/swtools2:7144 branch variant
+/home/jdc/Dropbox/nb/swtools2:7149 continuous integration
+/home/jdc/Dropbox/nb/swtools2:7154 continuous integration
+/home/jdc/Dropbox/nb/swtools2:7159 build test automate
+/home/jdc/Dropbox/nb/swtools2:7164 optimize build test time
+/home/jdc/Dropbox/nb/swtools2:7169 lisp programming architecture google video
+/home/jdc/Dropbox/nb/swtools2:7174 scm code defect predict google video
+/home/jdc/Dropbox/nb/swtools2:7179 program structure interpretation free book
+/home/jdc/Dropbox/nb/swtools2:7187 aspect aspectj programming google video
+/home/jdc/Dropbox/nb/swtools2:7196 motorola wimax
+/home/jdc/Dropbox/nb/swtools2:7201 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7206 motorola wimax news forskiur
+/home/jdc/Dropbox/nb/swtools2:7211 quantum computer lecture
+/home/jdc/Dropbox/nb/swtools2:7216 tex guide
+/home/jdc/Dropbox/nb/swtools2:7221 latex guide
+/home/jdc/Dropbox/nb/swtools2:7226 compile compiler free book catalog
+/home/jdc/Dropbox/nb/swtools2:7231 lex yacc free book
+/home/jdc/Dropbox/nb/swtools2:7236 partial evaluation residual compile
+/home/jdc/Dropbox/nb/swtools2:7241 free computer book catalog
+/home/jdc/Dropbox/nb/swtools2:7247 unix book reference
+/home/jdc/Dropbox/nb/swtools2:7252 sed awk book reference
+/home/jdc/Dropbox/nb/swtools2:7257 free computer programming science book directory
+/home/jdc/Dropbox/nb/swtools2:7263 unix tutorial
+/home/jdc/Dropbox/nb/swtools2:7268 algorithm book
+/home/jdc/Dropbox/nb/swtools2:7273 programming philosophy
+/home/jdc/Dropbox/nb/swtools2:7278 code performance measurement
+/home/jdc/Dropbox/nb/swtools2:7283 imagemagick command directory
+/home/jdc/Dropbox/nb/swtools2:7288 programming language
+/home/jdc/Dropbox/nb/swtools2:7293 linux cli command directory
+/home/jdc/Dropbox/nb/swtools2:7298 programmer people
+/home/jdc/Dropbox/nb/swtools2:7303 python tutorial links
+/home/jdc/Dropbox/nb/swtools2:7309 obscure code humor
+/home/jdc/Dropbox/nb/swtools2:7314 agile build tool integration process
+/home/jdc/Dropbox/nb/swtools2:7319 agile tool integration review
+/home/jdc/Dropbox/nb/swtools2:7325 agile tool integration
+/home/jdc/Dropbox/nb/swtools2:7331 motorola wimax news forskiur
+/home/jdc/Dropbox/nb/swtools2:7336 web tool directory
+/home/jdc/Dropbox/nb/swtools2:7341 time profile
+/home/jdc/Dropbox/nb/swtools2:7346 programming language usage
+/home/jdc/Dropbox/nb/swtools2:7351 static code analysis gcc xcode
+/home/jdc/Dropbox/nb/swtools2:7356 ipv6 tutorial
+/home/jdc/Dropbox/nb/swtools2:7361 scala object function programming language java
+/home/jdc/Dropbox/nb/swtools2:7366 free open software directory windows
+/home/jdc/Dropbox/nb/swtools2:7371 web2.0
+/home/jdc/Dropbox/nb/swtools2:7377 anthill build server tutorial
+/home/jdc/Dropbox/nb/swtools2:7382 lean process
+/home/jdc/Dropbox/nb/swtools2:7387 software management
+/home/jdc/Dropbox/nb/swtools2:7392 startup development management
+/home/jdc/Dropbox/nb/swtools2:7397 perl regex tutorial
+/home/jdc/Dropbox/nb/swtools2:7402 donaldknuth computer science people
+/home/jdc/Dropbox/nb/swtools2:7407 ipc lock c++
+/home/jdc/Dropbox/nb/swtools2:7412 generate transform gtt model autocode java
+/home/jdc/Dropbox/nb/swtools2:7418 web development directory
+/home/jdc/Dropbox/nb/swtools2:7424 writing computer science thesis
+/home/jdc/Dropbox/nb/swtools2:7429 ruby rails tutorial
+/home/jdc/Dropbox/nb/swtools2:7434 programming language exercises
+/home/jdc/Dropbox/nb/swtools2:7439 open source license tutorial
+/home/jdc/Dropbox/nb/swtools2:7453 emacs tutorial
+/home/jdc/Dropbox/nb/swtools2:7458 subversion tutorial version control
+/home/jdc/Dropbox/nb/swtools2:7463 rule engine tutorial
+/home/jdc/Dropbox/nb/swtools2:7468 mozart concurrent object function logic programming language emacs
+/home/jdc/Dropbox/nb/swtools2:7474 software people management
+/home/jdc/Dropbox/nb/swtools2:7480 programming development blog
+/home/jdc/Dropbox/nb/swtools2:7485 professional programming community education risk team test
+/home/jdc/Dropbox/nb/swtools2:7491 lisp language
+/home/jdc/Dropbox/nb/swtools2:7496 eclipse development article book blog documentation faq directory
+/home/jdc/Dropbox/nb/swtools2:7501 computer programming tutorial
+/home/jdc/Dropbox/nb/swtools2:7506 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7512 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7518 compiler compiter programming unix paper directory
+/home/jdc/Dropbox/nb/swtools2:7523 apache command
+/home/jdc/Dropbox/nb/swtools2:7528 uml language
+/home/jdc/Dropbox/nb/swtools2:7533 perl command language
+/home/jdc/Dropbox/nb/swtools2:7538 vi command
+/home/jdc/Dropbox/nb/swtools2:7543 vim command
+/home/jdc/Dropbox/nb/swtools2:7548 perl command language
+/home/jdc/Dropbox/nb/swtools2:7553 subversion command
+/home/jdc/Dropbox/nb/swtools2:7558 htaccess apache command
+/home/jdc/Dropbox/nb/swtools2:7563 html ascii code
+/home/jdc/Dropbox/nb/swtools2:7568 html entity code
+/home/jdc/Dropbox/nb/swtools2:7573 unicode code html
+/home/jdc/Dropbox/nb/swtools2:7578 html color code
+/home/jdc/Dropbox/nb/swtools2:7583 html tag
+/home/jdc/Dropbox/nb/swtools2:7588 html entity code
+/home/jdc/Dropbox/nb/swtools2:7593 google search command
+/home/jdc/Dropbox/nb/swtools2:7598 ascii code
+/home/jdc/Dropbox/nb/swtools2:7603 regex library
+/home/jdc/Dropbox/nb/swtools2:7608 software development course
+/home/jdc/Dropbox/nb/swtools2:7613 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7619 online fortran compiler windows
+/home/jdc/Dropbox/nb/swtools2:7624 online c compiler windows
+/home/jdc/Dropbox/nb/swtools2:7629 scons review
+/home/jdc/Dropbox/nb/swtools2:7634 people concurrent task
+/home/jdc/Dropbox/nb/swtools2:7639 continuous integration martinfowler
+/home/jdc/Dropbox/nb/swtools2:7644 keyboard mouse efficiency
+/home/jdc/Dropbox/nb/swtools2:7651 key keyboard mouse efficiency
+/home/jdc/Dropbox/nb/swtools2:7656 keyboard mouse efficiency
+/home/jdc/Dropbox/nb/swtools2:7661 keyboard mouse efficiency
+/home/jdc/Dropbox/nb/swtools2:7666 programming blog
+/home/jdc/Dropbox/nb/swtools2:7671 documentation writing kanso
+/home/jdc/Dropbox/nb/swtools2:7678 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7684 clearcase review manual
+/home/jdc/Dropbox/nb/swtools2:7692 clearcase command manual
+/home/jdc/Dropbox/nb/swtools2:7700 clearcase command manual
+/home/jdc/Dropbox/nb/swtools2:7708 clearcase build manual
+/home/jdc/Dropbox/nb/swtools2:7716 clearcase manual directory
+/home/jdc/Dropbox/nb/swtools2:7723 posix shell tool toolbox
+/home/jdc/Dropbox/nb/swtools2:7728 cryptography course lecture
+/home/jdc/Dropbox/nb/swtools2:7733 cryptography course syllabus
+/home/jdc/Dropbox/nb/swtools2:7738 software design test tool directory
+/home/jdc/Dropbox/nb/swtools2:7743 software design test comment
+/home/jdc/Dropbox/nb/swtools2:7748 software design test model alloy
+/home/jdc/Dropbox/nb/swtools2:7753 software design test
+/home/jdc/Dropbox/nb/swtools2:7761 html tag
+/home/jdc/Dropbox/nb/swtools2:7766 gnu grep tutorial
+/home/jdc/Dropbox/nb/swtools2:7771 html tag
+/home/jdc/Dropbox/nb/swtools2:7776 html color code
+/home/jdc/Dropbox/nb/swtools2:7781 graph function calculator
+/home/jdc/Dropbox/nb/swtools2:7786 kanso software design
+/home/jdc/Dropbox/nb/swtools2:7792 gnu make toolbox toolsmith
+/home/jdc/Dropbox/nb/swtools2:7797 gnu make function library
+/home/jdc/Dropbox/nb/swtools2:7802 gnu makefile debugging
+/home/jdc/Dropbox/nb/swtools2:7808 gnu make book
+/home/jdc/Dropbox/nb/swtools2:7814 cross platform makefile
+/home/jdc/Dropbox/nb/swtools2:7819 makefile recusion
+/home/jdc/Dropbox/nb/swtools2:7824 scm community
+/home/jdc/Dropbox/nb/swtools2:7829 electriccloud links
+/home/jdc/Dropbox/nb/swtools2:7834 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7839 group expert relationship reverse auction
+/home/jdc/Dropbox/nb/swtools2:7844 wimax news
+/home/jdc/Dropbox/nb/swtools2:7849 internet link map
+/home/jdc/Dropbox/nb/swtools2:7854 code analysis tool security
+/home/jdc/Dropbox/nb/swtools2:7861 firefox test bonecho
+/home/jdc/Dropbox/nb/swtools2:7867 bonecho firefox test
+/home/jdc/Dropbox/nb/swtools2:7872 wimax news
+/home/jdc/Dropbox/nb/swtools2:7880 wimax news
+/home/jdc/Dropbox/nb/swtools2:7886 continuous integration build server comparison
+/home/jdc/Dropbox/nb/swtools2:7892 derived object storage
+/home/jdc/Dropbox/nb/swtools2:7897 baseline build
+/home/jdc/Dropbox/nb/swtools2:7902 continuous integration clearcase clearquest
+/home/jdc/Dropbox/nb/swtools2:7907 motorola wimax news
+/home/jdc/Dropbox/nb/swtools2:7912 scm wiki
+/home/jdc/Dropbox/nb/swtools2:7917 scm forum make requirement build canon clearcase cvs subversion
+/home/jdc/Dropbox/nb/swtools2:7924 variant scm branch macro architecture
+/home/jdc/Dropbox/nb/swtools2:7929 variant scm branch macro architecture
+/home/jdc/Dropbox/nb/swtools2:7934 cli console image
+/home/jdc/Dropbox/nb/swtools2:7939 review suse linux
+/home/jdc/Dropbox/nb/swtools2:7944 acme windows port
+/home/jdc/Dropbox/nb/swtools2:7949 software blog blogroll
+/home/jdc/Dropbox/nb/swtools2:7954 continuous integration search blog
+/home/jdc/Dropbox/nb/swtools2:7970 continuous integration martinfowler old
+/home/jdc/Dropbox/nb/swtools2:7975 continuous integration
+/home/jdc/Dropbox/nb/swtools2:7980 lyx latex tex application
+/home/jdc/Dropbox/nb/swtools2:7985 suse tutorial
+/home/jdc/Dropbox/nb/swtools2:7990 java gui theme napkin
+/home/jdc/Dropbox/nb/swtools2:7995 vi vim tutorial
+/home/jdc/Dropbox/nb/swtools2:8000 network war
+/home/jdc/Dropbox/nb/swtools2:8005 book design
+/home/jdc/Dropbox/nb/swtools2:8010 windows script cli batch command
+/home/jdc/Dropbox/nb/swtools2:8015 pair programming education
+/home/jdc/Dropbox/nb/swtools2:8022 open people group dynamic
+/home/jdc/Dropbox/nb/swtools2:8029 spectrum auction wimax
+/home/jdc/Dropbox/nb/swtools2:8034 wireless security
+/home/jdc/Dropbox/nb/swtools2:8039 google java translate ajax
+/home/jdc/Dropbox/nb/swtools2:8044 abcde cd rip tutorial
+/home/jdc/Dropbox/nb/swtools2:8049 software construct deploy variant maak eelcodolstra
+/home/jdc/Dropbox/nb/swtools2:8056 software construct deploy variant maak eelcodolstra
+/home/jdc/Dropbox/nb/swtools2:8064 software construct deploy variant maak eelcodolstra
+/home/jdc/Dropbox/nb/swtools2:8071 iterate software construct
+/home/jdc/Dropbox/nb/swtools2:8076 aspect aspectj construct idiom
+/home/jdc/Dropbox/nb/swtools2:8083 strace gdb nweb
+/home/jdc/Dropbox/nb/swtools2:8088 ajax rss reader code tutorial
+/home/jdc/Dropbox/nb/swtools2:8093 firefox test bonecho
+/home/jdc/Dropbox/nb/swtools2:8098 suse review
+/home/jdc/Dropbox/nb/swtools2:8103 wifi wlan 3g wimax attention trend
+/home/jdc/Dropbox/nb/swtools2:8108 emergent architecture
+/home/jdc/Dropbox/nb/swtools2:8115 usage model requirement
+/home/jdc/Dropbox/nb/swtools2:8122 autocode
+/home/jdc/Dropbox/nb/swtools2:8129 debugging
+/home/jdc/Dropbox/nb/swtools2:8136 static analysis fault detect
+/home/jdc/Dropbox/nb/swtools2:8143 model task construct schedule autocode
+/home/jdc/Dropbox/nb/swtools2:8150 google news cloud
+/home/jdc/Dropbox/nb/swtools2:8155 tired review
+/home/jdc/Dropbox/nb/swtools2:8160 tired kanso
+/home/jdc/Dropbox/nb/swtools2:8165 gentoo linux install compile management network
+/home/jdc/Dropbox/nb/swtools2:8170 gentoo linux philosophy
+/home/jdc/Dropbox/nb/swtools2:8175 linux make
+/home/jdc/Dropbox/nb/swtools2:8180 agile continuous integration build test
+/home/jdc/Dropbox/nb/swtools2:8185 daily build schedule
+/home/jdc/Dropbox/nb/swtools2:8191 english style
+/home/jdc/Dropbox/nb/swtools2:8196 unix directory
+/home/jdc/Dropbox/nb/swtools2:8201 software design philosophy directory
+/home/jdc/Dropbox/nb/swtools2:8207 agile daily build test
+/home/jdc/Dropbox/nb/swtools2:8212 agile continuous integration notice build test review
+/home/jdc/Dropbox/nb/swtools2:8218 agile continuous integration build test
+/home/jdc/Dropbox/nb/swtools2:8223 agile coding cycle
+/home/jdc/Dropbox/nb/swtools2:8228 attention
+/home/jdc/Dropbox/nb/swtools2:8236 blog jasoncatena
+/home/jdc/Dropbox/nb/swtools2:8241 agile scm motorolan blog blogroll bradapp
+/home/jdc/Dropbox/nb/swtools2:8246 webdesign directory
+/home/jdc/Dropbox/nb/swtools2:8251 google management
+/home/jdc/Dropbox/nb/swtools2:8256 web2.0 directory
+/home/jdc/Dropbox/nb/swtools2:8261 free online book computer internet
+/home/jdc/Dropbox/nb/swtools2:8266 number trivia
+/home/jdc/Dropbox/nb/swtools2:8271 shell programming tutorial
+/home/jdc/Dropbox/nb/swtools2:8276 rob interview
+/home/jdc/Dropbox/nb/swtools2:8281 google network
+/home/jdc/Dropbox/nb/swtools2:8286 c programming style rob
+/home/jdc/Dropbox/nb/swtools2:8291 unix programming book bwk rob
+/home/jdc/Dropbox/nb/swtools2:8296 inferno wiki
+/home/jdc/Dropbox/nb/swtools2:8301 inferno dist install
+/home/jdc/Dropbox/nb/swtools2:8306 plan9 os
+/home/jdc/Dropbox/nb/swtools2:8311 plan9 wiki
+/home/jdc/Dropbox/nb/swtools2:8316 plan9 dist
+/home/jdc/Dropbox/nb/swtools2:8321 plan9 dist
+/home/jdc/Dropbox/nb/swtools2:8326 mk build plan9
+/home/jdc/Dropbox/nb/swtools2:8331 plan9 wiki
+/home/jdc/Dropbox/nb/swtools2:8336 plan9 changelog
+/home/jdc/Dropbox/nb/swtools2:8341 wily maillist
+/home/jdc/Dropbox/nb/swtools2:8346 wily patch
+/home/jdc/Dropbox/nb/swtools2:8351 wily patch
+/home/jdc/Dropbox/nb/swtools2:8356 sam wily 9libs
+/home/jdc/Dropbox/nb/swtools2:8361 acme usage
+/home/jdc/Dropbox/nb/swtools2:8366 acme editor ide plan9 paper
+/home/jdc/Dropbox/nb/swtools2:8371 acme editor ide plan9 manual
+/home/jdc/Dropbox/nb/swtools2:8376 acme manual
+/home/jdc/Dropbox/nb/swtools2:8381 bonecho build firefox
+/home/jdc/Dropbox/nb/swtools2:8386 ajax tutorial links
+/home/jdc/Dropbox/nb/swtools2:8391 google management forskiur
+/home/jdc/Dropbox/nb/swtools2:8396 wily editor ide unix manual
+/home/jdc/Dropbox/nb/swtools2:8401 plan9 tool port unix rsc plan9port
+/home/jdc/Dropbox/nb/swtools2:8406 unix people rob
+/home/jdc/Dropbox/nb/swtools2:8411 unix people ken
+/home/jdc/Dropbox/nb/swtools2:8416 unix people bwk
+/home/jdc/Dropbox/nb/swtools2:8421 unix people dmr
+/home/jdc/Dropbox/nb/swtools2:8426 make build unix
+/home/jdc/Dropbox/nb/swtools2:8431 unix shell script catalog
+/home/jdc/Dropbox/nb/swtools2:8436 unix shell script links
+/home/jdc/Dropbox/nb/swtools2:8441 unix c people history dmr
+/home/jdc/Dropbox/nb/swtools2:8446 blog index
+/home/jdc/Dropbox/nb/swtools2:8451 blog index
+/home/jdc/Dropbox/nb/swtools2:8456 internet directory toolbox jasoncatena
+/home/jdc/Dropbox/nb/swtools2:8461 wily editor unix ide toolbox
+/home/jdc/Dropbox/nb/swtools2:8466 mime label mail toolbox
+/home/jdc/Dropbox/nb/swtools2:8471 firefox config toolbox
+/home/jdc/Dropbox/nb/swtools2:8476 posix schedule toolbox
+/home/jdc/Dropbox/nb/swtools2:8481 unix shell windows toolbox
+/home/jdc/Dropbox/nb/swtools2:8486 google internet search portal toolbox kanso
+/home/jdc/Dropbox/nb/swtools2:8491 posix make build toolbox toolsmith
+/home/jdc/Dropbox/nb/swtools2:8496 posix sed text editor toolbox toolsmith
+/home/jdc/Dropbox/nb/swtools2:8501 posix shell language grammar toolbox toolsmith
+/home/jdc/Dropbox/nb/swtools2:8506 posix yacc compiler grammar toolsmith
+/home/jdc/Dropbox/nb/swtools2:8511 posix lex lexical analysis toolsmith toolbox autocode
+/home/jdc/Dropbox/nb/swtools2:8516 gcc manual option toolbox toolsmith
+/home/jdc/Dropbox/nb/swtools2:8521 mime type application audio image multipart text video xconference
+/home/jdc/Dropbox/nb/swtools2:8527 unix philosophy rob dougmcilroy esr mikegancarz richardgabriel
+/home/jdc/Dropbox/nb/swtools2:8532 motorolan software toolbox blog jasoncatena widget
+/home/jdc/Dropbox/nb/tool:1 rome silver compound utensil knife iron blade spoon spatula tooth pick fork spike image
+/home/jdc/Dropbox/nb/unix:14 toolbox system process file network ssh scp vpn rsync sudo encrypt files partitions ssl certificates cvs svn useful commands install software convert media print database disk quota shell script program online help c@cb.vu 
+grep: read error on .git: Is a directory
+grep: read error on bin: Is a directory
+grep: read error on nb: Is a directory
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   guide
+#
+# Untracked files:
+#   (use "git add bin nbindex
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   bin/nb
+#	new file:   nbindex
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   guide
+#
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   bin/nb
+#	new file:   nbindex
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   guide
+#
+[master 99883c9] add bin/nb and nbindex for project root
+ 4 files changed, 26 insertions(+), 5 deletions(-)
+ create mode 100755 bin/nb
+ create mode 100644 nbindex
+To git@github.com:catenate/pnblic.git
+   d91fad3..99883c9  master -> master
+--rw-r--r-- M 0 jdc jdc  16660 Jun 25 15:42 /home/jdc/Dropbox/nb/haskell
+--rw-r--r-- M 0 jdc jdc 268994 Jun 26 15:23 /home/jdc/Dropbox/nb/swtools2
+--rw-r--r-- M 0 jdc jdc  34118 Jun 26 15:31 /home/jdc/Dropbox/nb/swcraft
+--rw-r--r-- M 0 jdc jdc   1969 Jun 26 15:34 /home/jdc/Dropbox/nb/gitrdun
+--rw-r--r-- M 0 jdc jdc    509 Jun 27 08:29 /home/jdc/Dropbox/nb/knowledge
+--rw-r--r-- M 0 jdc jdc    555 Jun 27 11:40 /home/jdc/Dropbox/nb/guide
+--rw-r--r-- M 0 jdc jdc   2336 Jun 27 19:30 /home/jdc/Dropbox/nb/lego
+--rw-r--r-- M 0 jdc jdc   4493 Jun 27 19:33 /home/jdc/Dropbox/nb/clojure
+--rw-r--r-- M 0 jdc jdc 116507 Jun 27 19:37 /home/jdc/Dropbox/nb/nbindex
+--rw------- M 0 jdc jdc  10737 Jun 27 21:42 /home/jdc/Dropbox/nb/acme.dump
+microsoft academy people startup crypto hash word music ruby open pairing car metric 
+cd /home/jdc/Dropbox/nb
+mv test haskell swcraft gitrdun knowledge lego clojure /home/jdc/git/pnblic/nb
+    137
+mv: cannot stat `test'mv: exit 1
+: No such file or directory
+mv: cannot stat `haskell': No such file or directory
+mv: cannot stat `swcraft': No such file or directory
+mv: cannot stat `gitrdun': No such file or directory
+mv: cannot stat `knowledge': No such file or directory
+mv: cannot stat `lego': No such file or directory
+mv: cannot stat `clojure': No such file or directory
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   guide
+#
+# Untracked files:
+#   (use "git add nb/
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   nb/clojure
+#	new file:   nb/gitrdun
+#	new file:   nb/guide
+#	new file:   nb/haskell
+#	new file:   nb/knowledge
+#	new file:   nb/lego
+#	new file:   nb/nbindex
+#	new file:   nb/swcraft
+#	new file:   nb/test
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   guide
+#
+F          1           1          47          47  43.1372549          47 
+          6          50          47           0           1 /home/jdc/git/pnblic/bin/+Errors Del Snarf | Look 
+nb
+--rwxr-xr-x M 0 jdc jdc 370 Jun 27 21:56 nb
+f          1           1          23          23  58.2788671 
+          1          49         369           0           0 /home/jdc/git/pnblic/guide Del Snarf Undo | Look 
+f          1           8         234         409  90.0871460 
+          8          44         553           0           0 /home/jdc/Dropbox/nb/guide Del Snarf | Look 
+F          1           4           0          68  95.9694989          68 
+         18          25          68           0           0 +Errors Del Snarf | Look 
+can't open /home/jdc/git/pnblic/nb/guide: No such file or directory

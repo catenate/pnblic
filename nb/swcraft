@@ -1,0 +1,699 @@
+nb environment forget change code rot care maintain test @docondev
+Code is subject to rot.  Left untended, it decays.  Poor care
+accelerates decay.  Tend well to the code in your care.
+
+
+nb manifesto signature
+Manifesto for software craftsmanship: Raising the bar.
+http://manifesto.softwarecraftsmanship.org/
+
+As aspiring Software Craftsmen we are raising the bar of professional
+software development by practicing it and helping others learn the craft.
+Through this work we have come to value:
+Not only working software, but also well-crafted software.
+Not only responding to change, but also steadily adding value.
+Not only individuals and interactions, but also a community of professionals.
+Not only customer collaboration, but also productive partnerships.
+That is, in pursuit of the items on the left we have found the items on
+the right to be indispensable.
+
+
+nb idealist mail list post
+@ryansroberts There really is some self indulgent can has pony wank
+posted to the software craftsmanship list
+
+
+nb object mentor video index @unclebobmartin @mfeathers @deanwampler
+http://www.objectmentor.com/videos/video_index.html
+
+
+nb group meeting israel video
+http://blogs.microsoft.co.il/blogs/uri_lavi/archive/2010/06/12/software-craftsmanship-meeting-1.aspx
+
+
+nb podcast @paulwpagel @paytonrules
+http://softwarecraftsmanship.libsyn.com/index.php?post_category=podcasts
+
+
+nb scna conference chicago @rayhightower best people volunteer religion
+20100614.  Episode #5—Ray Hightower.
+http://scna.softwarecraftsmanship.org/
+http://windycitydb.org/
+Your best people are volunteers.
+
+
+nb certify authority association @ecomba employ apprentice scratch child accept fail learn
+20100317.  SC Podcast #4—Enrique Comba Riepenhausen.
+
+http://en.wikipedia.org/wiki/American_Medical_Association
+The AMA's stated mission is to promote the art and science of medicine
+for the betterment of the public health, to advance the interests of
+physicians and their patients, to promote public health, to lobby for
+legislation favorable to physicians and patients, and to raise money for
+medical education.  The Association also publishes the Journal of the
+American Medical Association (JAMA), which has the largest circulation
+of any weekly medical journal in the world.  The AMA also publishes a
+list of Physician Specialty Codes which are the standard method in the
+U.S. for identifying physician and practice specialties.
+
+http://en.wikipedia.org/wiki/American_Bar_Association
+The ABA's most important stated activities are the setting of academic
+standards for law schools, and the formulation of model ethical codes
+related to the legal profession.  … The legal profession as we know it
+today barely existed at that time.  Lawyers were generally sole
+practitioners who trained under a system of apprenticeship.  There was
+no national code of ethics; there was no national organization to serve
+as a forum for discussion of the increasingly intricate issues involved
+in legal practice.
+
+American Software Association
+
+
+nb @dougbradbury
+20100213.  SC Podcast #3—Doug Bradbury.
+
+
+nb @mfeathers
+20100114.  SC Podcast #2—Michael Feathers.
+Katas: http://katas.softwarecraftsmanship.org
+http://cacm.acm.org/magazines/2010/1/55760-what-should-we-teach-new-software-developers-why/fulltext
+http://stevesmithblog.com/blog/software-craftsmanship-at-codemash/
+http://blog.knuthaugen.no/2009/10/creating-craftsmen.html
+http://evan.tiggerpalace.com/articles/2010/01/11/on-craftsmanship-and-practice/
+http://elegantcode.com/2010/01/13/the-software-craftsman-cooperative/
+
+
+nb @trptcolin
+20100105.  SC Podcast #1—Colin Jones on Practice.
+Software craftsmanship 2010 audition information via Jason Gorman's blog.
+QCon 2010 in London with software craftsmanship track.
+Michael Feathers video: Self education and the craftsman via SCNA conference site.
+
+
+nb boutique software shop technical leader gui user interface simple attractive intuitive æsthetic craftsman skill range depth @paulwpagel
+Pagel, P.  20090912.  Thoughts from a boutique software shop.
+8th Light blog.
+http://blog.8thlight.com/articles/2009/9/12/thoughts-from-a-boutique-software-shop
+
+If you take a small team of trained craftsmen focused on doing their
+best work, the result is most often a very strong culture of quality.  …
+This is the common thread that I have seen through these boutique shops—
+they all have an owner who is a technical leader who creates a strong
+culture where (excuse the [cliché]) failure is just not an option.
+There are other similarities like strong discipline, small teams,
+cutting edge technologies, and ability to develop strong skill sets in
+developers, however, I think that all of these are direct descendants of
+the strong leadership.  … It is no longer okay to plow through features,
+but they need to be simple, attractive, and intuitive.  … A craftsmen
+has many shallow skills as well as a few very deep skills.  Craftsmen
+teams have individuals with diverse expertise talents and a common
+knowledge of intermediate and beginner talents.  It is very fun to be on
+these teams, when the work is one which has quality–quality of being
+“æsthetically” impressive as well as “feature set” impressive.
+
+
+nb boutique software shop gordonramsay team work ethic talent skill taste franchise @mfeathers
+Feathers, M. 20090910.  Thoughts on the future of the boutique software shop.
+Michael Feathers’ blog.
+http://michaelfeathers.typepad.com/michael_feathers_blog/2009/09/thoughts-on-the-future-of-the-boutique-software-shop.html
+
+[Chef Ramsay] rose up the ranks of his profession by drawing an incredibly
+hard line and refusing to compromise on quality.  He is hard on people, but
+for the most part, they understand that it is for a good purpose.  He has
+something to teach, and they have something to learn, and his style is to
+make that learning visceral.  If you're a software developer, I recommend
+watching his shows to see his quality focus.  The American series 'Hell's
+Kitchen' is a good one, but the British version of the series 'Kitchen
+Nightmares' is better.  It's about turning failing restaurants around, and
+if you've ever tried to turn around a failing software organization, it's
+very interesting to see how someone in an entirely different field handles
+that sort of task.  I don't think there are any perfect analogies across
+disciplines, but I'm often struck by the similarities between the software
+development world and the culinary world.  First of all, both are
+(generally) team sports—you have to work as a tight team to deliver.
+Secondly, cleanliness matters.  People in well-run kitchens definitely know
+that the way to do go fast is to keep clean.  You wipe down your knife, you
+keep the layout of your station.  Third, it's all about skill.  One person
+who isn't up to snuff can bring down the level of the team.  … I'm talking
+about companies like 8th Light, Obtiva, Hashrocket, and EdgeCase.  The
+thing which ties all of these places together is an emphasis on
+hand-crafting software for clients, pushing excellence.  Many of the people
+I know in these companies are refugees in a sense.  They did “Big Corporate
+IT” and left to start something smaller, more personal and focused.
+As well, many of them are in the nascent Software Craftsmanship movement,
+they share a set of values, and they are running apprenticeship programs
+and trying to build a grassroots community of like-minded people.  …
+That thing which constitutes that specialness in software probably isn't
+clean internal structure.  It's more likely wonderful experience as a
+customer both in the engagement and in their experience of the application.
+… You need an incredible work ethic, talent, and taste.  It's hard to find
+all of that bundled in a single person, but typically the people who have
+it rise through the industry.  … Small start-ups mixed the roles: you had
+only one type of person: a person who could code and do business. …
+And, I do feel that (if it isn't happening already) UX will become the
+competitive differentiator for the boutiques.
+
+I want to close out with just one more mapping from restaurants to software
+development shops, one inspired by Ramsay's book.  Historically, it has
+been very tough for chefs to extend their reach in the restaurant business.
+If you are someone with the magic three: work ethic, talent, and taste, and
+you also have a flair for business, you can still only be in once place at
+a time.  Moreover, it is tough to maintain standards.  Gerry Weinberg used
+to refer to this as the ‘Law of the Raspberry Jam’—“the further you spread
+it, the thinner it gets.” Ramsay seems to be extending his empire by
+ruthlessly nurturing talent within and spinning people off to head their
+own restaurants with equity shares.  Each of the restaurants has its own
+name and style, and (as far as I know) they don't have Gordon's picture on
+the door; the whole thing is held together with a holding company.
+This isn't a new idea in business, but it is something I haven't seen in
+the boutique space yet.
+
+
+nb craftsman principle attribute clean code detail experience productive lead team standard
+nb quality productivity punctuality bug feature fast perfect complete quick imperfect incomplete impermanent
+Wampler, D. 20070527.  What I've learned from master chef Rino Baglio.
+Object Mentor blog.
+http://blog.objectmentor.com/articles/2007/05/27/what-ive-learned-from-master-chef-rino-baglio
+
+A craftsman is widely recognized by peers.  A craftsman is passionate about
+the craft.  A craftsman delivers value to the customer while meeting
+business objectives.  A craftsman knows that quality is the number one
+priority.  A craftsman never stops learning.
+
+What does all this have to do with software?  Pretty much everything.
+Like cuisine, clean code is part art, part science.  Clean code is created by
+passionate craftsman who are fanatical and fastidious about every detail.
+Clean code is the product of years of accumulated experience.  The decisions a
+master makes moment-by-moment, whether test-driving the next feature or
+fighting a fire, reflect the wisdom and breadth of knowledge that produce
+high-quality results quickly and efficiently.  Finally, a master leads by
+example, bringing the rest of the team up to his or her standards.
+
+
+nb hand eye feedback make medium language toolsmith personal transmit
+Bradbury, D.  20091022.  Why software development is a craft.  8th Light blog.
+http://blog.8thlight.com/articles/2009/10/22/why-software-development-is-a-craft
+
+It is the physicality of code that enables the feedback between the hand
+and the eye.  … When a programmer writes a little bit of test code and runs it,
+then a little bit of production code and runs it, this cycle shrinks to
+minutes or even seconds.  … In contrast [to engineering practice], the
+software craftsman doesn’t just design the software (though she does do
+that), she also makes it.  … The material of software is language.  …
+[T]hese syntaxes are the medium in which the software craftsman works.
+What makes this media so interesting is that the materials themselves are
+composite materials made of more primitive materials.  … Each new language
+emerges out of other languages as craftsmen explore the materials and
+invent new ways of combining and deconstructing what they have at hand.  …
+Each new language innovation gives the software craftsman a new, more
+powerful material from which to build both larger and simpler systems.  …
+Because these tools are built from the same raw materials as the thing
+being made, software craftsmen have the ability like historical craftsmen
+to be tool makers.  … The best way to learn how to make software is to sit
+down with someone who knows how to do it and learn from them.
+
+
+nb profession value self employ @unclebobmartin
+http://twitter.com/unclebobmartin/status/2164710348
+
+Tenet of professionalism: Work 40 hours for your employer and another
+20 hours improving yourself.  Always increase your own value.
+
+
+nb design decision consequence maturing understanding
+Pagel, P.  20100108.  Zeroth rule of professionalism.  8th Light blog.
+http://blog.8thlight.com/articles/2010/1/8/zeroth-rule-of-professionalism
+
+Every decision you make is a function of time and understanding.
+By taking responsibility for each of your decisions software becomes a
+series of trade-offs that you have to live with and learn from.
+When a design works and is written well, it becomes easier to live with
+the outcomes of your decisions.
+
+Kaleb Pederson: One of the key traits of a craftsman, or a professional,
+is that they take time to evaluate and reflect on what the understanding
+was at the time so that, the next time, an even better decision may be made.
+
+
+nb agile unix design principles
+Skorkin, A. 20100513.  Who deserves the credit for software
+craftsmanship and great design?  Skorks: For the betterment of the
+software craft…
+http://www.skorks.com/2010/05/who-deserves-the-credit-for-software-craftsmanship-and-great-design/
+
+
+nb coryfoy video
+http://blog.coryfoy.com/2010/06/growing-and-fostering-craftsmanship/
+
+
+nb process quality care
+@docondev RT @jeffpatton: "Process is a placebo.  Quality is not about
+following the rules.  It is about caring for the end result"
+
+
+nb pragmatic programmers magazine
+http://www.pragprog.com/magazines
+
+
+nb robertmartin presentation
+Martin, R.C.  20100526.  Bad code, craftsmanship, engineering,
+and certification.  QCon London 2010.
+http://www.infoq.com/presentations/Robert-C.-Martin-Bad-Code
+
+
+nb test problem improve design
+@redsquirrel Isn't it great how paying attention to pain in testing
+leads you to better design?  I really love that.
+
+
+nb educate julliard skill solfège theory instrument music jury
+@jasongorman BSc and MSc Computer Science/Soft Eng grads should leave
+with at least 1,000 hours hands-on programming.  Discuss.
+
+@catenate @jasongorman How will that help them be better researchers?
+Industry thinks it's all about them, but the academy *must* continue. ;)
+
+@jasongorman @catenate How would playing an instrument help you better
+understand music theory?
+
+@catenate @jasongorman At Julliard all students study solfège, music
+theory, and a primary instrument.  Each year music juries gauge
+progress.
+
+@catenate @jasongorman Translates?  to languages, compsci theory
+(w/algorithms) & eng practice, & primary app area.  Jury reviews craft
+skill, teamwork.
+
+
+nb responsibility language feature ruby culture
+http://blog.objectmentor.com/articles/2009/07/13/ending-the-era-of-patronizing-language-design
+
+
+nb 97things programmer oreilly ebook pdf purchased
+../doc/oreilly/97_Things_Every_Programmer_Should_Know.pdf
+../doc/oreilly/97_Things_Every_Programmer_Should_Know.txt
+
+
+nb refactor task schedule chore pivotal tracker bobmartin
+@unclebobmartin Refactoring should never appear as a task on a schedule.
+Keeping code clean is just something that you do all the time.
+
+@catenate @unclebobmartin What about listing refactoring as a non-point
+chore among your user stories (eg in Pivotal Tracker), to record time
+spent?
+
+@unclebobmartin @catenate Please don't keep track of refactoring time.
+Don't put it into Pivotal as a chore.  Red-Green-Refactor every minute.
+
+
+@jasongorman Sounds like #spa2010 debate on Software Craftsmanship
+concluded that words that start with capital letters are bad.  Surprised
+at how little of the discusson about software craftsmanship is actually
+about software craftsmanship.  Do we agree that cleaner code is better?
+Do we agree that building good habits/insticts takes practice?  Do we
+agree that communities of practice are helpful?  Do we agree that
+continual learning and sharing is good?  Do we agree that programmers
+should take responsibility for their software?  If “yes”, then we agree
+on key values of craftsmanship.  Call it what you like, though.
+
+
+nb prototype
+http://coderoom.wordpress.com/2010/05/18/start-in-the-middle/
+
+So start in the middle, start with the interesting, challenging, core of
+the problem you’re trying to solve.  Cut down everything else to
+ridiculous minima and see what happens.  Ideas that turn out to be
+impossible or just plain bad are discovered early.  This is classic lean
+startup advice: fail early.  Spend most of your the time solving
+interesting problems and not fine-tuning framework skills.  Which would
+you rather get better at?  Discover interesting things while your
+project is still young and flexible enough to adapt to them.  Once
+you’ve solved a problem, you’re so motivated to use it that you finish
+up the surrounding areas in no time.  You add extra users because you
+want to show it to your friends; you add keyboard shortcuts because
+you’re getting tired of using the mouse all the time.  This is program-
+ming the right way around—first the need, the desire, and then the
+solution.
+
+First, you crack the hard part of the problem, to see whether the entire
+project is feasible.  Then you flesh it out a bit more.  Then you add
+some structure to make it a product, not just a proof of concept.
+
+
+nb craftsman title
+@catenate @efliski Maybe the word you're looking for is "craftsman",
+though in time that too may take on many meanings.
+
+@efliski @catenate Would really be honored to be able to refer to myself
+as a craftsman, if only it could ring any bell to my recruiters.
+
+@catenate @efliski By best definition of word, you're a craftsman when
+you take time to hone and practice your craft, regardless of your
+current job.
+
+
+nb startup hacker painter paulgraham
+http://www.paulgraham.com/hp.html
+
+
+nb productive efficient build unnecessary
+There is nothing more unproductive than to build something efficiently
+that should not have been built at all.
+
+
+nb todo github commit relevance functional koan haskell @abedra
+Contract abedra for commit rights to functional koans in Haskell.
+
+
+nb tao
+Jamos, G.  The tao of programming.
+http://www.textfiles.com/100/taoprogram.pro
+
+
+nb good enough sufficient design economy necessary refactor
+Kerievsky, J.  201004.  Sufficient design.
+https://elearning.industriallogic.com/gh/submit?Action=PageAction&album=blog2009&path=blog2009/2010/sufficientDesign&devLanguage=Java
+
+Some features form the heart and soul of a product, others play a
+supporting role and some code is just pure plumbing.  Yet ultimately the
+craftsmanship advice fails to consider simple economics: If you take the
+time to craft code of little or moderate value to users, you're wasting
+time and money.
+
+
+Kernighan, B. 20090713.  Elements of programming style.  Princeton
+university.
+http://video.ias.edu/PiTP2009-Kernighan
+
+
+nb software engineering professional craft coöperate game lean process alistaircockburn
+Cockburn, A. Postscript: What do I think “software engineering” is?
+http://alistair.cockburn.us/A+Detailed+Critique+of+the+SEMAT+Initiative
+
+Based on foundations for software engineering, and the later design as
+knowledge acquisition, here is what I think a theory of software
+engineering looks like (omitting the ethics portion).  /Craft
+professionalism/ teaches us about lifelong learning, deepening mastery
+over time, and about developing skills in a medium.  For software
+development there are a number of significantly different craft
+specialities, each working in its own medium.  The /coöperative game/
+model teaches us about the human component—trust, morale, strategies,
+the importance of things like invention techniques, decision-making
+conventions, and the properties of communication.  /Lean processes/
+provide useful mathematics to the design assignment, once we recognize
+/unvalidated decisions/ as the unit of internal inventory.  Having
+made this adjustment, large amounts of manufacturing theory drops in
+our laps.  /Design as knowledge acquisition/ teaches us that we can
+pay to learn, and structures our efforts to optimize both knowledge
+gained and business value accumulated.  This view helps get rid of the
+tension between no-design-up-front rabid agilism and
+all-design-up-front conservativsm.  The above theory is fairly sound
+and fairly complete.  It does a good job of handling key criticisms
+and goals: it explains project success and failures quite well, it
+predicts important issues in running projects quite well, it helps
+practitioners formulate effective strategies on the fly, and it
+provides a sound pedagogical basis for teaching.  My thanks go to
+Philippe Kruchten for pointing out that professional ethics is
+significantly missing from the above elements.  It might fit under
+craft professionalism, but since I am not an expert on engineering
+ethics, I hesitate to go there.  I look forward to longer discussion.
+
+
+nb semat software engineering alistaircockburn
+http://alistair.cockburn.us/A+Detailed+Critique+of+the+SEMAT+Initiative
+http://alistair.cockburn.us/Foundations+for+Software+Engineering
+
+
+nb user group city wiki
+http://wiki.softwarecraftsmanship.org/doku.php/usersgroups
+
+
+nb golang constraint design obligation master accept issue
+
+> i don't see any argument somebody other than you can formulate that is
+> compelling to you.
+
+While it's undoubtedly true that people themselves decide what they will
+take seriously, a professional usually tries to do the best work
+possible under specific (self-imposed) constraints.  Other people
+unfamiliar with these constraints may not (yet) come up with
+contributions which fit in them.  If you learn more about Go, you're
+more likely to understand its (purposeful) limits, and what freedoms
+there are to change them.
+
+> to you, it seems, there exists only a formal base of rules to care
+> about.  the interface is to cope with.  is that how a 'real' hacker
+> thinks?
+
+That's usually how a designer thinks, who is more concerned with
+conceptual integrity than convenience or completeness.  There are plenty
+of other projects out there working on the latter that need help.
+
+> you expect me to invest time in serious programming for your core?
+
+Why would anyone expect this from you?  I'm not trying to be sarcastic:
+you're under no obligation to participate in Go, and the Go Authors are
+under no obligation to accept or even acknowledge your issues.  To mix
+metaphors: They're doing this to scratch their itch, not yours, and they
+welcome your help only as long as you're pulling in the same direction.
+Anything else is noise that takes time away from sharpening their tool
+for their work.
+
+> i feel bitter about *how* you treated my issues.
+
+Go, and related projects by some of the same people, have definite
+principles and style that they follow, with concrete goals and methods
+to pursue them.  It's usually not obvious to an apprentice, or even
+journeyman, why masters make certain decisions, but in the end it's the
+master's project, and the master bears responsibility for the overall
+direction of the project.  So, for me, it comes down to whether the
+principles that attracted me to a project in the first place are
+advanced by my contributions.  Usually, they're not, as it turns out,
+because I have a lot to learn about the project before I can reasonably
+expect to be allowed to change things, let alone know how things should
+be changed.  It stings every time a contribution or issue gets turned
+down.  However, I have also mastered a project, and seen how every
+little bad decision affects things and actually does come back to hurt
+you, so I can sympathize with their noble intent.
+
+> i'll now leave this mailinglist and care about my stupid nonsense
+> i am able to program.
+
+Au revoir.
+
+> jason, you got the message wrong.
+
+Perhaps you misunderstood my message.  I posted for the people who
+remain on the list, to learn from your unfortunate example.  You've
+left: what would be the point in addressing just you?
+
+
+@srbaker If clean code didn't speed up long-term development (It does),
+I'd still do it to avoid feeling bad about what I make.  (via
+@garybernhardt)
+
+
+nb work reward opportunity courage confidence experience jonassalk
+Jonas Salk
+http://en.wikiquote.org/wiki/Jonas_Salk
+
+I feel that the greatest reward for doing is the opportunity to do more.
+OR The reward for work well done is the opportunity to do more.―Dr
+Jonas Salk, MD
+
+It is courage based on confidence, not daring, and it is confidence
+based on experience.  [On testing his vaccine against polio on himself,
+his wife, and his three sons (9 May 1955).]
+
+
+@newsycombinator Russia's Conquering Zeros: Strength of lonely
+productivity http://bit.ly/2oZMxj
+
+
+nb daily refactor 3 hourly build error train skill real problem system knowledge
+To keep skills sharp and trained to real problems, and system knowledge
+on the cutting edge (3-hourly builds will catch errors), refactor daily.
+
+
+nb exclusionary society corrupt sound craftsmen friendship alice looking glass
+Lewis, C.S.  The inner ring.  Transcript of a memorial lecture at King’s
+college shortly after the end of the second world war.  Reproduced in
+Heusser, M. 20091102.  Testing at the edge of chaos.
+http://blogs.stpcollaborative.com/matt/2009/11/02/the-inner-ring/
+
+In the whole of your life as you now remember it, has the desire to be
+on the right side of that invisible line ever prompted you to any act or
+word on which, in the cold small hours of a wakeful night, you can look
+back with satisfaction?  It will be the hint of something which is not
+quite in accordance with the technical rules of fair play: something
+which the public, the ignorant, romantic public, would never understand:
+something which even the outsiders in your own profession are apt to
+make a fuss about: but something, says your new friend, which “we”—and
+at the word “we” you try not to blush for mere pleasure—something “we
+always do.” Until you conquer the fear of being an outsider, an outsider
+you will remain.  If you want to be made free of a certain circle for
+some wholesome reason—if, say, you want to join a musical society
+because you really like music—then there is a possibility of
+satisfaction.  In any wholesome group of people which holds together for
+a good purpose, the exclusions are in a sense accidental.
+
+If in your working hours you make the work your end, you will presently
+find yourself all unawares inside the only circle in your profession
+that really matters.  You will be one of the sound craftsmen, and other
+sound craftsmen will know it.  This group of craftsmen will by no means
+coincide with the Inner Ring or the Important People or the People in
+the Know.  It will not shape that professional policy or work up that
+professional influence which fights for the profession as a whole
+against the public: nor will it lead to those periodic scandals and
+crises which the Inner Ring produces.  But it will do those things which
+that profession exists to do and will in the long run be responsible for
+all the respect which that profession in fact enjoys and which the
+speeches and advertisements cannot maintain.
+
+And if in your spare time you consort simply with the people you like,
+you will again find that you have come unawares to a real inside: that
+you are indeed snug and safe at the center of something which, seen from
+without, would look exactly like an Inner Ring.  But the difference is
+that its secrecy is accidental, and its exclusiveness a by-product, and
+no one was led thither by the lure of the esoteric: for it is only four
+or five people who like one another meeting to do things that they like.
+This is friendship.  Aristotle placed it among the virtues.  It causes
+perhaps half of all the happiness in the world, and no Inner Ring can
+ever have it.
+
+To a young person, just entering on adult life, the world seems “full of
+Insides,” full of delightful intimacies and confidentialities, and he
+desires to enter them.  But if he follows that desire he will reach no
+“inside” that is worth reaching.  The true road lies in quite another
+direction.  It is like the house in Alice Through the Looking Glass.
+
+Creamer, L.  20091103.  Comment on The Inner Ring.
+
+A few years ago, I had a friend say something similar, that political
+types, who are trying to control perception, can't predict the behavior
+of people with principle.  That keeps principled folks, the sound
+craftspeople, out of the inner ring, because we can't be trusted to keep
+quiet.  It's likely not a social thing at all.  You likely knew the lie
+you were supposed to say to be in the cool club, and you didn't say it.
+So if you've been tried for the ring and rejected, rejoice!
+
+@stephenfry Writing a speech for a gala party tonight to be held in
+honour of my university's 800 anniversary.  Got as far as "Ladies &
+gentlemen-" Hm...
+
+@catenate @stephenfry Consider updating CS Lewis' university speech,
+The Inner Ring, on being a sound craftsman, and refusing to yearn for
+status.
+
+
+nb maintain program theory refactor efficient peternaur paper practice learn experience
+Timmy fished:
+> whenever you finish with a task, the system is just a little nicer
+> to work with, a little easier to change, a little more resistant
+> to decay.
+
+The design decisions embedded in every mature system are its greatest
+hindrance to maintenance.  If a bit of maintenance does not fit the
+current theory of the program (ie, the change was not anticipated),
+then a change can undermine the program with unanticipated side
+effects, and additional cases to consider (along with everything else)
+in future maintenance.
+
+So I'll second Timmy's  advice.  Your best weapon in the fight against
+a decaying software system (all software systems decay in time, as
+their environment changes) is to refactor it.  Learn a subsystem,
+file, or function very well when you have to maintain it.  Find a
+coherent way the original theory can change to include the new case
+with less, clearer code, and fewer exceptions.  This altered theory
+should better allow for future changes.
+
+You don't have to do this, but you essentially consign the system
+to its limits.  Sometimes this is a proper business decision.
+But if you can get away with helping it out just a little, then
+the business runs a bit more efficiently, and can accomplish more
+(competitive advantage).
+
+This 1985 paper by Peter Naur discusses the challenges you face
+as a maintenance programmer working with the original developers.
+His best advice is to learn by experience changing the system, since
+there's (in his opinion) no other way to transfer the rich and deep
+intricacies of the theory of the program to you.
+
+Naur, P. 1985. Programming as theory building. Microprocessing and
+Microprogramming 15, 5, 253–261. Reprinted as §1.4 (pp. 37–49) of
+Naur, P. 1992. Computing: A human activity. ACM Press, Addison-Wesley,
+NY.
+
+I posted a version of this paper, with collected commentary from
+papers and the web, at
+https://dl.getdropbox.com/u/502901/naurtf.pdf
+
+
+nb confident service
+You bother for yourself, because you're that kind of person.  Those who
+asked just expect it done professionally.
+
+
+nb software practice variety works confident creative service
+Practice every day, since there is no substitute for the confident
+depth of knowledge imparted by actual experience (learning from getting
+it wrong).  Practice with a variety of tools and languages, since most
+of the value of a language or tool is in what it does well, and most
+of the fiddly little details you learn later were shoehorned it to
+make it "complete".  Find an environment in which you can fail fast,
+to learn quickly, and which lets you practice combining a variety of
+tools and languages to make little examples that work.
+
+Seek a creative variety in your tools (languages, programs,
+environments) to get enough familiarity with them to use what's best
+for the task at hand.  Shoe-horning a given task into an inappropriate
+language or trying to solve a problem with an ill-suited tool is
+not clever, it's a waste of time and effort and makes things hard to
+maintain.  You have to practice with all the different tools at your
+disposal regularly to be able to use them to make something that works.
+
+The purpose of all coding is to make something that provides value
+(possibly in future) and works.  If it doesn't work, keep practicing
+until you get something that is worth having spent time on.  When the
+problem comes that needs this solution, you'll be glad it's at hand.
+Develop your little examples that work into full-fledged solutions
+to serve the present tasks.
+
+
+nb core size feature complexity perl
+> If the language can't be explained in 50 pages, it's no good.
+
+If it's not possible to clearly describe the core of a computer
+programming language in fifty pages, then it has probably been
+embellished with features, unnecessary to the language proper, to
+help it compete in the lame one-size-fits-all strand of programming
+language debate.  In this respect Perl is a cautionary example,
+having no coherent core that I could tell, just a cobbled-together
+collection of features intended to try to replace single purpose
+programs. (But then again, "those days are dead and gone and the
+eulogy was delivered by Perl.")
+
+
+nb sql database design
+On Thu, Sep 3, 2009 at 5:13 PM, Anthony Sorace <anothy@gmail.com>
+wrote: i've not used matt's sql module itself (i should check it
+out) so i can't comment on his implementation, but... SQL is really
+ugly. it's not hard to construct something that provides the same
+functionality in a much more palatable form. aesthetics aside, if
+you're dealing with a database-heavy app, it can make the code much
+easier to read.
+
+On Thu, Sep 3, 2009 at 11:34, Robert Raschke <rtrlists@googlemail.com>
+wrote: SQL in itself is actually pretty elegant for what it is
+intended, querying relational tables.
+
+The problem with databases is more one of really bad design. A
+badly designed database makes SQL use awkward. Using a more general
+programming language allows you to create abstractions that hide
+the hideous database. It ends up as a veneer that usually grows and
+grows and grows trying to "fix" problems that actually exist at the
+database level itself.
+
+The fact that using SQL against your database is a pain, should really
+signal alarm bells and make you investigate what may be wrong with
+its design.

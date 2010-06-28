@@ -1,0 +1,77 @@
+nb automate web site performance boomerang javascript github yahoo
+http://github.com/yahoo/boomerang
+
+This piece of javascript measures a whole bunch of performance
+characteristics of your user's web browsing experience.  All you have to
+do is stick it into the bottom of your web pages and call the init() method.
+We'll make it more complicated later.
+
+
+nb unit justify
+Ashton, C.  20090331.  It's ok not to write unit tests.  cashto's blog.
+http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx
+
+
+nb gotest regress function benchmark swdev
+w16823 @cjc040 I agree, which is why it makes me upset when I see
+software that is over-engineered.  I also believe that you need a set of
+automated unit tests (I like to call them microtests), or at least an
+exhaustive set of regression tests that can be run easily and quickly,
+to allow you to refactor safely with the confidence that nothing has
+broken.
+
+cjc040 @w16823 I'll go further and say you need at least a minimal test
+harness or "framework", something that lets you tell the system what
+output should be for some input, compares it for you, and summarizes
+results.  Writing tests' repetitive bits from scratch each time is
+usually enough to put the casual tester (ie developer) off the practice.
+
+w16823 @cjc040 I was thinking similar thoughts when I wrote
+http://lnk.mot.com/3il ¹  So, on a project where we have the luxury of
+starting from scratch, I believe that the architect and lead developer
+should ensure that the design was created with testability in mind, as
+well as create, enable, and seed the test framework.  If we can take
+away the tedious/difficult part, other developers will go along.
+Especially once they see how well it can work.
+ ¹ “The real reason why we don’t do Microtesting”
+
+cjc040 @w16823 Go has a simple mechanism ("gotest"¹) built into its core
+language command tool set to isolate a distinct set of code (they call
+"packages") and run functionality and benchmark tests.
+ ¹ http://golang.org/cmd/gotest/
+
+mgi820 @cjc040 As in most things, I believe in testing what makes sense.
+Requiring tests for every getter and setter doesn't make much sense,
+doubles the amount of code, and makes evolving the code harder.  Testing
+more complicated things makes a lot more sense.  My preferred approach
+is to have well-defined open interfaces at which to apply the tests,
+then code the tests in a scripting language like #Python.
+
+
+nb discount use prototype inspect
+Discount Usability: 20 Years
+http://www.useit.com/alertbox/discount-usability.html
+
+Simple user testing with 5 participants, paper prototyping, and
+heuristic evaluation offer a cheap, fast, and early focus on usability,
+as well as many rounds of iterative design.
+
+Simplified user testing, which includes a handful of participants,
+a focus on qualitative studies, and use of the thinking-aloud
+method. Although thinking aloud had been around for years before I
+turned it into a discount method, the idea that testing 5 users was
+"good enough" went against human factors orthodoxy at the time.
+
+Narrowed-down prototypes—usually paper prototypes—that support
+a single path through the user interface. It's much faster to
+design paper prototypes than something that embodies the full user
+experience. You can thus test very early and iterate through many
+rounds of design.
+
+Heuristic evaluation in which you evaluate user interface designs by
+inspecting them relative to established usability guidelines.
+
+
+nb ease
+Greater ease requires first moving in the direction of less ease.
+Shame, that. (Brian Marick, Twitter 20090903.1844)

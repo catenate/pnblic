@@ -5,6 +5,6 @@ jekyll --server
 |sort|uniq
 
 git status
-git commit -a -m 'update nb manual page'
+git commit -a -m 'update archive outlink'
 git push origin gh-pages
 git checkout master

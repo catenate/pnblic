@@ -1,7 +1,11 @@
 ../bin/nb
+|fmt -w 72|sed 's,$,  ,'
 
 cd /home/jdc/Dropbox/nb
 n=20
 topics=`{ls -tr |grep -v acme.dump | grep -v guide | grep -v '\.sed' | grep -v nbindex | grep -v twitter | grep -v swtools2 | tail -$n}
 echo $topics
 echo $topics | wc -c
+
+Recent http://j.mp/pnblic notes: test gitrdun lego macosx convert clojure compress haskell knowledge polyglot ruby shell swcraft unix τ tdd
+> wc -c

@@ -1,28 +1,33 @@
 /home/jdc/git/pnblic
 /usr/local/plan9/font/times/latin1.7a.font
 /home/jdc/opt/src/icons/icons.14.font
-  0.0000000  59.9218750
+  0.0000000  59.8437500
 w Newcol Kill Putall Dump acme.dump Exit 
 c          0 New Cut Paste Snarf Sort Zerox Delcol 
 c          1 New Cut Paste Snarf Sort Zerox Delcol 
-f          0           2           0           0   2.0697168 
-          2          43          53           1           0 /home/jdc/git/pnblic/ Del Snarf Get | Look 
-f          0           3         347         347   4.1394336 
-          3          83         347           0           0 /home/jdc/git/pnblic/README.md Del Snarf Undo | Look Font 
-f          0           9          86          86   6.2091503 
-          9          46         157           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
-f          0          46           0           0  13.9433551 
-         46          49       11551           0           0 /home/jdc/git/pnblic/nb/nbindex Del Snarf | Look 
+f          0           1           0           0   2.0697168 
+          1          43          60           1           0 /home/jdc/git/pnblic/ Del Snarf Get | Look 
+f          0           2         347         347   4.1394336 
+          2          53         347           0           0 /home/jdc/git/pnblic/README.md Del Snarf | Look Font 
+f          0           3           0           0   6.2091503 
+          3          46         157           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
+f          0          17         731         731  26.9063181 
+         17          49       11468           0           0 /home/jdc/git/pnblic/nb/nbindex Del Snarf | Look 
 F          1           0         199         271   2.0697168         271 
-         18          25         271           0           0 +Errors Del Snarf | Look 
+          5          25         271           0           1 +Errors Del Snarf | Look 
 can't open /home/jdc/git/pnblic/nb/guide: No such file or directory
 can't open /home/jdc/Dropbox/nb/contact: No such file or directory
 can't open /home/jdc/git/pnblic/nb/τ: No such file or directory
 can't open /home/jdc/git/pnblic/nb/apparatus: No such file or directory
-f          1           8         234         234   7.9520697 
-          8          49         553           0           0 /home/jdc/Dropbox/nb/guide Del Snarf Redo | Look 
-F          1           2       95163       95163  10.0217865       95163 
-          4          46       95163           0           1 /home/jdc/git/pnblic/+Errors Del Snarf | Look 
+F          1           1         119         119   4.1394336         119 
+         12          46         119           0           1 /home/jdc/Dropbox/nb/+Errors Del Snarf | Look 
+mv: mv: exit 1
+cannot stat `knowledge': No such file or directory
+mv: cannot stat `swcraft': No such file or directory
+f          1           6         234         234   6.2091503 
+          6          44         633           0           0 /home/jdc/Dropbox/nb/guide Del Snarf | Look 
+F          1           3       97383       97383   8.2788671       97383 
+          7          55       97383           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
 # On branch master
 # Changed but not updated:
 #   (use "git add <file>..." to update what will be committed)
@@ -1641,29 +1646,125 @@ maths convert letter language lead microsoft academy people startup crypto hash 
     138
 bin README.md nb .git
      22
-F          1           3          47          47  12.0915033          47 
-          6          50          47           0           1 /home/jdc/git/pnblic/bin/+Errors Del Snarf | Look 
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   acme.dump
+#	modified:   nb/clojure
+#	modified:   nb/guide
+#	modified:   nb/haskell
+#	modified:   nb/knowledge
+#	modified:   nb/nbindex
+#	modified:   nb/swcraft
+#
+# Untracked files:
+#   (use "git add . <file>..." to include in what will be committed)
+#
+#	nb/apparatus
+#	nb/compress
+#	nb/convert
+#	nb/macosx
+#	nb/polyglot
+#	nb/ruby
+#	nb/shell
+#	nb/tdd
+#	nb/unix
+#	"nb/\317\204"
+no changes added to commit (use "git add" and/or "git commit -a")
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   acme.dump
+#	new file:   nb/apparatus
+#	modified:   nb/clojure
+#	new file:   nb/compress
+#	new file:   nb/convert
+#	modified:   nb/guide
+#	modified:   nb/haskell
+#	modified:   nb/knowledge
+#	new file:   nb/macosx
+#	modified:   nb/nbindex
+#	new file:   nb/polyglot
+#	new file:   nb/ruby
+#	new file:   nb/shell
+#	modified:   nb/swcraft
+#	new file:   nb/tdd
+#	new file:   nb/unix
+#	new file:   "nb/\317\204"
+#
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   acme.dump
+#	new file:   nb/apparatus
+#	modified:   nb/clojure
+#	new file:   nb/compress
+#	new file:   nb/convert
+#	modified:   nb/guide
+#	modified:   nb/haskell
+#	modified:   nb/knowledge
+#	new file:   nb/macosx
+#	modified:   nb/nbindex
+#	new file:   nb/polyglot
+#	new file:   nb/ruby
+#	new file:   nb/shell
+#	modified:   nb/swcraft
+#	new file:   nb/tdd
+#	new file:   nb/unix
+#	new file:   "nb/\317\204"
+#
+[master 49ef256] updates on 20100628
+ 17 files changed, 1142 insertions(+), 74 deletions(-)
+ create mode 100644 nb/apparatus
+ create mode 100644 nb/compress
+ create mode 100644 nb/convert
+ create mode 100644 nb/macosx
+ create mode 100644 nb/polyglot
+ create mode 100644 nb/ruby
+ create mode 100644 nb/shell
+ create mode 100644 nb/tdd
+ create mode 100644 nb/unix
+ create mode 100644 "nb/\317\204"
+To git@github.com:catenate/pnblic.git
+   a6c9cbf..49ef256  master -> master
+F          1           4          47          47  10.3485839          47 
+          8          50          47           0           1 /home/jdc/git/pnblic/bin/+Errors Del Snarf | Look 
 nb
 --rwxr-xr-x M 0 jdc jdc 370 Jun 27 21:56 nb
-F          1           4         169         169  14.1612200         169 
-          1          53         169           0           1 /home/jdc/git/pnblic/guide Del Snarf Undo Put | Look 
+F          1           5          23          85  12.4183007         155 
+          9          53         155           0           1 /home/jdc/git/pnblic/guide Del Snarf Undo Put | Look 
 bin/nb tool
 git status
-git commit -a -m 'mv latest note files from dropbox'
+git commit -a -m 'updates on 20100628'
 git push origin master
 ls -ltr /home/jdc/Dropbox/nb|tail
 |fmt -w 72|sed 's,$,  ,'
 |sort|uniq
-F          1           5         206         206  16.2309368         206 
-         22          49         206           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf | Look 
+F          1           6         692         692  14.4880174         692 
+         10          58         692           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf Undo Put | Look 
 maths convert letter language lead microsoft academy people startup crypto hash word music ruby open pairing car metric polyglot 20100628
     138
 test haskell swcraft gitrdun knowledge lego clojure
      52
-f          1          21          35         210  77.6688453 
-         21          52         210           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf Undo | Look 
-F          1           7         119         119  89.1067538         119 
-         26          46         119           0           1 /home/jdc/Dropbox/nb/+Errors Del Snarf | Look 
-mv: mv: exit 1
-cannot stat `knowledge': No such file or directory
-mv: cannot stat `swcraft': No such file or directory
+nb τ
+/home/jdc/Dropbox/nb/20100628:58 τ tau π pi circle constant radius fail
+/home/jdc/Dropbox/nb/word:147 athiker ατθικερ
+/home/jdc/git/pnblic/nb/τ:1 tau π pi circle constant radius fail
+test gitrdun lego macosx convert apparatus clojure compress haskell knowledge polyglot ruby shell swcraft unix τ tdd
+    118
+test gitrdun lego macosx convert apparatus clojure compress haskell knowledge polyglot ruby shell swcraft unix τ tdd
+    118
+    132
+    152
+    142
+    134
+    153
+    133
+f          1          11         211         342  29.5206972 
+         11          57         351           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf Undo Redo | Look 

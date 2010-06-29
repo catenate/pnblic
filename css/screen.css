@@ -1,0 +1,32 @@
+body {
+  background-color: #ffc;
+  background: #ffc;
+}
+
+a {
+  color: #a00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #500;
+  text-decoration: none;
+}
+
+.mute {
+	color: #aaa;
+}
+
+.mute a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.mute a:hover {
+  color: #a00;
+}

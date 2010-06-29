@@ -1,0 +1,7 @@
+--- 
+permalink: /tictestrue/:year/:month/:title
+destination: ./_site
+exclude: 
+- README.md
+- acme.dump
+- guide

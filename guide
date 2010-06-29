@@ -1,3 +1,7 @@
+cp -r /home/jdc/git/tictestrue/css .
+jekyll --server
+
 git status
 git commit -a -m 'First pages commit'
 git push origin gh-pages
+git checkout master

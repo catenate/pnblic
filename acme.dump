@@ -7,27 +7,14 @@ c          0 New Cut Paste Snarf Sort Zerox Delcol
 c          1 New Cut Paste Snarf Sort Zerox Delcol 
 f          0           1           0           0   2.0697168 
           1          43          60           1           0 /home/jdc/git/pnblic/ Del Snarf Get | Look 
-f          0           2         347         347   4.1394336 
-          2          53         347           0           0 /home/jdc/git/pnblic/README.md Del Snarf | Look Font 
-f          0           3           0           0   6.2091503 
+f          0           2          65          65   4.1394336 
+          2          83         477           0           0 /home/jdc/git/pnblic/README.md Del Snarf Undo | Look Font 
+f          0           3           0           0  95.2069717 
           3          46         157           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
-f          0          17         731         731  26.9063181 
-         17          49       11468           0           0 /home/jdc/git/pnblic/nb/nbindex Del Snarf | Look 
-F          1           0         199         271   2.0697168         271 
-          5          25         271           0           1 +Errors Del Snarf | Look 
-can't open /home/jdc/git/pnblic/nb/guide: No such file or directory
-can't open /home/jdc/Dropbox/nb/contact: No such file or directory
-can't open /home/jdc/git/pnblic/nb/τ: No such file or directory
-can't open /home/jdc/git/pnblic/nb/apparatus: No such file or directory
-F          1           1         119         119   4.1394336         119 
-         12          46         119           0           1 /home/jdc/Dropbox/nb/+Errors Del Snarf | Look 
-mv: mv: exit 1
-cannot stat `knowledge': No such file or directory
-mv: cannot stat `swcraft': No such file or directory
-f          1           6         234         234   6.2091503 
-          6          44         633           0           0 /home/jdc/Dropbox/nb/guide Del Snarf | Look 
-F          1           3       97383       97383   8.2788671       97383 
-          7          55       97383           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
+f          0           4         731         731  97.2766885 
+          4          49       11468           0           0 /home/jdc/git/pnblic/nb/nbindex Del Snarf | Look 
+F          1           0       98913       98913   2.0697168       98913 
+          8          55       98913           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
 # On branch master
 # Changed but not updated:
 #   (use "git add <file>..." to update what will be committed)
@@ -1733,21 +1720,60 @@ Maybe you wanted to say 'git add .'?
  create mode 100644 "nb/\317\204"
 To git@github.com:catenate/pnblic.git
    a6c9cbf..49ef256  master -> master
-F          1           4          47          47  10.3485839          47 
-          8          50          47           0           1 /home/jdc/git/pnblic/bin/+Errors Del Snarf | Look 
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   acme.dump
+#	modified:   nb/guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   acme.dump
+#	modified:   nb/guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   acme.dump
+#	modified:   guide
+#	modified:   nb/guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   acme.dump
+#	modified:   guide
+#	modified:   nb/guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+[master 283754e] little README and guides update
+ 4 files changed, 138 insertions(+), 35 deletions(-)
+To git@github.com:catenate/pnblic.git
+   49ef256..283754e  master -> master
+F          1           1          47          47  72.7668845          47 
+          9          50          47           0           1 /home/jdc/git/pnblic/bin/+Errors Del Snarf | Look 
 nb
 --rwxr-xr-x M 0 jdc jdc 370 Jun 27 21:56 nb
-F          1           5          23          85  12.4183007         155 
-          9          53         155           0           1 /home/jdc/git/pnblic/guide Del Snarf Undo Put | Look 
-bin/nb tool
-git status
-git commit -a -m 'updates on 20100628'
-git push origin master
-ls -ltr /home/jdc/Dropbox/nb|tail
-|fmt -w 72|sed 's,$,  ,'
-|sort|uniq
-F          1           6         692         692  14.4880174         692 
-         10          58         692           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf Undo Put | Look 
+f          1          10          23          97  74.8366013 
+         10          49         167           0           0 /home/jdc/git/pnblic/guide Del Snarf Undo | Look 
+F          1           3         724         732  92.2657952         845 
+         11          63         845           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf Undo Redo Put | Look 
 maths convert letter language lead microsoft academy people startup crypto hash word music ruby open pairing car metric polyglot 20100628
     138
 test haskell swcraft gitrdun knowledge lego clojure
@@ -1766,5 +1792,9 @@ test gitrdun lego macosx convert apparatus clojure compress haskell knowledge po
     134
     153
     133
-f          1          11         211         342  29.5206972 
-         11          57         351           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf Undo Redo | Look 
+which: exit 1
+which: exit 1
+test gitrdun lego macosx convert apparatus clojure compress haskell knowledge polyglot ruby shell swcraft unix τ tdd
+    118
+f          1          12          10          34  94.3355120 
+         12          52         384           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf Undo | Look 

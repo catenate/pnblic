@@ -1,6 +1,6 @@
 bin/nb tool
 git status
-git commit -a -m 'little README and guides update'
+git commit -a -m 'clear changes'
 git push origin master
 ls -ltr /home/jdc/Dropbox/nb|tail
 |fmt -w 72|sed 's,$,  ,'

@@ -1,0 +1,55 @@
+nb tool set @mattmight
+Might, M.  Tips, tricks and tools for Linux/Unix.  blog.might.net
+http://matt.might.net/articles/best-tools-for-using-and-learning-linux-and-unix/
+
+Text, word and document processing.  Networking, security and system
+administration.  Window managers.  Web browsing and web development.
+Mail and messaging.  Command-line control.  Programming languages and
+software development.  Text manipulation.  Digital media viewing and
+manipulation.  Dealing with windows.
+
+
+nb process table pgrep pkill
+pgrep, pkill—look up or signal processes based on name and other attributes
+http://unixhelp.ed.ac.uk/CGI/man-cgi?pgrep+1
+
+pgrep looks through the currently running processes and lists the
+process IDs which matches the selection criteria to stdout.  All the
+criteria have to match.  For example, `pgrep -u root sshd` will only
+list the processes called sshd AND owned by root.  On the other hand,
+`pgrep -u root,daemon` will list the processes owned by root OR daemon.
+pkill will send the specified signal (by default SIGTERM) to each
+process instead of listing them on stdout.
+
+
+nb toolbox system process file network ssh scp vpn rsync sudo encrypt files partitions ssl certificates cvs svn useful commands install software convert media print database disk quota shell script program online help c@cb.vu 
+Barschel, C.  2009.  Unix toolbox.
+http://cb.vu/unixtoolbox.xhtml
+
+This document is a collection of Unix/Linux/BSD commands and tasks which
+are useful for IT work or for advanced users.  This is a practical guide
+with concise explanations, however the reader is supposed to know what
+s/he is doing.
+
+Replace .xhtml on the link with .pdf for the PDF version and with
+.book.pdf for the booklet version.  On a duplex printer the booklet will
+create a small book ready to bind.  This XHTML page can be converted
+into a nice PDF document with a CSS3 compliant application (see the
+script example).
+
+
+nb koan esr
+
+Rootless root.
+http://catb.org/~esr/writings/unix-koans/index.html
+
+
+nb satire
+The Unix-haters handbook download page.
+http://www.cs.washington.edu/homes/weise/uhh-download.html
+page /home/jdc/papers/ugh.pdf
+
+
+nb usenix login magazine archive
+;login: The USENIX Magazine
+http://www.usenix.org/publications/login/index.html

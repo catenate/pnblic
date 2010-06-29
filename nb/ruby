@@ -1,0 +1,181 @@
+nb version manage windows pik @gordonthiesfeld 
+Thiesfeld, G.  Ruby version manager for Windows.  Github.
+http://github.com/vertiginous/pik
+http://www.kahfei.com/?p=63
+
+Pik is a tool to manage multiple versions of ruby on Windows.
+It can be used from the Windows command line (cmd.exe),
+Windows PowerShell, or Git Bash.  I have yet to test on cygwin.
+
+>pik help commands
+
+	add				Adds another ruby location to pik.
+	benchmark|bench	Runs bencmarks with all versions that pik is aware of.
+	config			Adds/modifies configuration options.
+	default			Switches back to the default settings.
+	devkit			Configures devkit settings
+	gem				Runs the gem command with all versions that pik is aware of.
+	gemsync			Synchronizes gems from the version specified to the current version.
+	help				Displays help information.
+	implode			Removes your pik configuration.
+	info|checkup|cu	Displays information about the current ruby version.
+	install|in			Downloads and installs different ruby versions.
+	list|ls			Lists ruby versions that pik is aware of.
+	rake				Runs the rake command with all versions that pik is aware of.
+	remove|rm		Removes a ruby location from pik.
+	ruby|rb			Runs ruby with all versions that pik is aware of.
+	run				Runs command with all versions of ruby that pik is aware of.
+	tag				Adds the given tag to the current version.
+	tags				Runs the pik command against the given tags.
+	uninstall|unin		Deletes a ruby version from the filesystem and removes it from Pik.
+	update|up		updates pik.
+	use|switch|sw		Switches ruby versions based on patterns.
+
+
+nb operator precedence
+http://phrogz.net/ProgrammingRuby/language.html#table_18.4
+
+[ ] [ ]=	Element reference, element set
+**	Exponentiation
+! ~ + -	Not, complement, unary plus and minus (method names for the last two are +@ and -@)
+* / %	Multiply, divide, and modulo
++ -	Plus and minus
+>> <<	Right and left shift
+&	Bitwise `and'
+^ |	Bitwise exclusive `or' and regular `or'
+<= < > >=	Comparison operators
+<=> == === != =~ !~	Equality and pattern match operators (!= and !~ may not be defined as methods)
+&&	Logical `and'
+||	Logical `or'
+.. ...	Range (inclusive and exclusive)
+? :	Ternary if-then-else
+= %= { /= -= += |= &= >>= <<= *= &&= ||= **=	Assignment
+defined?	Check if symbol defined
+not	Logical negation
+or and	Logical composition
+if unless while until	Expression modifiers
+begin/end	Block expression
+
+
+nb limelight summary rich client gui framework theater metaphor java
+http://limelight.8thlight.com/main/sparkle
+
+What is Limelight?: Limelight is a rich client GUI framework unlike any other.
+With a unique angle on GUI development, Limelight harnesses the power to
+develop a wide range of applications from business tools to games.
+One language: Unlike many other frameworks, Limelight applications are
+built using only one language: Ruby.  Every aspect, from the screen
+structure and styling, to control logic and business modeling, is
+written in Ruby.  Simple, fast development: Limelight has been
+streamlined to be simple and easy to work with.  Its APIs have been
+molded such that development requires minimal syntax and no duplication.
+Consequently, the APIs are a breeze to learn and development is
+blazingly fast.  Unique theater metaphor: Let's face it, plain app apps
+don't cut it any more.  These days, users have to be thrilled and entertained.
+Limelight promotes this attitude to the core.  In Limelight you don't
+build applications, you build theatrical Productions. Limelight provides
+a Theater in which you open Scenes, build Props, and cast Players to
+bring your Production to life and razzle-dazzle your audience.
+Web-like look-and-feel: Web apps are prolific and everyone knows how to
+use them.  Limelight takes advantage of this fact producing UIs with a
+web-like look-and-feel.  Websites can be cloned by Limelight and the two
+would be indistinguishable.  10-minute calculator: This screen-cast
+demonstrates how you can build a calculator from scratch in 10 minutes.
+The calculator is nothing to brag about but, but hey, it only took 10
+minutes to build it!  (QuickTime | YouTube) Cross-platform: Limelight,
+built on Java, can be ported to all major systems.  Open-source:
+Limelight is free and open-sourced.  It is distributed under the terms
+of the GNU LGPL license.
+
+
+nb jruby jvm manage library pc erb template html javascript embed web browser java native access jna os drb best tool productive language deploy client
+Bradbury, D.  20100406.  JRuby helps us craft quality software.
+8th Light blog.
+http://blog.8thlight.com/articles/2010/4/6/jruby-helps-us-craft-quality-software
+
+The product is a multi-platform, PC management application for library
+computer labs written primarily in Ruby, run on the JVM with JRuby.  The
+user interface is written in erb-templated HTML and Javascript, and is
+displayed in an embedded web browser.  JNA (Java Native Access) is used
+to call operating system specific functions that enable an insane amount
+of control over the desktop.  The various JRuby components communicate
+with each other over DRb.
+
+JRuby allows us dirt simple access to Java's huge collection of libraries,
+along with plenty of custom Java libraries our client had already written.
+We also go back the other way, implementing Java interfaces in JRuby and
+using those objects in Java code.  This fluidity allows us to always
+pick the best tool for the job.  Early in the project, this also helped
+to sell the technology to our client.  They were wary of a new language
+that none of their in-house developers knew, but we were able to
+reassure them that they could easily drop back into Java at any time.
+
+We do a lot of things at 8th Light to ensure that we can deliver very
+high quality code to our clients as fast as is responsible.  One of the
+most important things we do is work in highly productive languages.
+JRuby enables us to write most of the complicated business logic of our
+application in the highly productive Ruby language and still provide a
+viable deployment scheme that allows our clients to successfully sell
+their product to their customers.
+
+
+nb rails 2010 conference proceedings
+http://en.oreilly.com/rails2010/public/schedule/proceedings
+
+
+nb proc map
+Use this,¹ or an entirely separate method, to extract common code from
+the i and j loops in eval.²
+ ¹ http://apprenticeship-patterns.labs.oreilly.com/ch02.html
+ ² /home/jdc/git/tictesttrue/lib/board.ℛℬ:/def eval/
+
+require "test/unit"
+
+class LearningTest < Test::Unit::TestCase
+	def test_my_understanding_of_blocks_and_procs
+		original = [1, 2, 3]
+		expected = [2, 3, 4]
+		p = Proc.new { |n| n + 1 }
+		assert_equal expected, original.map(&p)
+	end
+end
+
+
+nb proc lambda difference
+Skorkin, A. 20100528.  Ruby procs and lambdas (and the difference
+between them).  Skorks: For the betterment of the software craft…
+http://www.skorks.com/2010/05/ruby-procs-and-lambdas-and-the-difference-between-them/
+
+
+nb freelance programmer interview
+http://belitsky.info/freelance/successful-ruby-freelancer/
+
+
+nb object orient data use
+@mfeathers In good OO, data is nestled within a web of its use.
+
+
+nb app host cloud
+http://heroku.com/how/architecture
+
+Introduction to Heroku: Heroku is the instant ruby platform.  Deploy any
+ruby app instantly with a simple and familiar git push.  Take advantage
+of advanced features like HTTP caching, memcached, rack middleware, and
+instant scaling built into every app.  Never think about hosting or
+servers again.  Multi-tenant: Heroku is a multi-tenant platform and
+hosting environment.  Your app doesn’t need its own servers, slices, or
+clusters, and you’ll benefit from continuous platform improvements.
+Fully managed: Each element in this diagram represents a large pool of
+servers invisibly managed by Heroku.  Because we control all the
+infrastructure and software layers, we can present a clean interface for
+deploying your code.  Curation: We actively curate each layer, ensuring
+you have the latest in software and best practices, and that it’s all
+stable and integrated smoothly.  Everything you need: Together, these
+elements provide everything you need to run a modern, high-performance,
+scalable web app.  Click around to understand the path of a request
+through the system.  More information: See our Architecture description
+for more details on how Heroku works
+
+
+nb repl
+http://tryruby.org/

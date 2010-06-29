@@ -1,10 +1,16 @@
+apparatus:1 explore unfamiliar new code gloss term novel variation
 clojure:1 new user development environment problem fail java ide build system compile @taoeffect
 clojure:47 mmemail library clojars leiningen @slagyr
 clojure:67 tdd programming @marick
 clojure:73 tdd closure test map each element @unclebobmartin
-clojure:78 clojure ruby consistent semantic æsthetic literal syntax first order function meta program @briancarper
-clojure:83 clojure ruby @fogus
-clojure:89 clojure book @fogus @chrishouser
+clojure:78 ruby consistent semantic æsthetic literal syntax first order function meta program @briancarper
+clojure:83 ruby @fogus
+clojure:89 book @fogus @chrishouser
+compress:1 limit reverse hash redundant information pigeon hole principle @mattmight
+compress:10 gzip
+convert:1 microsoft format google docs catdoc catppt xls2csv open office apple iwork latex texlive gnumeric gnuplot @mattmight
+convert:21 odt2txt sxw ods odp open office document xml plain text
+convert:39 antiword microsoft word doc plain text postscript
 gitrdun:1 talk write accomplish postpone procrastinate plan report @rands
 gitrdun:5 ernesthemingway stop interrupt obvious progress roalddahl
 gitrdun:25 search command
@@ -15,7 +21,7 @@ haskell:5 develop web html5 css javascript @silkapp tag key value database
 haskell:10 anansi literate programming preprocessor noweb nuweb include tree
 haskell:21 rankntypes rank 2 polymorphism within function instance jwlato@gmail.com
 haskell:66 functional programming import interview johnhughes
-haskell:72 haskell parallel language status community @donsbot
+haskell:72 parallel language status community @donsbot
 haskell:148 literate haskell example log analysis video
 haskell:153 potential x86 64 bit assembly haskell domain specific language embed dsl ghc haskell platform
 haskell:172 monad tutorial history timeline
@@ -42,64 +48,134 @@ haskell:334 learn review
 haskell:343 grahamhutton
 haskell:373 linux kernel module
 haskell:381 lint
-haskell:391 fast haskell clang strict lazy recurse
-knowledge:1 learn new domain modest goal perfect solve @ecomba
-knowledge:6 lack anosognosia dilemma bank robbery make decision donaldrumsfeld dunning kruger effect incompetent
+haskell:391 fast clang strict lazy recurse
+knowledge:1 change pov learn people memory integrate reconcile forget swcraft petemcbreen
+knowledge:10 learn new domain modest goal perfect solve @ecomba
+knowledge:15 lack anosognosia dilemma bank robbery make decision donaldrumsfeld dunning kruger effect incompetent
 lego:1 adult afol lego ted talk video
 lego:5 color temperature cool warm
 lego:11 gift wish list
 lego:18 monument building
 lego:57 pirate theme colonial army invasion active scene hand flipper roof fire beacon smoke cliff steps yardarm window jump
 lego:62 monastery dissolute monk soldier cathedral force abandon
-swcraft:1 environment forget change code rot care maintain test @docondev
-swcraft:6 manifesto signature
-swcraft:21 idealist mail list post
-swcraft:26 object mentor video index @unclebobmartin @mfeathers @deanwampler
-swcraft:30 group meeting israel video
-swcraft:34 podcast @paulwpagel @paytonrules
-swcraft:38 scna conference chicago @rayhightower best people volunteer religion
-swcraft:45 certify authority association @ecomba employ apprentice scratch child accept fail learn
-swcraft:72 @dougbradbury
-swcraft:76 @mfeathers
-swcraft:86 @trptcolin
-swcraft:93 boutique software shop technical leader gui user interface simple attractive intuitive æsthetic craftsman skill range depth @paulwpagel
-swcraft:115 boutique software shop gordonramsay team work ethic talent skill taste franchise @mfeathers
-swcraft:172 craftsman principle attribute clean code detail experience productive lead team standard
-swcraft:173 quality productivity punctuality bug feature fast perfect complete quick imperfect incomplete impermanent
-swcraft:193 hand eye feedback make medium language toolsmith personal transmit
-swcraft:216 profession value self employ @unclebobmartin
-swcraft:223 design decision consequence maturing understanding
-swcraft:238 agile unix design principles
-swcraft:245 coryfoy video
-swcraft:249 process quality care
-swcraft:254 pragmatic programmers magazine
-swcraft:258 robertmartin presentation
-swcraft:264 test problem improve design
-swcraft:269 educate julliard skill solfège theory instrument music jury
-swcraft:288 responsibility language feature ruby culture
-swcraft:292 97things programmer oreilly ebook pdf purchased
-swcraft:297 refactor task schedule chore pivotal tracker bobmartin
-swcraft:320 prototype
-swcraft:343 craftsman title
-swcraft:355 startup hacker painter paulgraham
-swcraft:359 productive efficient build unnecessary
-swcraft:364 todo github commit relevance functional koan haskell @abedra
-swcraft:368 tao
-swcraft:373 good enough sufficient design economy necessary refactor
-swcraft:389 software engineering professional craft coöperate game lean process alistaircockburn
-swcraft:422 semat software engineering alistaircockburn
-swcraft:427 user group city wiki
-swcraft:431 golang constraint design obligation master accept issue
-swcraft:496 work reward opportunity courage confidence experience jonassalk
-swcraft:513 daily refactor 3 hourly build error train skill real problem system knowledge
-swcraft:518 exclusionary society corrupt sound craftsmen friendship alice looking glass
-swcraft:589 maintain program theory refactor efficient peternaur paper practice learn experience
-swcraft:632 confident service
-swcraft:637 software practice variety works confident creative service
-swcraft:663 core size feature complexity perl
-swcraft:677 sql database design
+macosx:1 tool transition linux windows @mattmight
+macosx:9 snowleopard xcode git macvim intellij quicksilver homebrew macports config file @joeferris alias irb gem zsh @akitaonrails ruby rvm jekyll rspec node.js clojurex @skim
+macosx:13 iwork serial number fix
+macosx:17 dvorak keyboard setup keycap system preference tool input process image
+macosx:23 apple mac notebook hands sticker
+macosx:27 apple mac notebook pirate sticker
+macosx:31 freebsd port document
+macosx:36 app usage
+macosx:40 homebrew unix macports
+macosx:51 switch application
+polyglot:1 implement minimal programming language repl lambda calculus scheme racket @mattmight
+polyglot:21 one instruction set computer subtract branch test move trigger memory map
+polyglot:25 stanford computer science course reading reference bibliography dictionary
+polyglot:133 erlang shell repl
+polyglot:141 racket scheme
+polyglot:161 processing sketch creative commons attribute sharealike
+polyglot:178 manage object lifetime instance variable interface api low high level
+polyglot:191 simple convention attitude
+polyglot:204 programming language relative value
+polyglot:217 criticism
+polyglot:221 basic interpreter repl online javascript
+polyglot:225 review feature blog resources haskell scala standardml ocaml scheme
+polyglot:230 search github code repository actionscript arc asp boo clang c# c++lang clojure coffeescript coldfusion commonlisp dlang delphi duby eiffel emacslisp erlang fortran golang groovy haskell haxe iolang java javascript lua max/msp nulang objective-c objective-j ocaml ooc perl php puredata python rlang ruby scala scheme sclang self shell smalltalk supercollider tcl verilog vhdl viml visualbasic
+polyglot:234 lleval ajax service jsonp file extension php bwbasic emacs runhugs iolang jslang lisp ecl lua ocaml perl6 php postscript ghostscript python ruby scm gosh tclsh
+polyglot:260 ideone repl ada gnat assembler nasm gawk mawk bash bclang brainfuck clang gcc c# gmcs c++lang c99strict clips clojure cobol cobol85 tinycobol commonlisp clisp dlang dmd erlang erl gforth gfortran golang gc haskell ghc iconc c-intercal java sun-jdk javascript rhino spidermonkey luac nemerle ncc nicec ocamlopt ozlang mozart pascal fpc gpc perl php pike prolog gnu gprolog swipl python python3 rlang ruby scalac scheme guile smalltalk gst tcl tclsh text unlambda visualbasic.net mono whitespace wspace
+polyglot:273 codepad repl c c++ d haskell lua ocaml php perl plaintext python ruby scheme tcl
+polyglot:280 online environment repl read eval print loop actionscript3 ada arc assembler awk bash basic bclang beanshell brainfuck clang c# c++lang clojure cobol coffeescript commonlisp dlang emacslisp erlang forth fortran golang groovy haskell icon iolang intercal java javascript lua mongodb nemerle nice objective-j ocaml ozlang pascal perl perl6 php pike postscript prolog python rlang ruby scala scheme smalltalk tcl unlambda visualbasic.net whitespace 
+polyglot:300 closure ruby
+polyglot:305 implement functional tutorial book spjones davidlester
+polyglot:315 choose language expert system
+polyglot:319 grow language video pdf guysteele
+polyglot:324 idiom reference string number regex
+polyglot:328 google tech talk video presentation programming languages c++ java python go
+polyglot:345 compare implement speed memory source comment structure reliable effort string search script perl python rexx tcl procedure clang c++ java
+polyglot:363 nanny complex learn style bad code quote ryannedolan
+polyglot:369 popularity metric tiobe langpop
+polyglot:374 haskell edsl domain specific
+polyglot:382 alankay stuartfeldman
+polyglot:387 general clean feature library
+ruby:1 version manage windows pik @gordonthiesfeld 
+ruby:35 operator precedence
+ruby:60 limelight summary rich client gui framework theater metaphor java
+ruby:91 jruby jvm manage library pc erb template html javascript embed web browser java native access jna os drb best tool productive language deploy client
+ruby:122 rails 2010 conference proceedings
+ruby:126 proc map
+ruby:144 proc lambda difference
+ruby:150 freelance programmer interview
+ruby:154 object orient data use
+ruby:158 app host cloud
+ruby:180 repl
+shell:1 cli log console command access frequency change directory list recent file helper script adaptive interface login last @mattmight
+shell:12 script functional create github project kb backlog
+shell:17 heirloom bourne shell
+shell:21 logout
+swcraft:1 conference north america
+swcraft:9 environment forget change code rot care maintain test @docondev
+swcraft:14 manifesto signature
+swcraft:29 idealist mail list post
+swcraft:34 object mentor video index @unclebobmartin @mfeathers @deanwampler
+swcraft:38 group meeting israel video
+swcraft:42 podcast @paulwpagel @paytonrules
+swcraft:46 scna conference chicago @rayhightower best people volunteer religion
+swcraft:53 certify authority association @ecomba employ apprentice scratch child accept fail learn
+swcraft:80 @dougbradbury
+swcraft:84 @mfeathers
+swcraft:94 @trptcolin
+swcraft:101 boutique software shop technical leader gui user interface simple attractive intuitive æsthetic craftsman skill range depth @paulwpagel
+swcraft:123 boutique software shop gordonramsay team work ethic talent skill taste franchise @mfeathers
+swcraft:180 craftsman principle attribute clean code detail experience productive lead team standard
+swcraft:181 quality productivity punctuality bug feature fast perfect complete quick imperfect incomplete impermanent
+swcraft:201 hand eye feedback make medium language toolsmith personal transmit
+swcraft:224 profession value self employ @unclebobmartin
+swcraft:231 design decision consequence maturing understanding
+swcraft:246 agile unix design principles
+swcraft:253 coryfoy video
+swcraft:257 process quality care
+swcraft:262 pragmatic programmers magazine
+swcraft:266 robertmartin presentation
+swcraft:272 test problem improve design
+swcraft:277 educate julliard skill solfège theory instrument music jury
+swcraft:296 responsibility language feature ruby culture
+swcraft:300 97things programmer oreilly ebook pdf purchased
+swcraft:305 refactor task schedule chore pivotal tracker bobmartin
+swcraft:328 prototype
+swcraft:351 craftsman title
+swcraft:363 startup hacker painter paulgraham
+swcraft:367 productive efficient build unnecessary
+swcraft:372 todo github commit relevance functional koan haskell @abedra
+swcraft:376 tao
+swcraft:381 good enough sufficient design economy necessary refactor
+swcraft:397 software engineering professional craft coöperate game lean process alistaircockburn
+swcraft:430 semat software engineering alistaircockburn
+swcraft:435 user group city wiki
+swcraft:439 golang constraint design obligation master accept issue
+swcraft:504 work reward opportunity courage confidence experience jonassalk
+swcraft:521 daily refactor 3 hourly build error train skill real problem system knowledge
+swcraft:526 exclusionary society corrupt sound craftsmen friendship alice looking glass
+swcraft:597 maintain program theory refactor efficient peternaur paper practice learn experience
+swcraft:640 confident service
+swcraft:645 software practice variety works confident creative service
+swcraft:671 core size feature complexity perl
+swcraft:685 sql database design
+tdd:1 small step exercise go liberty @keithb_b @gojkoadzic
+tdd:7 small step exercise tictactoe @gojkoadzic
+tdd:44 stub new constructor mock reduce dependency
+tdd:59 test suite minimal code refactor small step
+tdd:72 unit test singleton pattern davidehringer
+tdd:78 agile coaching design programming
+tdd:83 time maintenance
 test:1 automate web site performance boomerang javascript github yahoo
 test:10 unit justify
 test:15 gotest regress function benchmark swdev
 test:51 discount use prototype inspect
 test:75 ease
+unix:1 tool set @mattmight
+unix:12 process table pgrep pkill
+unix:25 toolbox system process file network ssh scp vpn rsync sudo encrypt files partitions ssl certificates cvs svn useful commands install software convert media print database disk quota shell script program online help c@cb.vu 
+unix:41 koan esr
+unix:47 satire
+unix:53 usenix login magazine archive
+τ:1 tau π pi circle constant radius fail

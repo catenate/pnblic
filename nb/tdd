@@ -1,0 +1,85 @@
+nb small step exercise go liberty @keithb_b @gojkoadzic
+Adzic, G.  20090227.  Thought-provoking TDD exercise at the Software
+Craftsmanship conference.  Gojko Adzic: Building software that matters.
+http://gojko.net/2009/02/27/thought-provoking-tdd-exercise-at-the-software-craftsmanship-conference/
+
+
+nb small step exercise tictactoe @gojkoadzic
+Adzic, G. 20090802.  TDD as if you meant it—revisited.  ―.
+http://gojko.net/2009/08/02/tdd-as-if-you-meant-it-revisited/
+
+“The best models are not the most realistic ones but the ones that allow
+us to describe a particular problem efficiently.”―Eric Evans
+
+The exercise involves developing a very simple piece of code strictly
+adhering to the TDD rules, so much so that participants aren’t allowed
+to create domain methods or classes other than extracting them from test code.
+The goal of the exercise is to demonstrate factoring out just what you
+really need from the test code into domain design rather than starting
+with a pre-set design structure.  Although this is in general taken as a
+goal of TDD, many programmers (me included) don’t realise how much their
+assumptions make them jump ahead too quickly.  By making it very painful
+to add new domain code, this exercise slows participants down to a point
+where people have to spend a considerable amount of time actually
+focusing code on exactly what is required and no more.
+
+By the end of the exercise, almost half the teams were coding towards
+something that was not a 3×3 char/int grid.  We did not have the time to
+finish the whole thing, but some interesting solutions in making were:
+(1) A bag of fields that are literally taken by players—field objects
+start in the collection belonging to the game and move to collections
+belonging to players, which simply avoids edge cases such as taking an
+already taken field and makes checking for game end criteria very easy.
+(2) Fields that have logic whether they are taken or not and by whom.
+(3) Game with a current state field that was recalculated as the actions
+were performed on it and methods that could set this externally to make
+it easy to test.  Most of the game classes had very nice explicit
+methods for checking different game end criteria.  During a short
+retrospective at the end, some participants said that their code was
+very nicely isolated and encapsulated, with “less leakage than normal”,
+and that very explicit specifications ended up in the code making it
+easy to understand.
+
+
+nb stub new constructor mock reduce dependency
+Smith, E.  20100208.  Stubbing :new considered harmful.  8th Light blog.
+http://blog.8thlight.com/articles/2010/2/9/stubbing-new-considered-harmful
+
+Am I really advocating stopping stubbing :new?  No not really.  It makes
+perfect sense to just call :new when you can, and in many cases
+factories are a way to get around the limitations of a static language.
+What I am saying is that each time you do stub!(:new) THINK!  You have a
+dependency to manage, so manage it.  It’s your job you know. …
+Don’t use [SetUp] and [TearDown] to initialize or destroy objects that
+aren’t shared throughout the test class in all the tests, because it
+makes the tests less understandable.  Someone reading your code won’t
+know which tests use the logic inside the setup method and which don’t.
+
+
+nb test suite minimal code refactor small step
+Smith, E.  20100409.  TDD in education, they're doing it wrong.
+8th Light blog.
+http://blog.8thlight.com/articles/2010/4/9/tdd-in-education-they-re-doing-it-wrong
+
+When I write the minimal amount of code refactoring becomes easier,
+because I have a suite of passing tests.  … You can’t guarantee your
+behavior did not change unless you have tests around the behavior.  …
+Refactoring is meant to be small steps, in a definite process, so that
+at the end of each refactoring (such as extract method) I have the same
+behavior as before, but better code.
+
+
+nb unit test singleton pattern davidehringer
+Ehringer, D.  20100610.  Unit-testing singletons.  Mindful mischief:
+Adventures in software development.
+http://blog.davidehringer.com/test-driven-development/unit-testing-singletons/
+
+
+nb agile coaching design programming
+Jain, N.  20100611.  Mastering TDD with deliberate practice.  Managed chaos.
+http://blogs.agilefaqs.com/2010/06/11/mastering-tdd-with-deliberate-practice/
+
+
+nb time maintenance
+@journeymandev If you're not used to it #tdd feels slower, but the upfront
+investment is minimal compared to the maintenance of not using #tdd.

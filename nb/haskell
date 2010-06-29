@@ -69,7 +69,7 @@ QCon 2010.
 http://www.infoq.com/interviews/john-hughes-fp
 
 
-nb haskell parallel language status community @donsbot
+nb parallel language status community @donsbot
 http://www.reddit.com/r/programming/comments/cdaha/why_functional_programming_matters_john_hughes/c0rtmkg
 
 Snap, a multicore-enabled scalable web server with great performance numbers.
@@ -388,7 +388,7 @@ Hackage, and is used by the darcs project to improve and statically
 check their code base.
 
 
-nb fast haskell clang strict lazy recurse
+nb fast clang strict lazy recurse
 Write Haskell as fast as C: exploiting strictness, laziness and
 recursion - http://cgi.cse.unsw.edu.au/~dons/blog/2008/05/16
 (Vinu Rajashekhar, 9fans 20090907.0405)

@@ -75,18 +75,18 @@ Martin, R.C.  -20100603.  TDD in Clojure.  Object mentor: Uncle Bob's blathering
 http://blog.objectmentor.com/articles/2010/06/03/tdd-in-clojure
 
 
-nb clojure ruby consistent semantic æsthetic literal syntax first order function meta program @briancarper
+nb ruby consistent semantic æsthetic literal syntax first order function meta program @briancarper
 Carper, B.  20100609.  Clojure, from a Ruby perspective.
 http://briancarper.net/blog/clojure-from-a-ruby-perspective
 
 
-nb clojure ruby @fogus
+nb ruby @fogus
 Fogus, M.  20100609.  clojure.rb.  Send more paramedics: Fogus' thoughts
 on life, programming, and mundania.
 http://blog.fogus.me/2010/06/09/clojure-rb/
 
 
-nb clojure book @fogus @chrishouser
+nb book @fogus @chrishouser
 Fogus, M. and Houser, C.  2010.  The joy of Clojure: Thinking the
 Clojure way.  Manning publications.
 http://joyofclojure.com/

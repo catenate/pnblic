@@ -1,0 +1,390 @@
+nb implement minimal programming language repl lambda calculus scheme racket @mattmight
+Might, M.  7 lines of code, 3 minutes: Implement a programming language
+from scratch.  blog.might.net.
+http://matt.might.net/articles/implementing-a-programming-language/
+
+Implementing a programming language is an experience no programmer
+should go without; the process fosters a deep understanding of
+computation, and beside that, it's fun!  In this article, I've boiled
+the entire process down to its essence: a 7-line interpreter for a
+functional (Turing-equivalent) programming language.  It takes about 3
+minutes to implement.  This 7-line interpreter showcases a scalable
+architecture found in many interpreters: the eval/apply design pattern.
+In total, there are three language implementations in this article:
+a 7-line, 3-minute interpreter in Scheme; a re-implementation in Racket;
+and a 100-line, "1-afternoon" interpreter that implements top-level
+binding forms, explicit recursion, side effects, higher-order functions
+and more!  The last interpreter is a good starting point for growing a
+richer language.
+
+
+nb one instruction set computer subtract branch test move trigger memory map
+http://en.wikipedia.org/wiki/One_instruction_set_computer
+
+
+nb stanford computer science course reading reference bibliography dictionary
+Stanford.  Computer science 242: Programming languages: Course readings.
+http://www.stanford.edu/class/cs242/readings/index.html
+
+Articles and Reports
+
+J. McCarthy, Recursive functions of symbolic expressions and their
+computation by machine, Comm.  ACM 3, 4 (1960) 184-195.
+http://www-formal.stanford.edu/jmc/recursive.html
+
+J. Backus, Can programming be liberated from the von Neuman style?,
+Comm.  ACM 21, 8 (1978) 613-641.  (large file)
+http://www.stanford.edu/class/cs242/readings/backus.pdf
+
+R. Harper, Introduction to Standard ML, Report ECS-LFCS-86-14, Dept.
+Computer Science, Univ.  Edinburgh, 1989.  (Link is to updated web
+version.)
+http://www-2.cs.cmu.edu/~rwh/introsml/
+
+B. Kernighan, Why Pascal is Not My Favorite Programming Language, Bell
+Labs CSTR 100, July 1981.
+ftp://plan9.bell-labs.com/cm/cs/cstr/100.ps.gz
+
+A. Koenig, An anecdote about ML type inference, USENIX Symposium on Very
+High Level Languages, 1994.
+http://www.usenix.org/publications/library/proceedings/vhll/koenig.html
+
+Aleph One, Smashing the stack for fun and profit, Phrack 7, 49 (1996)
+http://www.shmoo.com/phrack/Phrack49/p49-14
+
+E.W.  Dijkstra Go To Statement Considered Harmful, Communications of the
+ACM, 11, 3 (1968) 147-148.
+http://www.acm.org/classics/oct95/
+
+N. Wirth, Program development by stepwise refinement, Communications of
+the ACM, 14, 4 (1971) 221--227.
+http://www.acm.org/classics/dec95/
+
+D. Parnas, On the criteria to be used in decomposing systems into
+modules, Communications of the ACM, 15, 12 (1972) 1053-1058.
+http://www.acm.org/classics/may96/
+
+D. Ingalls, Design principles behind Smalltalk, BYTE Special Issue on
+Smalltalk, August 1981.  (Scanned by Dwight Hughes.)
+http://users.ipa.net/~dwighth/
+
+15 Years Ago in BYTE: The Smalltalk Environment by Larry Tessler, BYTE,
+August 1996.
+http://www.stanford.edu/class/cs242/readings/Smalltalk-Byte.htm
+
+W.R.  Cook, Interfaces and specifications for the Smalltalk-80
+collection classes,.Proc ACM Conf.  Object-Oriented Programming Systems,
+Languages, and Applications (OOPSLA '92).  ACM SIGPLAN Notices ,Vol.
+27, No. 10 (Oct.  1992), Pages 1-15.
+http://www.acm.org/pubs/citations/proceedings/oops/141936/p1-cook/
+
+Gilad Bracha, Generics in the Java Programming Language, Sun
+Microsystems, 2004.
+http://java.sun.com/j2se/1.5/pdf/generics-tutorial.pdf
+
+Peter Canning, William Cook, Walter Hill, Walter Oltho, John C.
+Mitchell, F-Bounded Polymorphism for Object-Oriented Programming, FPCA
+1989.  (First few pages only)
+http://www.cs.utexas.edu/~wcook/papers/FBound89/CookFBound89.pdf
+
+Paul Hudak, John Hughes, Simon Peyton Jones, and Philip Wadler, A
+history of Haskell: Being lazy with class, Proc.  3rd ACM SIGPLAN
+conference on History of Programming Languages (HOPL), 2007, (Stanford
+cache)
+http://doi.acm.org/10.1145/1238844.1238856
+http://www.stanford.edu/class/cs242/readings/a12-hudak.pdf
+
+Simon Peyton Jones, Tackling the awkward squad: monadic input/output,
+concurrency, exceptions, and foreign-language calls in Haskell, IOS
+Press 2001.  (Stanford cache)
+http://research.microsoft.com/users/simonpj/papers/marktoberdorf/
+http://www.stanford.edu/class/cs242/readings/mark.pdf
+
+Philip Wadler, Monads for functional programming In M. Broy (ed.),
+Marktoberdorf Summer School on Program Design Calculi, Springer Verlag,
+1992.  (Stanford cache)
+http://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf
+http://www.stanford.edu/class/cs242/readings/baastad.pdf
+
+Simon Peyton Jones, Beautiful concurrency.  In Beautiful Code, ed.  Andy
+Oram, Greg Wilson, O’Reilly 2007.
+http://www.stanford.edu/class/cs242/readings/beautiful.pdf
+
+Dan Grossman, The Transactional Memory / Garbage Collection Analogy.  In
+ACM Symp.  Object-Oriented Programming: Systems, Languages, and
+Architectures (OOPSLA’07), 2007
+http://www.stanford.edu/class/cs242/readings/TMvsGC.pdf
+
+Books
+
+E. Gamma et al., Design Patterns: Elements of Reusable Object-Oriented
+Software, Addison-Wesley, 1995.
+
+B. Stroustrup, The Design and Evolution of C++, Addison-Wesley, 1994,
+461 pages.
+
+K. Arnold and J. Gosling, The Java Programming Language, Addison-Wesley,
+1996.
+
+A dictionary of common programming language terms is available.
+http://www.stanford.edu/class/cs242/readings/vocabulary.html
+
+
+nb erlang shell repl
+http://www.tryerlang.org/
+
+To start this tutorial please type `ok.`.  Please note that in Erlang
+every instruction must be terminated by a DOT (.), and to have it
+evaluated type Enter.!
+
+
+nb racket scheme
+http://www.racket-lang.org/
+
+Racket is a Scheme programming language.  Draw more pictures or build a
+web server from scratch.  Racket includes both batteries and a
+programming environment, so get started!  /Grow your program/.  Racket's
+interactive mode encourages experimentation, and quick scripts easily
+compose into larger systems.  Small scripts and large systems both
+benefit from native-code JIT compilation.  When a system gets too big to
+keep in your head, you can add static types.  /Grow your language/.
+Extend Racket whenever you need to.  Mold it to better suit your tasks
+without sacrificing interoperability with existing libraries and without
+having to modify the tool chain.  When less is more, you can remove
+parts of a language or start over and build a new one.  /Grow your
+skills/.  Whether you're just starting out, want to know more about
+programming language applications or models, looking to expand your
+horizons, or ready to dive into research, Racket can help you become a
+better programmer and system builder.
+
+
+nb processing sketch creative commons attribute sharealike
+Studio SketchPad
+http://sketchpad.cc/
+
+Studio SketchPad was named after the two web technologies on which the
+application is built: the Sketch from Processing and the Pad from
+EtherPad.  EtherPad is used as a lightweight development environment for
+authoring (or co-authoring) small visual programs written in the
+Processing language.  Unless otherwise specified by the author(s), works
+built on Sketchpad are distributed under the Creative Commons
+Attribution-ShareAlike 3.0 Unported license.  This means that sketches
+can be cloned and modified by others, both on Sketchpad and elsewhere.
+This also means that sketches can build on other CC-BY works, such as
+those built using other wonderful Processing websites, such as
+SketchPatch and OpenProcessing.
+
+
+nb manage object lifetime instance variable interface api low high level
+Taylor, M. 20100601.  A hard-to-find bug, and equivalent APIs in low-
+and high-level languages.  Index data: Blog.
+http://www.indexdata.com/blog/2010/06/hard-find-bug-and-equivalent-apis-low-and-high-level-languages
+
+So the moral is: when translating an API from low-level language to a
+high-level one—most likely by wrapping the former in the latter—we need
+to be careful to tweak the detailed semantics to match what's idiomatic
+in the high-level language.  That may be different from what's idiomatic
+in the low-level language, and indeed may vary from one high-level
+language to another.
+
+
+nb simple convention attitude
+Edwards, J. 20100527.  Mea culpa.  Alarming development: Dispatches from
+the programmer liberation front.
+http://alarmingdevelopment.org/?p=422
+
+It is not about solving puzzles and being the brightest kid in the
+class.  It is about realizing that the complexity of software dwarfs
+even the most brilliant human; that cleverness cannot win.  The only
+weapons we have are simplicity and convention.  … What is truly decisive
+on the battlefield are attitudes: hard work, responsibility, and paying
+attention to reality instead of the voiceover in your head.
+
+
+nb programming language relative value
+Edwards, J.  20100511.  The myth of the super programming language.
+Alarming development: Dispatches from the programmer liberation front.
+http://alarmingdevelopment.org/?p=392
+
+The objective evidence we have is that the differences in programming
+performance are almost entirely due to the individual cognitive
+differences of programmers.  It doesn’t matter what language a great
+programmer uses—they will still be an order of magnitude more productive
+than an average programmer, also regardless of what that programmer
+uses.
+
+
+nb criticism
+http://stackoverflow.com/questions/282329/what-are-five-things-you-hate-about-your-favorite-language
+
+
+nb basic interpreter repl online javascript
+http://shellinabox.googlecode.com/svn/trunk/demo/demo.html
+
+
+nb review feature blog resources haskell scala standardml ocaml scheme
+Might, M.  Advanced programming languages.  blog.might.net.
+http://matt.might.net/articles/best-programming-languages/
+
+
+nb search github code repository actionscript arc asp boo clang c# c++lang clojure coffeescript coldfusion commonlisp dlang delphi duby eiffel emacslisp erlang fortran golang groovy haskell haxe iolang java javascript lua max/msp nulang objective-c objective-j ocaml ooc perl php puredata python rlang ruby scala scheme sclang self shell smalltalk supercollider tcl verilog vhdl viml visualbasic
+http://github.com/search
+
+
+nb lleval ajax service jsonp file extension php bwbasic emacs runhugs iolang jslang lisp ecl lua ocaml perl6 php postscript ghostscript python ruby scm gosh tclsh
+http://colabv6.dan.co.jp/lleval.html
+http://api.dan.co.jp/lleval.cgi?c=callback&s=source
+
+An AJAX service which runs a given script.  The result is returned as JSONP.
+When l=language is ommited, #!  is used.  JS code illustrates how to use it.
+
+apr1	php54rc1
+bas	bwbasic
+el	emacs --script
+hs	runhugs
+io	io
+js	js
+lsp	ecl -shell
+lua	lua
+ml	ocaml
+p6	perl6
+php	php
+pl	perl
+ps	gs -q -dNODISPLAY -dBATCH -dNOPAUSE
+py	python
+rb	ruby
+scm	gosh
+tcl	tclsh
+
+
+nb ideone repl ada gnat assembler nasm gawk mawk bash bclang brainfuck clang gcc c# gmcs c++lang c99strict clips clojure cobol cobol85 tinycobol commonlisp clisp dlang dmd erlang erl gforth gfortran golang gc haskell ghc iconc c-intercal java sun-jdk javascript rhino spidermonkey luac nemerle ncc nicec ocamlopt ozlang mozart pascal fpc gpc perl php pike prolog gnu gprolog swipl python python3 rlang ruby scalac scheme guile smalltalk gst tcl tclsh text unlambda visualbasic.net mono whitespace wspace
+http://ideone.com/
+
+What is ideone?  Ideone is something more than a pastebin; it's an
+online compiler and debugging tool which allows to compile and run code
+online in more than 40 programming languages.  How to use ideone?
+Choose a programming language, paste your source code and input data
+into text boxes.  Then check or uncheck run code (whether to execute
+your program) and private (whether not to list your paste in the recent
+pastes page) checkboxes, click the submit button and watch your snippet
+being executed.
+
+
+nb codepad repl c c++ d haskell lua ocaml php perl plaintext python ruby scheme tcl
+http://codepad.org/
+codepad is an online compiler/interpreter, and a simple collaboration tool.
+Paste your code below, and codepad will run it and give you a short URL
+you can use to share it in chat or email.
+
+
+nb online environment repl read eval print loop actionscript3 ada arc assembler awk bash basic bclang beanshell brainfuck clang c# c++lang clojure cobol coffeescript commonlisp dlang emacslisp erlang forth fortran golang groovy haskell icon iolang intercal java javascript lua mongodb nemerle nice objective-j ocaml ozlang pascal perl perl6 php pike postscript prolog python rlang ruby scala scheme smalltalk tcl unlambda visualbasic.net whitespace 
+http://joel.franusic.com/Online-REPs-and-REPLs
+http://en.wikipedia.org/wiki/REPL
+
+This is a list of sites you can use to interactively try out programming
+languages online.Some of these sites aren't strictly REPLs since they
+don't maintain state, those sites are probably more accurately described
+as "REPs"?
+
+A read-eval-print loop (REPL), also known as an interactive toplevel, is
+a simple, interactive computer programming environment.  The term is
+most usually used to refer to a Lisp interactive environment, but can be
+applied to command line shells and similar environments for Smalltalk,
+Perl, Scala, Python, Ruby, Haskell, APL, BASIC, J, Tcl, and other lang-
+uages as well.  In a REPL, the user may enter expressions, which are
+then evaluated, and the results displayed.  The name read-eval-print
+loop comes from the names of the Lisp primitive functions which
+implement this functionality.
+
+
+nb closure ruby
+http://www.skorks.com/2010/05/closures-a-simple-explanation-using-ruby/
+http://reprog.wordpress.com/2010/02/27/closures-finally-explained/
+
+
+nb implement functional tutorial book spjones davidlester
+Jones, S.P.  1987.  The implementation of functional programming languages.
+Prentice Hall.
+http://research.microsoft.com/en-us/um/people/simonpj/papers/slpj-book-1987/index.htm
+
+Jones, S.P.  and Lester, D.  1992.  Implementing functional languages: a tutorial.
+Prentice Hall.
+http://research.microsoft.com/en-us/um/people/simonpj/papers/pj-lester-book/
+
+
+nb choose language expert system
+http://therighttool.hammerprinciple.com/
+
+
+nb grow language video pdf guysteele
+Steele, G.  Growing a language.
+http://www.catonmat.net/blog/growing-a-language-by-guy-steele/
+
+
+nb idiom reference string number regex
+langref.org
+
+
+nb google tech talk video presentation programming languages c++ java python go
+Programming Languages
+http://code.google.com/intl/ja/edu/languages/index.html
+
+Google's Python class is a complete online introduction to Python
+programming, including writen materials, lecture videos, and coding
+exercises.  The class is geared for people with a little bit of
+programming experience, and is used within google to introduce Python.
+
+Advanced concepts in C++: C++ threads, new features in the next C++
+standard.  Advanced concepts in Java: the Java memory model; effective
+static race detection.  Programming in Python: understanding Python,
+Python design patterns, Python 3000, Python's object model, Python
+design patterns part 2, Python internals.  Go programming language:
+programming with Go.
+
+
+nb compare implement speed memory source comment structure reliable effort string search script perl python rexx tcl procedure clang c++ java
+Prechelt, L.  20000314.  An empirical comparison of C, C++, Java, Perl,
+Python, Rexx, and Tcl.  Submission to IEEE Computer.
+http://page.mi.fu-berlin.de/prechelt/Biblio/jccpprt_computer2000.pdf
+
+80 implementations of the same set of requirements are compared for
+several properties, such as run time, memory consumption, source text
+length, comment density, program structure, reliability, and the amount
+of effort required for writing them.  The results indicate that, for the
+given programming problem, which regards string manipulation and search
+in a dictionary, “scripting languages” (Perl, Python, Rexx, Tcl) are
+more productive than “conventional languages” (C, C++, Java).  In
+terms of run time and memory consumption, they often turn out better
+than Java and not much worse than C or C++.  In general, the differences
+between languages tend to be smaller than the typical differences due to
+different programmers within the same language.
+
+
+nb nanny complex learn style bad code quote ryannedolan
+It is clear from this discussion that the rules to prevent (what I
+consider to be) bad code are more complicated than learning not to write
+the bad code.―Ryanne Dolan
+
+
+nb popularity metric tiobe langpop
+http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+http://www.langpop.com/
+
+
+nb haskell edsl domain specific
+@donsbot Getting psyched for LACSS talk on Haskell and EDSLs.  Position
+paper and slides here: http://is.gd/4iDcu http://is.gd/4iDaJ
+
+@TacticalGrace RT @galoisinc: Domain Specific Languages for Domain
+Specific Problems: Position Paper.  http://is.gd/4hRao
+
+
+nb alankay stuartfeldman
+A Conversation with Alan Kay
+http://queue.acm.org/detail.cfm?id=1039523
+
+
+nb general clean feature library
+[I]f you can't solve a problem cleanly and in a general way with
+a feature, it does not belong in a language (but may belong in
+a library).  (Bakul Shah to 9fans on 20090908)

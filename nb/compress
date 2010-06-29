@@ -1,0 +1,12 @@
+nb limit reverse hash redundant information pigeon hole principle @mattmight
+Might, M.  Impossibly good compression.  blog.might.net.
+http://matt.might.net/articles/why-infinite-or-guaranteed-file-compression-is-impossible/
+
+No matter how you try to map the 3-bit set of files to the 2-bit set of
+files, at least one 2-bit file will represent more than one 3-bit file.
+Consequently, information is lost, and the "compression" is irreversible.
+
+
+nb gzip
+@commandlinefu GZip all files in a directory separately (dfrios)
+http://bit.ly/44BrpO

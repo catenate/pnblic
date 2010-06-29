@@ -1,1 +1,7 @@
 ../bin/nb
+
+cd /home/jdc/Dropbox/nb
+n=20
+topics=`{ls -tr |grep -v acme.dump | grep -v guide | grep -v '\.sed' | grep -v nbindex | grep -v twitter | grep -v swtools2 | tail -$n}
+echo $topics
+echo $topics | wc -c

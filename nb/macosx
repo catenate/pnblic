@@ -1,0 +1,62 @@
+nb tool transition linux windows @mattmight
+Might, M.  Tips and software for Mac users.  blog.might.net
+http://matt.might.net/articles/switching-to-apple-macintosh-from-linux-or-windows/
+
+Switching to Apple from Unix/Linux.  Switching to Apple from Windows.
+Useful items.
+
+
+nb snowleopard xcode git macvim intellij quicksilver homebrew macports config file @joeferris alias irb gem zsh @akitaonrails ruby rvm jekyll rspec node.js clojurex @skim
+http://skim.cc/2010/06/20/mac-environment/
+
+
+nb iwork serial number fix
+http://superuser.com/questions/63747/why-does-the-box-version-of-iwork-09-ask-me-to-enter-a-serial-number
+
+
+nb dvorak keyboard setup keycap system preference tool input process image
+http://www.chimoosoft.com/articles/dvorak.php
+http://www.flickr.com/photos/stephenwalsh/266576764/
+http://www.instructables.com/id/Convert-a-Macbook-keyboard-from-QWERTY-to-Dvorak/
+
+
+nb apple mac notebook hands sticker
+http://www.etsy.com/listing/46274293/twilight-hands-book-cover
+
+
+nb apple mac notebook pirate sticker
+http://www.etsy.com/listing/48352330/set-of-2-apple-skull-and-cross-bones
+
+
+nb freebsd port document
+FreeBSD Porter's Handbook
+http://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/
+
+
+nb app usage
+http://osx.iusethis.com/
+
+
+nb homebrew unix macports
+http://mxcl.github.com/homebrew/
+
+Homebrew is the easiest and most flexible way to install the UNIX tools
+Apple didn’t include with OS X. A very promising alternative to
+MacPorts.  And, since Homebrew sensibly installs under /usr/local, you
+can give it a try without mucking up your existing MacPorts
+installations (though if you plan to switch, getting rid of MacPorts
+entirely seems like a good idea).
+
+
+nb switch application
+Liteswitch X
+http://www.proteron.com/
+
+After a four year development hiatus, Liteswitch X returns, adding extra
+features to OS X’s built-in Application Switcher: you can optionally
+display applications running in the background, force quit applications
+from the switcher, and hide applications you never switch to from view.
+
+(Or, to put it another way, Apple ‘borrowed’ the Liteswitch X interface
+when they introduced the Application Switcher in Panther, but they
+forgot to ‘borrow’ some of its best features.)

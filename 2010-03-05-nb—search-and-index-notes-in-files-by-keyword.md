@@ -5,18 +5,18 @@ categories: manual
 ---
 nb name search index keyword  
 nb—search and index notes in files by keyword  
-
-
+  
+  
 nb keyword  
-
-
+  
+  
 nb description search keyword path file line acme  
 Nb searches for the given keyword in each nbindex file listed  
 in $HOME/nbindexes.  If it finds a match, nb prints the path,  
 filename, and line number of the indexed file in the format  
 acme uses to refer to lines in a file.  
-
-
+  
+  
 nb file format store index line path file line acme nbindexes  
 This file is an example.  Nb searches all files in the current  
 directory for lines which begin `nb `, and copies them into  
@@ -25,12 +25,12 @@ and line number, e.g.  for acme to show the line on a
 right-click of the mouse.  It then adds the path and filename  
 of the current directory’s `nbindex` file to the file  
 `$HOME/nbindexes`.  
-
+  
 By convention I use 1 blank line to separate paragraphs after  
 an nb line, and 2 blank lines to separate nb lines, but nb  
 doesn’t care about this.  
-
-
+  
+  
 nb nbindex example search keyword  
 This is the nbindex file for this file.  
 
@@ -51,8 +51,8 @@ full path since it may refer to files anywhere in the filesystem.
 	/usr/local/plan9/bin/nb.1:5 keyword
 	/usr/local/plan9/bin/nb.1:8 description search keyword path file line acme
 	/usr/local/plan9/bin/nb.1:28 nbindex example search keyword
-
-
+  
+  
 nb source plan9port rc script  
 
 	#!/usr/local/plan9/bin/rc
@@ -72,16 +72,16 @@ nb source plan9port rc script
 	tmp=$TMPDIR^'/nbindexes.'^$USER^'.'^$pid
 	sort -u $catalog > $tmp
 	mv $tmp $catalog
-
-
+  
+  
 nb port plan9port rc shell script grëp  
 Nb in written in plan9port’s rc, but should be straightforward  
 to port to any shell.  Use grep instead of grëp.  
-
-
+  
+  
 nb author jason.catena@gmail.com  
-
-
+  
+  
 nb bugs  
 Nb generates the index after it searches, to present results  
 immediately, so it does not show changes since its last run.  

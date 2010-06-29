@@ -1,7 +1,7 @@
 ---
 layout: post
 title: nb—search and index notes in files by keyword 
-categories: explain
+categories: manual
 ---
 nb name search index keyword  
 nb—search and index notes in files by keyword  

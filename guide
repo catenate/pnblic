@@ -1,7 +1,10 @@
 cp -r /home/jdc/git/tictestrue/css .
 jekyll --server
+|fmt -w 62|sed 's,$,  ,'
+|sed 's,^,	,'
+|sort|uniq
 
 git status
-git commit -a -m 'First pages commit'
+git commit -a -m 'update nb manual page'
 git push origin gh-pages
 git checkout master

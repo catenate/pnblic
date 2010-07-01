@@ -30,3 +30,7 @@ a:visited {
 .mute a:hover {
   color: #a00;
 }
+
+.disqus_thread {
+  width: 31em;
+}

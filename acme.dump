@@ -2,21 +2,17 @@
 /usr/local/plan9/font/times/latin1.7a.font
 /home/jdc/opt/src/icons/icons.14.font
   0.0000000  59.8437500
-w Newcol Kill Putall Dump acme.dump Exit 
+w jekyll Newcol Kill Putall Dump acme.dump Exit 
 c          0 New Cut Paste Snarf Sort Zerox Delcol 
 c          1 New Cut Paste Snarf Sort Zerox Delcol 
 f          0           1           0           0   2.0697168 
-          1          43          82           1           0 /home/jdc/git/pnblic/ Del Snarf Get | Look 
-f          0           3          34          34   4.1394336 
-          3          48          34           0           0 /home/jdc/git/pnblic/README.md Del Snarf | Look 
-f          0           7         271         277   6.2091503 
-          7          54         736           0           0 /home/jdc/git/pnblic/index.html Del Snarf Undo | Look 
-f          0           6         140         149  96.0784314 
-          6          47         169           1           0 /home/jdc/git/tictestrue/ Del Snarf Get | Look 
-f          0           8           0           0  98.1481481 
-          8          48         450           0           0 /home/jdc/git/tictestrue/guide Del Snarf | Look 
-F          1           0         910         925   2.0697168         925 
-          4          55         925           0           0 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
+          1          43         148           1           0 /home/jdc/git/pnblic/ Del Snarf Get | Look 
+f          0           8        2103        2103   4.1394336 
+          8         134        2860           0           0 /home/jdc/git/pnblic/2010-03-05-nb—search-and-index-notes-in-files-by-keyword.md Del Snarf Undo | Look
+f          0          11         514         514  98.1481481 
+         11          79         906           0           0 /home/jdc/git/pnblic/index.html Del Snarf Undo | Look 
+F          1           0       16844       16844   2.0697168       16844 
+          6          55       16844           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
 # On branch gh-pages
 #
 # Initial commit
@@ -50,5 +46,374 @@ To git@github.com:catenate/pnblic.git
 nothing added to commit but untracked files present (use "git add" to track)
 jekyll: No such file or directory
 jekyll: exit 1
-f          1           5         148         148  39.4335512 
-          5          49         148           0           0 /home/jdc/git/pnblic/guide Del Snarf Undo | Look 
+# On branch gh-pages
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   acme.dump
+#	modified:   guide
+#	modified:   index.html
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	README.md
+#	_config.yml
+#	_layouts/
+#	css/
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch gh-pages
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   README.md
+#	new file:   _config.yml
+#	new file:   _layouts/default.html
+#	new file:   _layouts/index.html
+#	new file:   _layouts/post.html
+#	modified:   acme.dump
+#	new file:   css/screen.css
+#	modified:   guide
+#	modified:   index.html
+#
+/home/jdc/.gem/ruby/1.9.1/gems/liquid-2.0.0/lib/liquid/strainer.rb:48: warning: undefining `object_id' may cause serious problem
+[2010-06-28 23:09:27] INFO  WEBrick 1.3.1
+[2010-06-28 23:09:27] INFO  ruby 1.9.1 (2010-01-10) [x86_64-linux]
+[2010-06-28 23:09:32] INFO  WEBrick::HTTPServer#start: pid=17837 port=4000
+localhost - - [28/Jun/2010:23:09:42 CDT] "GET / HTTP/1.1" 200 671
+- -> /
+localhost - - [28/Jun/2010:23:09:42 CDT] "GET /css/screen.css HTTP/1.1" 200 323
+Referer -> /css/screen.css
+[2010-06-28 23:09:42] ERROR `/favicon.ico' not found.
+localhost - - [28/Jun/2010:23:09:42 CDT] "GET /favicon.ico HTTP/1.1" 404 279
+- -> /favicon.ico
+    126
+    153
+    146
+    193
+    141
+    141
+/home/jdc/.gem/ruby/1.9.1/gems/liquid-2.0.0/lib/liquid/strainer.rb:48: warning: undefining `object_id' may cause serious problem
+[2010-06-28 23:21:19] INFO  WEBrick 1.3.1
+[2010-06-28 23:21:19] INFO  ruby 1.9.1 (2010-01-10) [x86_64-linux]
+[2010-06-28 23:21:25] WARN  TCPServer Error: Address already in use - bind(2)
+/usr/lib/ruby/1.9.1/webrick/utils.rb:73:in `initialize': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /usr/lib/ruby/1.9.1/webrick/utils.rb:73:in `new'
+	from /usr/lib/ruby/1.9.1/webrick/utils.rb:73:in `block in create_listeners'
+	from /usr/lib/ruby/1.9.1/webrick/utils.rb:70:in `each'
+	from /usr/lib/ruby/1.9.1/webrick/utils.rb:70:in `create_listeners'
+	from /usr/lib/ruby/1.9.1/webrick/server.rb:74:in `listen'
+	from /usr/lib/ruby/1.9.1/webrick/server.rb:62:in `initialize'
+	from /usr/lib/ruby/1.9.1/webrick/httpserver.rb:24:in `initialize'
+	from /home/jdc/.gem/ruby/1.9.1/gems/jekyll-0.6.1/bin/jekyll:167:in `new'
+	from /home/jdc/.gem/ruby/1.9.1/gems/jekyll-0.6.1/bin/jekyll:167:in `<top (required)>'
+	from /home/jdc/.gem/ruby/1.9.1/bin/jekyll:19:in `load'
+	from /home/jdc/.gem/ruby/1.9.1/bin/jekyll:19:in `<main>'
+jekyll: exit 1
+Configuration from /home/jdc/git/pnblic/_config.yml
+Building site: /home/jdc/git/pnblic -> ./_site
+Successfully generated site: /home/jdc/git/pnblic -> ./_site
+localhost - - [28/Jun/2010:23:21:31 CDT] "GET / HTTP/1.1" 200 762
+- -> /
+localhost - - [28/Jun/2010:23:21:31 CDT] "GET /css/screen.css HTTP/1.1" 200 323
+Referer -> /css/screen.css
+[2010-06-28 23:21:31] ERROR `/favicon.ico' not found.
+localhost - - [28/Jun/2010:23:21:31 CDT] "GET /favicon.ico HTTP/1.1" 404 279
+- -> /favicon.ico
+/home/jdc/.gem/ruby/1.9.1/gems/liquid-2.0.0/lib/liquid/strainer.rb:48: warning: undefining `object_id' may cause serious problem
+Configuration from /home/jdc/git/pnblic/_config.yml
+Building site: /home/jdc/git/pnblic -> ./_site
+Successfully generated site: /home/jdc/git/pnblic -> ./_site
+localhost - - [28/Jun/2010:23:22:06 CDT] "GET / HTTP/1.1" 200 769
+- -> /
+localhost - - [28/Jun/2010:23:22:06 CDT] "GET /css/screen.css HTTP/1.1" 200 323
+Referer -> /css/screen.css
+[2010-06-28 23:22:06] ERROR `/favicon.ico' not found.
+localhost - - [28/Jun/2010:23:22:06 CDT] "GET /favicon.ico HTTP/1.1" 404 279
+- -> /favicon.ico
+[2010-06-28 23:22:45] ERROR `/pnblic/2010-03-05-nb—search-and-index-notes-in-files-by-keyword.html' not found.
+localhost - - [28/Jun/2010:23:22:45 CDT] "GET /pnblic/2010-03-05-nb%E2%80%94search-and-index-notes-in-files-by-keyword.html HTTP/1.1" 404 338
+Referer -> /pnblic/2010-03-05-nb%E2%80%94search-and-index-notes-in-files-by-keyword.html
+[2010-06-28 23:22:45] ERROR `/favicon.ico' not found.
+localhost - - [28/Jun/2010:23:22:45 CDT] "GET /favicon.ico HTTP/1.1" 404 279
+- -> /favicon.ico
+# On branch gh-pages
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   README.md
+#	new file:   _config.yml
+#	new file:   _layouts/default.html
+#	new file:   _layouts/index.html
+#	new file:   _layouts/post.html
+#	modified:   acme.dump
+#	new file:   css/screen.css
+#	modified:   guide
+#	modified:   index.html
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   index.html
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	"2010-03-05-nb\342\200\224search-and-index-notes-in-files-by-keyword.md"
+#	_site/
+# On branch gh-pages
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   README.md
+#	new file:   _config.yml
+#	new file:   _layouts/default.html
+#	new file:   _layouts/index.html
+#	new file:   _layouts/post.html
+#	modified:   acme.dump
+#	new file:   css/screen.css
+#	modified:   guide
+#	modified:   index.html
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   index.html
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#
+git add 2010-03-05-nb—search-and-index-notes-in-files-by-keyword.md
+' did not match any files
+git: exit 128
+fatal: pathspec '2010-03-05-nb\342\200\224search-and-index-notes-in-files-by-keyword.md' did not match any files
+git: exit 128
+# On branch gh-pages
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   "2010-03-05-nb\342\200\224search-and-index-notes-in-files-by-keyword.md"
+#	new file:   README.md
+#	new file:   _config.yml
+#	new file:   _layouts/default.html
+#	new file:   _layouts/index.html
+#	new file:   _layouts/post.html
+#	modified:   acme.dump
+#	new file:   css/screen.css
+#	modified:   guide
+#	modified:   index.html
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   index.html
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# git add	.gitignore
+# On branch gh-pages
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   .gitignore
+#	new file:   "2010-03-05-nb\342\200\224search-and-index-notes-in-files-by-keyword.md"
+#	new file:   README.md
+#	new file:   _config.yml
+#	new file:   _layouts/default.html
+#	new file:   _layouts/index.html
+#	new file:   _layouts/post.html
+#	modified:   acme.dump
+#	new file:   css/screen.css
+#	modified:   guide
+#	modified:   index.html
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   index.html
+#
+[gh-pages b7d8a00] First version of site, from tictestrue
+ 10 files changed, 212 insertions(+), 8 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 "2010-03-05-nb\342\200\224search-and-index-notes-in-files-by-keyword.md"
+ create mode 100644 README.md
+ create mode 100644 _config.yml
+ create mode 100644 _layouts/default.html
+ create mode 100644 _layouts/index.html
+ create mode 100644 _layouts/post.html
+ create mode 100644 css/screen.css
+ rewrite index.html (100%)
+To git@github.com:catenate/pnblic.git
+   200e586..b7d8a00  gh-pages -> gh-pages
+# On branch gh-pages
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+/home/jdc/.gem/ruby/1.9.1/gems/liquid-2.0.0/lib/liquid/strainer.rb:48: warning: undefining `object_id' may cause serious problem
+Configuration from /home/jdc/git/pnblic/_config.yml
+Building site: /home/jdc/git/pnblic -> ./_site
+Successfully generated site: /home/jdc/git/pnblic -> ./_site
+# On branch gh-pages
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   "2010-03-05-nb\342\200\224search-and-index-notes-in-files-by-keyword.md"
+#	modified:   guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch gh-pages
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   "2010-03-05-nb\342\200\224search-and-index-notes-in-files-by-keyword.md"
+#	modified:   guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+[gh-pages e46417e] update nb manual page
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+To git@github.com:catenate/pnblic.git
+   b7d8a00..e46417e  gh-pages -> gh-pages
+/home/jdc/.gem/ruby/1.9.1/gems/liquid-2.0.0/lib/liquid/strainer.rb:48: warning: undefining `object_id' may cause serious problem
+Configuration from /home/jdc/git/pnblic/_config.yml
+Building site: /home/jdc/git/pnblic -> ./_site
+Successfully generated site: /home/jdc/git/pnblic -> ./_site
+localhost - - [28/Jun/2010:23:32:56 CDT] "GET / HTTP/1.1" 200 1060
+- -> /
+localhost - - [28/Jun/2010:23:32:56 CDT] "GET /css/screen.css HTTP/1.1" 200 323
+Referer -> /css/screen.css
+[2010-06-28 23:32:56] ERROR `/favicon.ico' not found.
+localhost - - [28/Jun/2010:23:32:56 CDT] "GET /favicon.ico HTTP/1.1" 404 279
+- -> /favicon.ico
+/home/jdc/.gem/ruby/1.9.1/gems/liquid-2.0.0/lib/liquid/strainer.rb:48: warning: undefining `object_id' may cause serious problem
+[2010-06-28 23:36:24] INFO  WEBrick 1.3.1
+[2010-06-28 23:36:24] INFO  ruby 1.9.1 (2010-01-10) [x86_64-linux]
+localhost - - [28/Jun/2010:23:36:28 CDT] "GET / HTTP/1.1" 200 1069
+- -> /
+localhost - - [28/Jun/2010:23:36:28 CDT] "GET /css/screen.css HTTP/1.1" 200 323
+Referer -> /css/screen.css
+[2010-06-28 23:36:29] ERROR `/favicon.ico' not found.
+localhost - - [28/Jun/2010:23:36:29 CDT] "GET /favicon.ico HTTP/1.1" 404 279
+- -> /favicon.ico
+[2010-06-28 23:36:29] WARN  TCPServer Error: Address already in use - bind(2)
+/usr/lib/ruby/1.9.1/webrick/utils.rb:73:in `initialize': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /usr/lib/ruby/1.9.1/webrick/utils.rb:73:in `new'
+	from /usr/lib/ruby/1.9.1/webrick/utils.rb:73:in `block in create_listeners'
+	from /usr/lib/ruby/1.9.1/webrick/utils.rb:70:in `each'
+	from /usr/lib/ruby/1.9.1/webrick/utils.rb:70:in `create_listeners'
+	from /usr/lib/ruby/1.9.1/webrick/server.rb:74:in `listen'
+	from /usr/lib/ruby/1.9.1/webrick/server.rb:62:in `initialize'
+	from /usr/lib/ruby/1.9.1/webrick/httpserver.rb:24:in `initialize'
+	from /home/jdc/.gem/ruby/1.9.1/gems/jekyll-0.6.1/bin/jekyll:167:in `new'
+	from /home/jdc/.gem/ruby/1.9.1/gems/jekyll-0.6.1/bin/jekyll:167:in `<top (required)>'
+	from /home/jdc/.gem/ruby/1.9.1/bin/jekyll:19:in `load'
+	from /home/jdc/.gem/ruby/1.9.1/bin/jekyll:19:in `<main>'
+Configuration from /home/jdc/git/pnblic/_config.yml
+Building site: /home/jdc/git/pnblic -> ./_site
+Successfully generated site: /home/jdc/git/pnblic -> ./_site
+jekyll: exit 1
+/home/jdc/.gem/ruby/1.9.1/gems/liquid-2.0.0/lib/liquid/strainer.rb:48: warning: undefining `object_id' may cause serious problem
+Configuration from /home/jdc/git/pnblic/_config.yml
+Building site: /home/jdc/git/pnblic -> ./_site
+Successfully generated site: /home/jdc/git/pnblic -> ./_site
+localhost - - [28/Jun/2010:23:37:10 CDT] "GET / HTTP/1.1" 200 1062
+- -> /
+localhost - - [28/Jun/2010:23:37:10 CDT] "GET /css/screen.css HTTP/1.1" 200 323
+Referer -> /css/screen.css
+[2010-06-28 23:37:10] ERROR `/favicon.ico' not found.
+localhost - - [28/Jun/2010:23:37:10 CDT] "GET /favicon.ico HTTP/1.1" 404 279
+- -> /favicon.ico
+[2010-06-28 23:37:26] ERROR `/pnblic/2010-03-05-nb—search-and-index-notes-in-files-by-keyword.html' not found.
+localhost - - [28/Jun/2010:23:37:26 CDT] "GET /pnblic/2010-03-05-nb%E2%80%94search-and-index-notes-in-files-by-keyword.html HTTP/1.1" 404 338
+Referer -> /pnblic/2010-03-05-nb%E2%80%94search-and-index-notes-in-files-by-keyword.html
+[2010-06-28 23:37:26] ERROR `/favicon.ico' not found.
+localhost - - [28/Jun/2010:23:37:26 CDT] "GET /favicon.ico HTTP/1.1" 404 279
+- -> /favicon.ico
+# On branch gh-pages
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   guide
+#	modified:   index.html
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+[gh-pages 6569e72] update archive outlink
+ 2 files changed, 9 insertions(+), 2 deletions(-)
+To git@github.com:catenate/pnblic.git
+   e46417e..6569e72  gh-pages -> gh-pages
+/home/jdc/.gem/ruby/1.9.1/gems/liquid-2.0.0/lib/liquid/strainer.rb:48: warning: undefining `object_id' may cause serious problem
+Configuration from /home/jdc/git/pnblic/_config.yml
+Building site: /home/jdc/git/pnblic -> ./_site
+Successfully generated site: /home/jdc/git/pnblic -> ./_site
+[2010-06-28 23:40:18] ERROR ArgumentError: invalid byte sequence in US-ASCII
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:349:in `fnmatch'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:349:in `block in nondisclosure_name?'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:348:in `each'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:348:in `nondisclosure_name?'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:289:in `check_filename'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:301:in `shift_path_info'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:277:in `set_filename'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:232:in `exec_handler'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:171:in `do_GET'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/abstract.rb:35:in `service'
+	/usr/lib/ruby/1.9.1/webrick/httpservlet/filehandler.rb:167:in `service'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+localhost - - [28/Jun/2010:23:40:18 CDT] "GET /2010-03-05-nb%E2%80%94search-and-index-notes-in-files-by-keyword.html HTTP/1.1" 500 311
+- -> /2010-03-05-nb%E2%80%94search-and-index-notes-in-files-by-keyword.html
+[2010-06-28 23:40:18] ERROR `/favicon.ico' not found.
+localhost - - [28/Jun/2010:23:40:18 CDT] "GET /favicon.ico HTTP/1.1" 404 279
+- -> /favicon.ico
+# On branch gh-pages
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   "2010-03-05-nb\342\200\224search-and-index-notes-in-files-by-keyword.md"
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+[gh-pages d6f1038] double-space some paragraphs
+ 1 files changed, 17 insertions(+), 17 deletions(-)
+# On branch gh-pages
+nothing to commit (working directory clean)
+To git@github.com:catenate/pnblic.git
+   6569e72..d6f1038  gh-pages -> gh-pages
+# On branch gh-pages
+nothing to commit (working directory clean)
+/home/jdc/.gem/ruby/1.9.1/gems/liquid-2.0.0/lib/liquid/strainer.rb:48: warning: undefining `object_id' may cause serious problem
+Configuration from /home/jdc/git/pnblic/_config.yml
+Building site: /home/jdc/git/pnblic -> ./_site
+Successfully generated site: /home/jdc/git/pnblic -> ./_site
+# On branch gh-pages
+nothing to commit (working directory clean)
+F          1           1         104         115  28.8671024         208 
+          7          53         208           0           1 /home/jdc/git/pnblic/guide Del Snarf Undo Put | Look 
+cp -r /home/jdc/git/tictestrue/css .
+jekyll --server
+|fmt -w 62|sed 's,$,  ,'
+|sed 's,^,	,'
+|sort|uniq
+
+git status
+git commit -a -m 'double-space some paragraphs'
+git push origin gh-pages
+git checkout master
+f          1           9           0           0  60.6753813 
+          9          47         129           1           0 /home/jdc/git/tictestrue/ Del Snarf Get | Look 
+F          1           3           0          70  81.3725490          70 
+         13          25          70           0           0 +Errors Del Snarf | Look 
+can't open /home/jdc/git/pnblic/.gitignore: No such file or directory

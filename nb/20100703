@@ -1,0 +1,15 @@
+nb one instruction set computer minimal subtract branch move memory map
+http://en.wikipedia.org/wiki/One_instruction_set_computer
+
+
+nb haskell irc hoogle signature search
+#haskell @hoogle a -> [a] -> ([a], [a])
+
+
+nb haskell irc lambdabot pl
+(04:33:05 PM) pastorn: @pl (\x y -> isAlpha x && isAlpha y)
+(04:33:06 PM) lambdabot: (. isAlpha) . (&&) . isAlpha
+
+
+nb discover music podcast @cdbaby
+http://musicdiscovery.cdbabypodcast.com/

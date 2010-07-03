@@ -1,6 +1,9 @@
 ../bin/nb
 |fmt -w 72|sed 's,$,  ,'
 
+grep '^nb' 20100[67]* | sed 's,^[^:]+: nb ,,' | fmt -w 1 | grep -v development | grep -v driven | sort | uniq -d | fmt -w 140
+echo 'Recent http://j.mp/pnblic: bdd blog code disqus github haskell jekyll language liquid list pages rails rspec ruby tdd test unit variable' | wc -c
+
 cd /home/jdc/Dropbox/nb
 n=20
 topics=`{ls -tr |grep -v acme.dump | grep -v guide | grep -v '\.sed' | grep -v nbindex | grep -v twitter | grep -v swtools2 | tail -$n}

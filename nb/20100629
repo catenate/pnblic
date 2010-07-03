@@ -1,0 +1,99 @@
+nb haskell type class constrain polymorphism instance parameter variable signature =>
+Yitz.  20100628.  Trying to understand Haskell’s => vs defining the types.
+Stack overflow.
+http://stackoverflow.com/questions/3136133/trying-to-understand-haskells-vs-defining-the-types
+
+In Haskell, a "type" can only have a single specific set of possible
+values that does not overlap with any other type.  There is no such
+thing as one type being "a different kind of" or "a subtype of" another type.
+When we want polymorphism, i.e., functions that can apply to more than
+one type, we can specify that by using a type variable in the type
+signature of the function.  But a type variable can refer to any type at all.
+We don't always know how to define our function for absolutely every type.
+For example, the (>) function only makes sense for types whose elements
+are comparable.  The compiler will reject a function whose type
+signature is too general, in order to help us avoid writing gibberish.
+In your example, Eq is not a type.  It is a typeclass—a name for a set
+of types.  We declare typeclass names using the class keyword, and add
+types into the class using the instance keyword.  The purpose of a
+typeclass is to be used in a constraint to limit the scope of a type variable.
+The Haskell approach to types and polymorphism is based on the
+"Hindley-Milner type system".  It is an extremely precise yet very
+expressive way of describing data that makes it easier to give the
+compiler a huge amount of intelligence about the types in your program.
+That intelligence helps the compiler to infer types automatically, to
+give you a lot of help in getting your program correct, and to optimize
+the compiled result, among other benefits.  But be careful—it is very
+different than the way types are used in OOP, which may be what you are
+used to.  There is usually no direct translation between an OO program
+and a Haskell program.  You have to think about the task in a different
+way right from the start.  Be especially careful not to confuse
+Haskell's concepts of "class" and "instance" with the completely
+different way those words are used in OOP.
+
+
+nb maths quadratic equation postfix
+http://en.wikipedia.org/wiki/Quadratic_equation
+
+ax² + bx + c = 0
+a x ² * b x * + c + 0 =
+
+x = (−b ± √(b² − 4ac)) / 2a
+b − b ² 4 a * c * − √ ± 2 a * / x =
+
+
+nb tdd process
+http://en.wikipedia.org/wiki/Test-driven_development
+
+Requirements.  Test-driven development cycle: add a test; run all tests
+and see if the new one fails; write some code; run the automated tests
+and see them succeed; refactor code; repeat.  Development style.
+Benefits.  Vulnerabilities.  Code visibility.  Fakes, mocks and
+integration tests.
+
+
+nb ruby rails document
+Javascript-enhanced API docs on github.
+http://rubybrain.com/
+http://railsbrain.com/
+
+
+nb humor sicp necronomicon book
+http://pjacobsson.com/articles/sicp-vs-necronomicon.html
+
+
+nb ruby convert unit test rspec rails application
+Frens, J.  20090706.  Converting from Test::Unit to RSpec in a Rails app.
+Programming during recess.
+http://jdfrens.blogspot.com/2009/07/converting-from-testunit-to-rspec-in.html
+
+Measure the state of the app.  Install RSpec and RSpec-Rails (and
+Cucumber) in the app.  Branch and copy tests over.  Set up test helpers.
+Remove webrat and nokogiri gems.  Add to Spec helpers.  Shoulda gem with
+RSpec and Test::Unit.  All the old shoulda tests that use `should "X"`
+have to be turned into it `"should X"`.  Clean up helper and test methods.
+
+
+nb ruby test framework rspec cucumber behavior driven development bdd pragmatic
+Chelimsky, D. et al.   201007.  The RSpec book: Behaviour-driven
+development with RSpec, Cucumber, and friends.  Pragmatic bookshelf.
+http://www.pragprog.com/titles/achbd/the-rspec-book
+
+Getting started with RSpec and Cucumber: introduction, hello, describing
+features with Cucumber, automating features with Cucumber, describing
+code with RSpec, adding new features, specifying an algorithm,
+refactoring with confidence, feeding back what we’ve learned.
+Behaviour-driven development: the case for BDD, writing software that matters.
+RSpec: Spec::Example, Spec::Expectations, Spec::Mocks, RSpec and
+Test::Unit, tools and integration, extending RSpec.  Cucumber: intro to
+Cucumber, Cucumber detail.  Behaviour-driven Rails: BDD in Rails,
+Cucumber with Rails, simulating the browser with Webrat, automating the
+browser with Webrat and Selenium, Rails views, Rails controllers, Rails models.
+RubySpec.  RSpec’s built-in expectations.  Codebreaker refactored.
+
+
+/home/cjc040/git/sta/parseAPSnap/perl/
+/home/cjc040/git/sta/parseAPSnap/java/
+@catenate: Porting a Perl multi-log analyzer to Java to obscure it.
+Got permission to use TDD.  Which unit-test framework (default: JUnit)
+should I use?

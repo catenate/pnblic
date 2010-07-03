@@ -1,0 +1,119 @@
+nb startup hire interview code question clang reverse linked list thread coroutine condition variable @rethinkdb
+Slava.   20100629.  Will the real programmers please stand up?
+RethinkDB Blog.
+http://www.rethinkdb.com/blog/2010/06/will-the-real-programmers-please-stand-up/
+
+Why do we ask these specific questions?  Because they’re part of a core
+body of knowledge taught in any undergraduate curriculum worth its salt,
+and because in some form or another, they came up in our daily work.
+And in four months we found out that if you understand the difference
+between threads and coroutines, can reverse a linked list, and have a
+basic understanding of condition variables, chances are you’re probably
+a much better programmer than most who are looking for a job, and a huge
+chunk of those who aren’t looking as well.
+
+
+nb gnu hurd history mach microkernel richardstallman
+Hillesley, R.  20100630.  GNU HURD: Altered visions and lost promise.
+The H open.
+http://www.h-online.com/open/features/GNU-HURD-Altered-visions-and-lost-promise-1030942.html?view=print
+
+Some of us are still wishing and hoping for the real deal, a GNU
+operating system with a GNU kernel.  The choice of the Mach microkernel,
+which seemed so wise in 1987/90, may have proved to be the wrong choice
+(although NeXT and Apple made it work for OSX).  But without the initial
+drive to get there, and the development of the GNU tools and the GPL,
+Linux might never have become what it has become, and the lessons learnt
+from the HURD's journey through the backwaters of operating system
+design may yet prove to be the base for what follows after.
+
+
+nb bdd behavior driven development natural language tdd
+http://en.wikipedia.org/wiki/Behavior_Driven_Development
+
+BDD focuses on obtaining a clear understanding of desired software
+behaviour through discussion with stakeholders.  It extends TDD by
+writing test cases in a natural language that non-programmers can read.
+Behavior-driven developers use their native language in combination with
+the /ubiquitous language/ of domain driven design to describe the
+purpose and benefit of their code.  This allows the developers to focus
+on why the code should be created, rather than the technical details,
+and minimizes translation between the technical language in which the
+code is written and the domain language spoken by the business, users,
+stakeholders, project management etc.
+
+
+nb unit test framework list
+http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks
+
+
+nb blog comment disqus javascript integrate github pages jekyll liquid
+Hunt, T.  20090805.  Publishing a blog with GitHub Pages and Jekyll.
+Lab notes: the Envy Labs blog.
+http://blog.envylabs.com/2009/08/publishing-a-blog-with-github-pages-and-jekyll/
+
+If you’d like comments on your Jekyll blog, check out Disqus.  You can
+add comments to a post using JavaScript with a snippet like this.
+
+	<a href="{{ page.url }}#disqus_thread">View Comments</a>
+	
+	<div id="disqus_thread"></div>
+	<script type="text/javascript" src="http://disqus.com/forums/catenate/embed.js"></script>
+	<noscript><a href="http://disqus.com/forums/catenate/?url=ref">View the discussion thread.</a></noscript>
+
+
+nb blog catenate comment disqus universal embed code
+http://disqus.com/overview/
+http://disqus.com/comments/universal/catenate/
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /**
+    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+    */
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = 'http://catenate.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=catenate">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+nb blog github pages
+http://pages.github.com/
+
+
+nb blog jekyll wiki
+http://wiki.github.com/mojombo/jekyll
+http://wiki.github.com/mojombo/jekyll/usage
+http://wiki.github.com/mojombo/jekyll/sites
+
+
+nb blog liquid template language
+http://www.liquidmarkup.org/
+
+
+nb blog jekyll yaml front matter
+http://wiki.github.com/mojombo/jekyll/yaml-front-matter
+
+
+nb malware conficker worm @theatlantic
+Bowden, M.  201006.  The enemy within.  The Atlantic.
+http://www.theatlantic.com/magazine/archive/2010/06/the-enemy-within/8098/
+http://www.theatlantic.com/magazine/print/2010/06/the-enemy-within/8098/
+
+When the Conficker computer “worm” was unleashed on the world in
+November 2008, cyber-security experts didn’t know what to make of it.
+It infiltrated millions of computers around the globe.  It constantly
+checks in with its unknown creators.  It uses an encryption code so
+sophisticated that only a very few people could have deployed it.
+For the first time ever, the cyber-security elites of the world have
+joined forces in a high-tech game of cops and robbers, trying to find
+Conficker’s creators and defeat them.  The cops are failing.  And now
+the worm lies there, waiting …
+
+
+nb tdd junit java test framework xunit
+http://junit.sourceforge.net/

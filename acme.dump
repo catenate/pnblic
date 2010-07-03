@@ -7,12 +7,28 @@ c          0 New Cut Paste Snarf Sort Zerox Delcol
 c          1 New Cut Paste Snarf Sort Zerox Delcol 
 f          0           1           0           0   2.0697168 
           1          43         148           1           0 /home/jdc/git/pnblic/ Del Snarf Get | Look 
-f          0           8        2103        2103   4.1394336 
-          8         134        2860           0           0 /home/jdc/git/pnblic/2010-03-05-nb—search-and-index-notes-in-files-by-keyword.md Del Snarf Undo | Look
-f          0          11         514         514  98.1481481 
-         11          79         906           0           0 /home/jdc/git/pnblic/index.html Del Snarf Undo | Look 
-F          1           0       16844       16844   2.0697168       16844 
-          6          55       16844           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
+f          0          12           0           0   4.1394336 
+         12          52          35           1           0 /home/jdc/git/pnblic/_layouts/ Del Snarf Get | Look 
+f          0           2        2490        2490   6.2091503 
+          2          97        2860           0           0 /home/jdc/git/pnblic/2010-03-05-nb—search-and-index-notes-in-files-by-keyword.md Del Snarf | Look
+f          0          10           0           0  83.6601307 
+         10          47          11           1           0 /home/jdc/git/pnblic/css/ Del Snarf Get | Look 
+f          0          11         323         358  85.7298475 
+         11          58         358           0           0 /home/jdc/git/pnblic/css/screen.css Del Snarf Undo | Look 
+f          0           3         514         514  87.7995643 
+          3          49         906           0           0 /home/jdc/git/pnblic/index.html Del Snarf | Look 
+f          0          13         492         492  89.8692810 
+         13          62         492           0           0 /home/jdc/git/pnblic/_layouts/post.html Del Snarf Undo | Look 
+f          0           9         323         358  91.9389978 
+          9          66         358           0           0 /home/jdc/git/catenate.github.com/css/screen.css Del Snarf | Look 
+f          0          14           0           0  94.0087146 
+         14          56         116           1           0 /home/jdc/git/catenate.github.com/ Del Snarf Get | Look 
+f          0          15           0           0  96.0784314 
+         15          65          35           1           0 /home/jdc/git/catenate.github.com/_layouts/ Del Snarf Get | Look 
+f          0          16         235         485  98.1481481 
+         16          70         485           0           0 /home/jdc/git/catenate.github.com/_layouts/post.html Del Snarf | Look 
+F          1           0       17361       17361   2.0697168       17361 
+          4          55       17361           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
 # On branch gh-pages
 #
 # Initial commit
@@ -400,20 +416,25 @@ Building site: /home/jdc/git/pnblic -> ./_site
 Successfully generated site: /home/jdc/git/pnblic -> ./_site
 # On branch gh-pages
 nothing to commit (working directory clean)
-F          1           1         104         115  28.8671024         208 
-          7          53         208           0           1 /home/jdc/git/pnblic/guide Del Snarf Undo Put | Look 
-cp -r /home/jdc/git/tictestrue/css .
-jekyll --server
-|fmt -w 62|sed 's,$,  ,'
-|sed 's,^,	,'
-|sort|uniq
-
-git status
-git commit -a -m 'double-space some paragraphs'
-git push origin gh-pages
-git checkout master
-f          1           9           0           0  60.6753813 
-          9          47         129           1           0 /home/jdc/git/tictestrue/ Del Snarf Get | Look 
-F          1           3           0          70  81.3725490          70 
-         13          25          70           0           0 +Errors Del Snarf | Look 
+# On branch gh-pages
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   _layouts/post.html
+#	modified:   acme.dump
+#	modified:   css/screen.css
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+[gh-pages 0e173a7] add disqus comments
+ 3 files changed, 388 insertions(+), 15 deletions(-)
+To git@github.com:catenate/pnblic.git
+   d6f1038..0e173a7  gh-pages -> gh-pages
+f          1           5         124         188  39.4335512 
+          5          49         208           0           0 /home/jdc/git/pnblic/guide Del Snarf Undo | Look 
+f          1           6           0           0  91.6122004 
+          6          47         237           1           0 /home/jdc/git/tictestrue/ Del Snarf Get | Look 
+F          1           3          70         130  93.6819172         130 
+          7          25         130           0           0 +Errors Del Snarf | Look 
 can't open /home/jdc/git/pnblic/.gitignore: No such file or directory
+/home/jdc/git/pnblic/guide not written; file already exists

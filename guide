@@ -1,10 +1,10 @@
-cp -r /home/jdc/git/tictestrue/css .
+cp -r /home/jdc/git/catenate.github.com/css .
 jekyll --server
 |fmt -w 62|sed 's,$,  ,'
 |sed 's,^,	,'
 |sort|uniq
 
 git status
-git commit -a -m 'update archive outlink'
+git commit -a -m 'add disqus comments'
 git push origin gh-pages
 git checkout master

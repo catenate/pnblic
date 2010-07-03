@@ -1,7 +1,8 @@
 bin/nb tool
 git status
-git commit -a -m 'clear changes'
+git commit -a -m 'add checkout command for branch gh-pages'
 git push origin master
+git checkout gh-pages
 ls -ltr /home/jdc/Dropbox/nb|tail
 |fmt -w 72|sed 's,$,  ,'
 |sort|uniq

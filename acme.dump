@@ -15,8 +15,8 @@ f          0          10         653         653  96.0784314
          10          43        3458           1           0 /home/jdc/Dropbox/nb/ Del Snarf Get | Look 
 f          0          11         253         532  98.1481481 
          11          49         929           0           0 /home/jdc/Dropbox/nb/guide Del Snarf Redo | Look 
-F          1           0      100211      100211   2.0697168      100211 
-          5          55      100211           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
+F          1           0      101313      101313   2.0697168      101313 
+          5          55      101313           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
 # On branch master
 # Changed but not updated:
 #   (use "git add <file>..." to update what will be committed)
@@ -1817,15 +1817,44 @@ no changes added to commit (use "git add" and/or "git commit -a")
 #
 #	modified:   nb/guide
 #
-F          1           1          56          56  50.5446623         151 
-          7          53         151           0           1 /home/jdc/git/pnblic/guide Del Snarf Undo Put | Look 
-bin/nb tool
-git status
-git commit -a -m 'add dated files'
-git push origin master
-ls -ltr /home/jdc/Dropbox/nb|tail
-|fmt -w 72|sed 's,$,  ,'
-|sort|uniq
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   .gitignore
+#	new file:   nb/20100629
+#	new file:   nb/20100630
+#	new file:   nb/20100701
+#	new file:   nb/20100702
+#	new file:   nb/20100703
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   acme.dump
+#	modified:   nb/guide
+#
+[master 7114099] add dated files
+ 8 files changed, 490 insertions(+), 19 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 nb/20100629
+ create mode 100644 nb/20100630
+ create mode 100644 nb/20100701
+ create mode 100644 nb/20100702
+ create mode 100644 nb/20100703
+To git@github.com:catenate/pnblic.git
+   c7171dd..7114099  master -> master
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+f          1           7          23         106  50.5446623 
+          7          49         198           0           0 /home/jdc/git/pnblic/guide Del Snarf Undo | Look 
 F          1           2         724         732  87.9084967         845 
           8          49         845           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf | Look 
 maths convert letter language lead microsoft academy people startup crypto hash word music ruby open pairing car metric polyglot 20100628

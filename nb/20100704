@@ -1,0 +1,38 @@
+nb web page line length
+Weakley, R.  20030503.  Ideal line length for content.  maxdesign.
+http://www.maxdesign.com.au/articles/em/
+
+Using a standard piece of text like “Lorem ipsum…” it seems that an
+ideal like length in ems is about 30–35.  This is expressed with the rule:
+
+	width: 30em;
+
+The beauty of this is that this measurement relates the user’s font size.
+If you come to a site with a default font size of smaller or larger,
+the column width will always stay within the optimal range.
+
+
+nb write think @rands
+Writing is what you do when you want to think.
+
+
+nb curious student learn notation
+A student starts with curiosity about the world: the rest is notation,
+which is teachable.
+
+
+nb git computer science introduction
+Virtanen, T.  Git for computer scientists.  Tv’s cobweb.
+http://eagain.net/articles/git-for-computer-scientists/
+
+Quick introduction to git internals for people who are not scared by
+words like Directed Acyclic Graph.
+
+
+nb haskell irc lambdabot command @list
+http://code.haskell.org/lambdabot/COMMANDS
+
+
+nb sicp epub structure interpret computer program mit book haroldableson geraldjaysussman @ieure
+http://github.com/ieure/sicp
+fbreader /home/jdc/Downloads/sicp.epub

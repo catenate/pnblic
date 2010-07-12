@@ -5,18 +5,12 @@
 w Newcol Kill Putall Dump acme.dump Exit 
 c          0 New Cut Paste Snarf Sort Zerox Delcol 
 c          1 New Cut Paste Snarf Sort Zerox Delcol 
-f          0           1           0           0   2.0697168 
-          1          43          83           1           0 /home/jdc/git/pnblic/ Del Snarf Get | Look 
-f          0           2          65          65   9.8039216 
-          2          53         477           0           0 /home/jdc/git/pnblic/README.md Del Snarf | Look Font 
-f          0           3           0           0  94.0087146 
-          3          46         204           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
-f          0          10         653         653  96.0784314 
-         10          43        3458           1           0 /home/jdc/Dropbox/nb/ Del Snarf Get | Look 
-f          0          11         253         532  98.1481481 
-         11          49         929           0           0 /home/jdc/Dropbox/nb/guide Del Snarf Redo | Look 
-F          1           0      101313      101313   2.0697168      101313 
-          5          55      101313           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
+f          0           5           0           0   2.0697168 
+          5          43        3410           1           0 /home/jdc/Dropbox/nb/ Del Snarf Get | Look 
+f          0           3           0           0  85.7298475 
+          3          46         234           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
+F          1           0      101800      101800   2.0697168      101800 
+          8          46      101800           0           1 /home/jdc/git/pnblic/+Errors Del Snarf | Look 
 # On branch master
 # Changed but not updated:
 #   (use "git add <file>..." to update what will be committed)
@@ -1853,10 +1847,23 @@ To git@github.com:catenate/pnblic.git
 #	modified:   guide
 #
 no changes added to commit (use "git add" and/or "git commit -a")
-f          1           7          23         106  50.5446623 
-          7          49         198           0           0 /home/jdc/git/pnblic/guide Del Snarf Undo | Look 
-F          1           2         724         732  87.9084967         845 
-          8          49         845           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf | Look 
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   acme.dump
+#	modified:   guide
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+[master 62f3d64] add checkout command for branch gh-pages
+ 2 files changed, 42 insertions(+), 12 deletions(-)
+To git@github.com:catenate/pnblic.git
+   7114099..62f3d64  master -> master
+f          1           9         162         172   4.1394336 
+          9          49         184           0           0 /home/jdc/git/pnblic/guide Del Snarf Undo | Look 
+F          1           2        4084        4084   6.2091503        4084 
+         10          58        4084           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf Undo Put | Look 
 maths convert letter language lead microsoft academy people startup crypto hash word music ruby open pairing car metric polyglot 20100628
     138
 test haskell swcraft gitrdun knowledge lego clojure
@@ -1879,8 +1886,78 @@ which: exit 1
 which: exit 1
 test gitrdun lego macosx convert apparatus clojure compress haskell knowledge polyglot ruby shell swcraft unix τ tdd
     118
-f          1           9         162         305  89.9782135 
-          9          52         663           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf Undo | Look 
-F          1           4           0          70  95.8605664          70 
-         13          25          70           0           0 +Errors Del Snarf | Look 
-can't open /home/jdc/git/pnblic/.gitignore: No such file or directory
+    137
+haskell irc nb
+nb one instruction set computer minimal subtract branch move memory map
+nb haskell irc hoogle signature search
+nb haskell irc lambdabot pl
+nb discover music podcast @cdbaby
+20100703:nb haskell irc
+20100703:nb one instruction set computer minimal subtract branch move memory map
+20100703:nb haskell irc hoogle signature search
+20100703:nb haskell irc lambdabot pl
+20100703:nb discover music podcast @cdbaby
+20100703:nb one instruction set computer minimal subtract branch move memory map
+20100703:nb haskell irc hoogle signature search
+20100703:nb haskell irc lambdabot pl
+20100703:nb discover music podcast @cdbaby
+one instruction set computer minimal subtract branch move memory map
+haskell irc hoogle signature search
+haskell irc lambdabot pl
+discover music podcast @cdbaby
+haskell irc
+rc: line 3: token EOF: syntax error
+|fmt: exit 1
+@donttrythis computer flip function haskell irc lambdabot
+computer flip function haskell irc lambdabot
+20100703:nb one instruction set computer minimal subtract branch move memory map
+20100703:nb haskell irc hoogle type signature search flip
+20100703:nb haskell irc lambdabot pl lambda
+20100703:nb discover music podcast @cdbaby
+20100703:nb haskell source src define function flip last
+20100703:nb haskell function argument → kmc tolkad
+20100703:nb extreme programming xp practice
+20100703:nb haskell irc lambdabot let π pi τ tau
+20100703:nb haskell eval usage ghc sort parameter function functorsalad
+20100703:nb haskell irc lambdabot tell note message user
+20100703:nb agile lean product develop manage @dreinertsen @redsquirrel
+20100704:nb web page line length
+20100704:nb write think @rands
+20100704:nb curious student learn notation
+20100704:nb git computer science introduction
+20100704:nb haskell irc lambdabot command @list
+20100704:nb sicp epub structure interpret computer program mit book haroldableson geraldjaysussman @ieure
+20100709:nb english ambiguous grammar garden path sentence phrase surprise meaning
+20100709:nb little cthulhu kid video
+20100709:nb adult care @donttrythis
+20100709:nb biology religion atheism evolution @donttrythis
+20100709:nb douglashofstadter interview godel escher bach strange loop @leverus
+20100710:nb nuclear explosion 1945 1998 elapsed time map video
+computer flip function haskell irc lambdabot map video
+rc (/usr/local/plan9/bin/rc): variable name not singleton!
+now: exit 1
+rc (/usr/local/plan9/bin/rc): variable name not singleton!
+now: exit 1
+stardate: exit 2
+/home/jdc/mot/bin/stardate: 1: Syntax error: "(" unexpected
+/home/jdc/bin/9/stardate
+20100711.203621
+20100711
+New 20100711
+clang computer flip function haskell irc lambdabot map video
+Recent http://j.mp/pnblic: clang
+Recent http://j.mp/pnblic: computer
+Recent http://j.mp/pnblic: flip
+Recent http://j.mp/pnblic: function
+Recent http://j.mp/pnblic: haskell
+Recent http://j.mp/pnblic: irc
+Recent http://j.mp/pnblic: lambdabot
+Recent http://j.mp/pnblic: map
+Recent http://j.mp/pnblic: video
+Recent http://j.mp/pnblic: clang computer flip function haskell irc lambdabot map video
+Recent http://j.mp/pnblic: clang computer flip function haskell irc lambdabot map video
+     88
+Recent http://j.mp/pnblic: clang computer flip function haskell irc lambdabot map video
+     88
+f          1          11         121         308  31.3725490 
+         11          52         809           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf Undo | Look 

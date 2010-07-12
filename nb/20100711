@@ -1,0 +1,28 @@
+nb relational operator
+http://en.wikipedia.org/wiki/Relational_operator
+
+This usage of "=" in these "C-syntax" languages can lead to coding errors.
+A programmer may mistype "if (x = y)" instead of "if (x == y)".
+In C, the former code fragment roughly means "assign y to x, and if the
+new value of x is not zero, execute the statement following".
+The latter code fragment roughly means "if and only if x is equal to y,
+execute the statement following".
+
+
+nb clang c++ operator
+http://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B
+
+
+nb logical operator
+http://en.wikipedia.org/wiki/Logical_operator
+
+In language: natural language, formal languages.  Common logical
+connectives: table of binary logical connectives, functional
+completeness.  Properties: arity, order of precedence.  Principle of
+compositionality.  Computer science.
+
+Negation (not) (¬ or ~)
+Conjunction (and) (⋀, &, or ·)
+Disjunction (or) (⋁ or ∨)
+Material implication (if...then) (→, ⇒ or ⊃)
+Biconditional (if and only if) (iff) (xnor) (↔, ≡, or =)

@@ -2,14 +2,66 @@ nb one instruction set computer minimal subtract branch move memory map
 http://en.wikipedia.org/wiki/One_instruction_set_computer
 
 
-nb haskell irc hoogle signature search
+nb haskell irc hoogle type signature search flip
 #haskell @hoogle a -> [a] -> ([a], [a])
 
+(07:13:28 PM) kniu: :t flip
+(07:13:30 PM) lambdabot: forall (f :: * -> *) a b. (Functor f) => f (a -> b) -> a -> f b
 
-nb haskell irc lambdabot pl
+
+nb haskell irc lambdabot pl lambda
 (04:33:05 PM) pastorn: @pl (\x y -> isAlpha x && isAlpha y)
 (04:33:06 PM) lambdabot: (. isAlpha) . (&&) . isAlpha
 
 
 nb discover music podcast @cdbaby
 http://musicdiscovery.cdbabypodcast.com/
+
+
+nb haskell source src define function flip last
+(07:13:46 PM) kniu: @src flip
+(07:13:46 PM) lambdabot: flip f x y = f y x
+
+(07:13:58 PM) aasmith_: @src last
+(07:13:59 PM) lambdabot: last [x]    = x
+(07:13:59 PM) lambdabot: last (_:xs) = last xs
+(07:13:59 PM) lambdabot: last []     = undefined
+
+
+nb haskell function argument → kmc tolkad
+Haskell uses → to seperate types of different arguments because a two
+argument function is really a function that takes arg 1, and returns a
+function which takes arg 2.  That's why partial application works.
+
+
+nb extreme programming xp practice
+http://c2.com/cgi/wiki?ExtremeProgrammingRoadmap
+
+
+nb haskell irc lambdabot let π pi τ tau
+(10:48:04 PM) kmc: @let π = pi
+(10:48:05 PM) lambdabot:  Defined.
+(10:48:17 PM) kmc: @let τ = 2*π
+(10:48:18 PM) lambdabot:  Defined.
+
+
+nb haskell eval usage ghc sort parameter function functorsalad
+Recent example: a command-line tool to run sortBy or whatever with an
+arbitrary Haskell function as argument.  Actually the simplest way would
+be a bash script.
+
+	ghc -e "main = interact (unlines . sortBy ((<=) \`on\` ($*)) . lines)"
+
+
+nb haskell irc lambdabot tell note message user
+(11:35:07 PM) ivanm: @tell Baughn I found my problem; I had -XCPP set as one of ghci's args for haskell-program-name, and it was causing it to read the */ as a closing C comment or something... :s
+(11:35:07 PM) lambdabot: Consider it noted.
+
+
+nb agile lean product develop manage @dreinertsen @redsquirrel
+Reinertsen, D.  The principles of product development flow:
+Second generation lean product development (excerpts).
+http://nuts.redsquirrel.com/post/767852671/excerpts-from-reinerstens-flow
+
+Sitting in traffic is so much less infuriating after learning about
+queue theory in @dreinertsen's "Flow".

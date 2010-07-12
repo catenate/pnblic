@@ -5,12 +5,12 @@
 w Newcol Kill Putall Dump acme.dump Exit 
 c          0 New Cut Paste Snarf Sort Zerox Delcol 
 c          1 New Cut Paste Snarf Sort Zerox Delcol 
-f          0           5           0           0   2.0697168 
-          5          43        3410           1           0 /home/jdc/Dropbox/nb/ Del Snarf Get | Look 
-f          0           3           0           0  85.7298475 
-          3          46         234           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
-F          1           0      101800      101800   2.0697168      101800 
-          8          46      101800           0           1 /home/jdc/git/pnblic/+Errors Del Snarf | Look 
+f          0           1           0           0   2.0697168 
+          1          43        3410           1           0 /home/jdc/Dropbox/nb/ Del Snarf Get | Look 
+f          0           2           0           0  83.8779956 
+          2          46         252           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
+F          1           0      103596      103596   2.0697168      103596 
+          3          55      103596           0           1 /home/jdc/git/pnblic/+Errors Del Snarf Undo Put | Look 
 # On branch master
 # Changed but not updated:
 #   (use "git add <file>..." to update what will be committed)
@@ -1860,10 +1860,77 @@ no changes added to commit (use "git add" and/or "git commit -a")
  2 files changed, 42 insertions(+), 12 deletions(-)
 To git@github.com:catenate/pnblic.git
    7114099..62f3d64  master -> master
-f          1           9         162         172   4.1394336 
-          9          49         184           0           0 /home/jdc/git/pnblic/guide Del Snarf Undo | Look 
-F          1           2        4084        4084   6.2091503        4084 
-         10          58        4084           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf Undo Put | Look 
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   acme.dump
+#	modified:   guide
+#	modified:   nb/20100703
+#	modified:   nb/guide
+#	modified:   nb/nbindex
+#
+# Untracked files:
+#   (use "git add ." to include in what will be committed)
+#
+#	nb/20100704
+#	nb/20100709
+#	nb/20100710
+#	nb/20100711
+#	nb/20100712
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   acme.dump
+#	modified:   guide
+#	modified:   nb/20100703
+#	new file:   nb/20100704
+#	new file:   nb/20100709
+#	new file:   nb/20100710
+#	new file:   nb/20100711
+#	new file:   nb/20100712
+#	modified:   nb/guide
+#	modified:   nb/nbindex
+#
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   acme.dump
+#	modified:   guide
+#	modified:   nb/20100703
+#	new file:   nb/20100704
+#	new file:   nb/20100709
+#	new file:   nb/20100710
+#	new file:   nb/20100711
+#	new file:   nb/20100712
+#	modified:   nb/guide
+#	modified:   nb/nbindex
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   guide
+#
+[master 1860ad4] add recent notes
+ 10 files changed, 403 insertions(+), 26 deletions(-)
+ create mode 100644 nb/20100704
+ create mode 100644 nb/20100709
+ create mode 100644 nb/20100710
+ create mode 100644 nb/20100711
+ create mode 100644 nb/20100712
+To git@github.com:catenate/pnblic.git
+   62f3d64..1860ad4  master -> master
+# On branch master
+nothing to commit (working directory clean)
+f          1           4          52          52   4.1394336 
+          4          49         155           0           0 /home/jdc/git/pnblic/guide Del Snarf Undo | Look 
+F          1           2        4374        4374  96.0784314        4374 
+          5          63        4374           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf Undo Redo Put | Look 
 maths convert letter language lead microsoft academy people startup crypto hash word music ruby open pairing car metric polyglot 20100628
     138
 test haskell swcraft gitrdun knowledge lego clojure
@@ -1959,5 +2026,8 @@ Recent http://j.mp/pnblic: clang computer flip function haskell irc lambdabot ma
      88
 Recent http://j.mp/pnblic: clang computer flip function haskell irc lambdabot map video
      88
-f          1          11         121         308  31.3725490 
-         11          52         809           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf Undo | Look 
+    141
+Recent http://j.mp/pnblic: book clang computer directory file flip function haskell irc lambdabot layout map operator programming ruby video
+Recent http://j.mp/pnblic: book clang computer directory file flip function haskell irc lambdabot layout map operator programming ruby video
+f          1           6         307         307  98.1481481 
+          6          47         809           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf | Look 

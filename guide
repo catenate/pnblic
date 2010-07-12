@@ -1,6 +1,6 @@
 bin/nb tool
 git status
-git commit -a -m 'add recent notes'
+git commit -a -m 'regen index'
 git push origin master
 git checkout gh-pages
 ls -ltr /home/jdc/Dropbox/nb|tail

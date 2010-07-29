@@ -1,0 +1,60 @@
+nb robot programming language educate teach child
+http://robomind.net/en/index.html
+
+ROBO is a new and very simple educational programming language that will
+familiarize you with the basics of computer science by programming your
+own robot.  In addition to an introduction into popular programming
+techniques, you will also gain insight into areas such as robotics and
+artificial intelligence.  ROBO is designed in such a way that you can
+start exploring and programming right away.  A special programming
+language has been created that consists of a concise set of rules and is
+aimed at programming a robot.  As a result there are a lot of
+opportunities to create programs on your own and experience the
+principles that lay at the heart of most other programming languages.
+
+
+nb java process
+Cartmell, K.  20090119.  Five common java.lang.Process pitfalls.
+Kyle Cartmell’s homepage.
+http://kylecartmell.com/?p=9
+
+Process.waitFor doesn’t have to return.  Process.waitFor does not clear
+thread interrupt flag when it throws InterruptedException.
+Process output must be promptly consumed.  Process resources are not
+automatically freed until finalization.  Process.destroy doesn’t kill
+process grandchildren.
+
+
+nb java maximum open file error close reader destroy process
+Burke, E.  20071128.  Crash, boom: Too many open files….  It's just a
+bunch of stuff that happens.
+http://stuffthathappens.com/blog/2007/11/28/crash-boom-too-many-open-files/
+
+public class ProcDemo {
+  public static void main(String[] args) throws
+        InterruptedException, IOException {
+    Process proc = null;
+    try {
+      ProcessBuilder pb = new ProcessBuilder(args);
+      proc = pb.start();
+      proc.waitFor();
+    } finally {
+      if (proc != null) {
+        close(proc.getOutputStream());
+        close(proc.getInputStream());
+        close(proc.getErrorStream());
+        proc.destroy();
+      }
+    }
+  }
+
+  private static void close(Closeable c) {
+    if (c != null) {
+      try {
+        c.close();
+      } catch (IOException e) {
+        // ignored
+      }
+    }
+  }
+}

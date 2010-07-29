@@ -1,0 +1,93 @@
+n ruby gem document server file class method
+gem server
+http://localhost:8808/
+
+
+nb ruby tool category count github source watcher fork
+http://ruby-toolbox.com/
+
+Ruby developers can choose from a variety of tools to get their job done.
+The Ruby Toolbox gives you an overview of these tools, sorted in categories
+and rated by the amount of watchers and forks in the corresponding source
+code repository on GitHub so you can find out easily what options you have
+and which are the most common ones in the Ruby community.
+
+
+nb quark scale space video
+From quarks to outer space.
+http://www.youtube.com/watch?v=RPumskk1dGk
+
+This video depicts the relative scale of things and the Universe in
+factors of ten.  We start with the smallest things that science knows.
+Each following image is in scale ten times larger than the preceding one.
+
+
+nb work progress wip limit ready working kanban tool work flow history
+Kim, S. 20100724.  Continuous yak shaving—Lessons learned.
+Skim: Software apprenticeship.
+http://skim.cc/2010/07/24/continuous-yak-shaving/
+
+With respect to working on multiple stories, I find that setting work-
+in-progress limits for "working" and "ready" stories keeps me from
+thrashing too much.  With a working limit of two, a third thing pushes
+one working thing back to ready; and with a ready limit of five, another
+family of stories has no place and gets pushed back to backlog.
+I think WIP limits are really the heart of kanban: most other systems
+let you get overburdened and distracted, since they don't respect
+humans' limited attention span and tendency to thrash.  For example,
+with ten-points-worth of stories open in the current iteration, none
+might actually get done until the final day of the iteration, since you
+don't have to close out one story to make space to do another.
+I also like that the kanban tools tend to quietly analyze workflow
+instead of trying to record estimates: after a while you tend to break
+down things instinctively into categories of work, and after-the-fact
+analysis tells you how well you usually perform the category of work
+you're doing.
+
+
+nb frink unit measure calculate programming language
+http://futureboy.homeip.net/frinkdocs/
+
+Tracks units of measure (feet, meters, tons, dollars, watts, etc.) through
+all calculations and allows you to add, subtract, multiply, and divide them
+effortlessly, and makes sure the answer comes out correct, even if you mix
+units like gallons and liters.  Arbitrary-precision math, including huge
+integers and floating-point numbers, rational numbers (that is, fractions
+like 1/3 are kept without loss of precision), complex numbers,
+and intervals.  Advanced mathematical functions including trigonometric
+functions (even for complex numbers), factoring and primality testing, and
+base conversions.  Unit conversion between thousands of unit types with a
+huge built-in data file.  Date/time math (add offsets to dates, find out
+intervals between times), timezone conversions, and user-modifiable
+date formats.  Translates between several human languages, including
+English, French, German, Spanish, Portuguese, Dutch, Korean, Japanese,
+Russian, Chinese, Swedish, and Arabic.  Calculates historical buying power
+of the U.S.  dollar and British pound.  Calculates exchange rates between
+most of the world's currencies.  Powerful Perl-like regular expression
+capabilities and text processing.  Supports Unicode throughout, allowing
+processing of almost all of the world's languages.  Supports interval
+arithmetic (also known as interval computations) in calculations, allowing
+you to automagically calculate error bounds and uncertainties in all of
+your calculations.  Reads HTTP and FTP-based URLs as easily as reading
+local files, allowing fetching of live web-based data.  Runs on most major
+operating systems (anything with Java 1.1 or later), as an applet, through
+a web-based interface, on a wireless Palm VII, on an HDML- or WML-based
+webphone, and on many mobile phones and hand-held devices.  Installs itself
+on your system in seconds using Java Web Start and automatically keeps
+itself updated when new versions of Frink are released.  Runs with a
+Graphical User Interface (Swing, AWT, and Android) or a command-line interface.
+User interface has a Programming Mode which allows you to write, edit,
+save, and run extremely powerful programs even on a handheld device.
+Frink has a simple but powerful system for drawing graphics which are
+resizable, support transparency and anti-aliasing, and can be printed or
+written to image files.  Graphics can also have exact lengths, so that a
+3-centimeter line is three centimeters long when printed.  Powers Frink
+Server Pages, a system for providing dynamic web pages powered by Frink.
+Frink is a full-fledged programming language with arrays, dictionaries,
+sets, functions, loops, even object-oriented programming and self-evaluation.
+Frink allows Object-Oriented Programming, which allows you to create
+complex data structures that are still easy to use.  Java introspection
+layer allows you to call any Java code from within Frink.  Frink can also
+be embedded in a Java program, giving your Java programs all the power of Frink.
+Did I mention it's free?  If you find it useful, please donate something.
+I'd really appreciate it!

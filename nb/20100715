@@ -1,0 +1,199 @@
+nb java working directory system get property user
+Getting the current working directory.  Example depot: Java »
+Java packages » java.io » Directories.
+http://www.exampledepot.com/egs/java.io/CurDir.html
+
+The working directory is the location in the file system from where the
+java command was invoked.
+
+	String curDir = System.getProperty("user.dir");
+
+
+nb java system get property list
+http://download.oracle.com/docs/cd/E17409_01/javase/6/docs/api/java/lang/System.html#getProperties()
+
+java.version java.vendor java.vendor.url java.home
+java.vm.specification.version java.vm.specification.vendor
+java.vm.specification.name java.vm.version java.vm.vendor java.vm.name
+java.specification.version java.specification.vendor
+java.specification.name java.class.version java.class.path
+java.library.path java.io.tmpdir java.compiler java.ext.dirs os.name
+os.arch os.version file.separator path.separator line.separator
+user.name user.home user.dir
+
+
+nb neilgaiman career @neilhimself @the_av_club
+Handlen, Z. et al.  20100715.  Primer: Neil Gaiman.  AV club: Books.
+http://www.avclub.com/articles/neil-gaiman,43154/
+
+
+nb postgres unix user account
+The PostgreSQL user account.  PostgreSQL 8.4.4 documentation:
+Server setup and operation.
+http://www.postgresql.org/docs/8.4/interactive/postgres-user.html
+
+cat /etc/passwd | grep postgres
+
+
+nb postgres create database cluster
+Creating a database cluster.  PostgreSQL 8.4.4 documentation:
+Server setup and operation.
+http://www.postgresql.org/docs/8.4/interactive/creating-cluster.html
+
+ls /usr/local/pgsql/data
+ls /var/lib/pgsql/data
+
+root# mkdir /usr/local/pgsql/data
+root# chown postgres /usr/local/pgsql/data
+root# su postgres
+postgres$ initdb -D /usr/local/pgsql/data
+
+postgres@jdc-desktop:~$ /usr/lib/postgresql/8.4/bin/initdb -D /usr/local/pgsql/data
+The files belonging to this database system will be owned by user "postgres".
+This user must also own the server process.
+
+The database cluster will be initialized with locale en_US.UTF-8.
+The default database encoding has accordingly been set to UTF8.
+The default text search configuration will be set to "english".
+
+fixing permissions on existing directory /usr/local/pgsql/data ... ok
+creating subdirectories ... ok
+selecting default max_connections ... 100
+selecting default shared_buffers ... 24MB
+creating configuration files ... ok
+creating template1 database in /usr/local/pgsql/data/base/1 ... ok
+initializing pg_authid ... ok
+initializing dependencies ... ok
+creating system views ... ok
+loading system objects' descriptions ... ok
+creating conversions ... ok
+creating dictionaries ... ok
+setting privileges on built-in objects ... ok
+creating information schema ... ok
+vacuuming database template1 ... ok
+copying template1 to template0 ... ok
+copying template1 to postgres ... ok
+
+WARNING: enabling "trust" authentication for local connections
+You can change this by editing pg_hba.conf or using the -A option the
+next time you run initdb.
+
+Success. You can now start the database server using:
+
+    /usr/lib/postgresql/8.4/bin/postgres -D /usr/local/pgsql/data
+or
+    /usr/lib/postgresql/8.4/bin/pg_ctl -D /usr/local/pgsql/data -l logfile start
+
+postgres@jdc-desktop:~$ /usr/lib/postgresql/8.4/bin/postgres -D /usr/local/pgsql/data
+LOG:  could not bind IPv4 socket: Address already in use
+HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+WARNING:  could not create listen socket for "localhost"
+FATAL:  could not create any TCP/IP sockets
+
+postgres@jdc-desktop:~$ ps -ax | grep post
+22408 ?        S      0:01 /usr/lib/postgresql/8.4/bin/postgres -D /var/lib/postgresql/8.4/main -c config_file=/etc/postgresql/8.4/main/postgresql.conf
+22410 ?        Ss     0:15 postgres: writer process
+22411 ?        Ss     0:10 postgres: wal writer process
+22412 ?        Ss     0:02 postgres: autovacuum launcher process
+22413 ?        Ss     0:02 postgres: stats collector process
+
+
+nb postgres host authenticate user
+The pg_hba.conf file.  PostgreSQL 8.4.4 documentation:
+Client authentication.
+http://www.postgresql.org/docs/8.4/interactive/auth-pg-hba-conf.html
+
+postgres@jdc-desktop:~/8.4/main$ cp /usr/local/pgsql/data/pg_hba.conf .
+postgres@jdc-desktop:~/8.4/main$ cp /usr/local/pgsql/data/pg_ident.conf .
+
+
+nb restart postgres server
+/etc/init.d/postgresql-8.4 restart
+
+
+nb postgres create user
+http://erikonrails.snowedin.net/?p=274
+http://www.postgresql.org/docs/8.4/interactive/app-createuser.html
+
+postgres@jdc-desktop:~/8.4/main$ createuser railsblog --createdb --pwprompt
+Enter password for new role: 
+Enter it again: 
+Shall the new role be a superuser? (y/n) n
+Shall the new role be allowed to create more new roles? (y/n) n
+
+
+nb fix
+endpoint_david: catenate: from your server, do: 'show hba_file'
+endpoint_david: that doesn't have ident at all setup.  also, if you've made changes to pg_hba.conf, you need to reload (not restart) the server for it to pick them up.
+endpoint_david: from within psql, you can: SELECT pg_reload_conf();
+endpoint_david: that will not affect any running connections, etc
+
+postgres@jdc-desktop:~/8.4/main$ /etc/init.d/postgresql-8.4 reload
+
+postgres@jdc-desktop:~/8.4/main$ psql
+postgres=# SELECT pg_reload_conf();
+ pg_reload_conf 
+----------------
+ t
+(1 row)
+
+postgres=# show hba_file;
+               hba_file               
+--------------------------------------
+ /etc/postgresql/8.4/main/pg_hba.conf
+(1 row)
+
+catenate: set this line in pg_hba.conf and reloaded: host    all         all         127.0.0.1/32          ident map=rails
+catenate: and this line in pg_ident.conf: rails         jdc                railsblog
+catenate: also createuser railsblog --createdb --pwprompt
+catenate: set railsblog username and password in config/database.yml; and now "rake db:create" doesn't scream at me.
+
+
+nb rails blog tutorial
+http://guides.rubyonrails.org/getting_started.html
+
+cd /home/jdc/git/railsblog
+
+rake db:create
+
+script/generate controller home index
+script/server
+http://localhost:3000 /home/jdc/git/railsblog/public/index.html
+http://localhost:3000/home/index /home/jdc/git/railsblog/app/views/home/index.html.erb
+config/routes.rb
+gsub! error
+rm public/index.html
+http://localhost:3000 /home/jdc/git/railsblog/app/views/home/index.html.erb
+
+script/generate scaffold Post name:string title:string content:text
+
+rake db:migrate
+
+
+nb rails blog tutorial post index view
+/home/jdc/git/railsblog/app/views/posts/index.html.erb
+/home/jdc/git/railsblog/app/views/layouts/posts.html.erb
+
+
+nb jlang
+http://www.jsoftware.com/
+
+
+nb haml template markup
+http://haml-lang.com/
+
+
+nb typography mark history pilcrow ampersand section asterisk hedera 
+http://retinart.net/typography/marksunknown
+
+
+nb page text block layout ninth harmony
+http://retinart.net/graphic-design/secret-law-of-page-harmony
+
+
+nb lex yacc howto
+http://ds9a.nl/lex-yacc/cvs/lex-yacc-howto.html
+
+
+nb apprentice journeyman @coreyhaines
+Haines, C.  Software craftsmanship terminology.  Skills matter.

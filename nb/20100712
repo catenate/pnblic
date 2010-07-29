@@ -1,3 +1,141 @@
+nb obtiva spike ruby rspec rails sqlite git heroku cucumber
+
+
+nb deploy heroku ruby host
+http://docs.heroku.com/quickstart
+http://jqr.github.com/2009/04/24/deploy-your-rails-application-in-2-minutes-with-heroku.html
+http://jqr.github.com/2009/04/25/deploying-multiple-environments-on-heroku.html
+
+
+nb rails tutorial
+http://guides.rubyonrails.org/getting_started.html
+
+
+nb sqlite database
+http://www.sqlite.org/
+
+
+nb java rosettacode hello world
+http://rosettacode.org/wiki/Hello_world/Text#Java
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Goodbye, World!");
+	}
+}
+
+
+nb compile java
+http://java.sun.com/developer/onlineTraining/Programming/BasicJava1/compile.html
+http://www.cs.swarthmore.edu/~newhall/unixhelp/debuggingtips_Java.html
+
+
+nb junit test hello world
+http://junit.sourceforge.net/doc/faq/faq.htm#tests_1
+
+
+nb java class constructor hello world
+http://www.artima.com/designtechniques/initializationP.html
+
+
+nb java tutorial introduction
+Tobochnik, J. and Gould, H.  Introduction to Java.
+http://sip.clarku.edu/tutorials/java/java.html
+
+
+nb handle catch exception junit test
+Harrah, M.  20060501.  Exception handling in JUnit tests.
+Platinum solutions: Matt Harrah's blog.
+http://blog.platinumsolutions.com/node/113
+
+In my mind there is one, and only one, good reason to catch Exceptions
+thrown by code under test in a JUnit test: when you are actually testing
+that the code under tests throws Exceptions according to its contract.
+
+
+nb java array tutorial
+Arrays.  The Java tutorials.
+http://download.oracle.com/docs/cd/E17409_01/javase/tutorial/java/nutsandbolts/arrays.html
+
+
+nb java foreach
+http://stackoverflow.com/questions/85190/how-does-the-java-for-each-loop-work
+
+for(Iterator<String> i = someList.iterator(); i.hasNext(); ) {
+	String item = i.next();
+	System.out.println(item);
+}
+
+
+nb java 5 string array for loop
+http://www.devdaily.com/java/java-string-array-reference-java-5-for-loop-syntax
+
+// Iterating through a Java String array - Before Java 5
+int size = toppings.length;
+for (int i=0; i<size; i++) {
+	System.out.println(toppings[i]);
+}
+
+// Iterating through a Java String array - After Java 5
+for (String s: toppings) {
+	System.out.println(s);
+}
+
+
+nb execute bash shell command java process
+http://stackoverflow.com/questions/1410741/want-to-invoke-a-linux-shell-command-from-java
+http://download.oracle.com/docs/cd/E17476_01/javase/1.4.2/docs/api/java/lang/Process.html
+
+
+nb java util unzip zipfile
+Savarese, D.F.  -20000301.  Unzipping files with java.util.zip.ZipFile.
+DevX.com: 10-minute solutions.
+http://www.devx.com/getHelpOn/10MinuteSolution/20447
+
+The Java core packages include java.util.zip, which is useful for creating
+and reading compressed files or archives in the ZIP and GZIP formats.
+This saves you the time of creating custom file archive formats for your
+applications.
+
+import java.util.zip.*;
+
+
+nb java compare string == equals compareto method pointer
+Swartz, F. 20001110.  Comparing Strings: ==, .equals(), .compareTo(), ….
+Java notes.
+http://leepoint.net/notes-java/data/strings/12stringcomparison.html
+
+To compare Strings for equality, don't use ==.  The == operator checks
+to see if two objects are exactly the same object.  Two strings may be
+different objects, but have the same value (have exactly the same
+characters in them).  Use the .equals() method to compare strings for
+equality.  Similarly, use the .compareTo() method to test for unequal
+comparisons.  For example,
+
+	String s = "something", t = "maybe something else";
+	if (s == t)		// Legal, but usually WRONG.
+	if (s.equals(t))	// RIGHT
+	if (s > t)		// ILLEGAL
+	if (s.compareTo(t) > 0)	// CORRECT
+
+
+nb java ioexception
+http://download.oracle.com/docs/cd/E17409_01/javase/6/docs/api/java/io/IOException.html
+
+
+nb execute program java runtime process
+http://www.coderanch.com/t/419192/java/java/Runtime-getRuntime-exec-String-command
+
+
+nb java input output tutorial nio stream file tutorial
+http://download.oracle.com/docs/cd/E17409_01/javase/tutorial/essential/io/index.html
+
+
+nb java array list read store file
+http://bytes.com/topic/java/answers/585814-reading-data-into-array-file
+http://www.java-samples.com/showtutorial.php?tutorialid=234
+
+
 nb teach child functional programming
 http://prog21.dadgum.com/73.html
 

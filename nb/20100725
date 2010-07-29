@@ -1,0 +1,31 @@
+nb paris catacomb group private restore untergunther
+http://brickmag.com/current/excerpt1.html
+
+
+nb haskell command line option
+Command line flags for Haskell scripts, really cheap & simple™.
+http://www.khjk.org/log/2010/jul/getflag.html
+
+
+nb rails version command
+Ruby, S. et al.  2010.  Agile web development with Rails, 4ed beta.
+Pragmatic bookshelf.
+/home/jdc/Dropbox/doc/pragprog/agile-web-development-with-rails_b6_0.txt:/rails _3.0.0.* --version/
+
+On any rails command, you can control which version of Rails is used by
+inserting the full version number surrounded by underscores before the
+first parameter of the command:	`rails _3.0.0.beta4_ --version`.
+This is particularly handy when you create a new application, because
+once you create an application with a specific version of Rails, it will
+continue to use that version of Rails—even if newer versions are
+installed on the system—until you decide it is time to upgrade.
+To upgrade, simply update the version number in the Gemfile that is in
+the root directory of your application, and run `bundle install`.
+
+
+nb project idea command line refactor tool ide ruby
+With Ruby, however, much of this support just isn’t necessary.
+Editors such as TextMate give you 90 percent of what you’d get from an
+IDE but are far lighter weight.  Just about the only useful IDE facility
+that’s missing is refactoring support.
+ ¹ /home/jdc/Dropbox/doc/pragprog/agile-web-development-with-rails_b6_0.txt:/useful IDE facility/

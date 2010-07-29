@@ -1,0 +1,80 @@
+nb java list file subdirectory
+Listing the Files or Subdirectories in a Directory
+http://exampledepot.com/egs/java.io/GetFiles.html
+
+
+nb java io interface filename filter se6
+java.io Interface FilenameFilter.  Java platform SE 6.
+http://download.oracle.com/docs/cd/E17409_01/javase/6/docs/api/java/io/FilenameFilter.html?is-external=true
+
+
+nb java matches regex compile pattern
+http://download.oracle.com/docs/cd/E17409_01/javase/6/docs/api/java/util/regex/Pattern.html#sum
+
+
+nb java util class array list se6
+java.util Class ArrayList<E>.  Java platform SE 6.
+http://download.oracle.com/docs/cd/E17409_01/javase/6/docs/api/java/util/ArrayList.html
+
+
+nb story point estimate time complexity agile plan
+Hazrati, V. -20100706.  Do story points relate to complexity or time?
+InfoQ: Agile techniques.
+http://www.infoq.com/news/2010/07/story-points-complexity-effort
+
+The goal of estimating is to answer questions such as “When will you be
+done?” or “How much functionality can we have by the given date?”
+If that is true, then whatever unit we estimate in and whatever approach
+we use will need to be about time.
+
+
+nb java lang class string se6
+http://download.oracle.com/docs/cd/E17409_01/javase/6/docs/api/java/lang/String.html
+
+
+nb java string split regex
+http://www.tutorialspoint.com/java/java_string_split.htm
+
+
+nb java boolean true false
+http://leepoint.net/notes-java/data/basic_types/26boolean.html
+
+
+nb java lang class runtime se6 exec file set work directory
+http://download.oracle.com/docs/cd/E17409_01/javase/6/docs/api/java/lang/Runtime.html
+
+Process exec(String command, String[] envp, File dir) executes the
+specified string command in a separate process with the specified
+environment and working directory.
+
+
+nb java runtime exec port process builder
+Sun Microsystems.  2005.  From Runtime.exec() to ProcessBuilder.  Java tips.
+http://www.java-tips.org/java-se-tips/java.util/from-runtime.exec-to-processbuilder.html
+
+
+nb java lang class process builder se6
+http://download.oracle.com/docs/cd/E17409_01/javase/6/docs/api/java/lang/ProcessBuilder.html
+
+Starting a new process which uses the default working directory and
+environment is easy.
+
+	Process p = new ProcessBuilder("myCommand", "myArg").start();
+ 
+Here is an example that starts a process with a modified working
+directory and environment.
+
+	ProcessBuilder pb = new ProcessBuilder("myCommand", "myArg1", "myArg2");
+	Map<String, String> env = pb.environment();
+	env.put("VAR1", "myValue");
+	env.remove("OTHERVAR");
+	env.put("VAR2", env.get("VAR1") + "suffix");
+	pb.directory(new File("myDir"));
+	Process p = pb.start();
+ 
+To start a process with an explicit set of environment variables, first
+call Map.clear() before adding environment variables.
+
+
+nb java tar
+http://www.trustice.com/java/tar/

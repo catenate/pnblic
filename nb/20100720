@@ -1,0 +1,33 @@
+nb java build create jar
+Creating a jar file.  The Java tutorials: Deployment.
+http://download.oracle.com/docs/cd/E17409_01/javase/tutorial/deployment/jar/build.html
+
+	jar cf jar-file input-file(s)
+
+This command will generate a compressed JAR file and place it in the
+current directory.  The command will also generate a default manifest
+file for the JAR archive.  The c option indicates that you want to
+create a JAR file.  The f option indicates that you want the output to
+go to a file rather than to stdout.  jar-file is the name that you want
+the resulting JAR file to have.  You can use any filename for a JAR file.
+By convention, JAR filenames are given a .jar extension, though this is
+not required.  The input-file(s) argument is a space-separated list of
+one or more files that you want to include in your JAR file.  The input-
+file(s) argument can contain the wildcard * symbol.  If any of the
+"input-files" are directories, the contents of those directories are
+added to the JAR archive recursively.  The c and f options can appear in
+either order, but there must not be any space between them.
+
+
+nb haskell multicore parallel programming concurrent simonmarlow
+Marlow, S.  20100714.  Multicore programming in Haskell.  QCon London 2010.
+http://www.infoq.com/presentations/Multicore-Programming-in-Haskell
+
+Simon Marlow explains through code samples what Haskell has to offer for
+concurrent programming through concurrent data structures and thread-
+based concurrency, and Haskell’s tools for parallel programming.
+
+
+nb chicagohaskell meetup
+Where would we physically hold it?  Maybe a mailing list, a google
+group, would be better before organizing a face-to-face meeting.

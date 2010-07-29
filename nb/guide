@@ -1,17 +1,8 @@
 ../bin/nb
 echo New `{/home/jdc/bin/9/stardate | sed 's,\..*,,'}
+mv /home/jdc/Dropbox/nb/201007* .
+recent | head -1 | wc -c
 |fmt -w 72|sed 's,$,  ,'
 |sort|uniq
 |tr '[A-Z]' '[a-z]'
 
-grep '^nb' 2010070[3-9] 2010071* /dev/null | sed 's,^[^:]+: ?nb ,,' | fmt -w 1 | grep -v '^@' | sort | uniq -d | fmt -w 140 | sed 's,^,Recent http://j.mp/pnblic: ,'  | fmt -w 140 | wc -c
-echo 'Recent http://j.mp/pnblic: bdd blog code disqus github haskell jekyll language liquid list pages rails rspec ruby tdd test unit variable' | wc -c
-
-cd /home/jdc/Dropbox/nb
-n=20
-topics=`{ls -tr |grep -v acme.dump | grep -v guide | grep -v '\.sed' | grep -v nbindex | grep -v twitter | grep -v swtools2 | tail -$n}
-echo $topics
-echo $topics | wc -c
-
-Recent http://j.mp/pnblic notes: test gitrdun lego macosx convert clojure compress haskell knowledge polyglot ruby shell swcraft unix τ tdd
-> wc -c

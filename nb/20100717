@@ -1,0 +1,51 @@
+nb git reference
+http://gitref.org/
+
+Getting and creating projects: init, clone.
+Basic snapshotting: add, status, diff, commit, reset, rm, mv.
+Branching and merging: branch, checkout, merge, log, tag.
+Sharing and updating projects: fetch, pull, push, remote.
+Inspection and comparison: log, diff.
+
+
+nb defend sql injection attack asp coldfusion c# delphi .net java perl php postgresql python ruby scheme xkcd
+http://bobby-tables.com/
+
+There is only one way to avoid Bobby Tables attacks: do not create SQL
+statements that include outside data, and use parameterized SQL calls.
+That's it.  Don't try to escape invalid characters.  Don't try to do it yourself.
+Learn how to use parameterized statements.  Always, every single time.
+Examples in ASP, ColdFusion, C#, Delphi, .NET, Java, Perl, PHP,
+PostgreSQL, Python, Ruby, and Scheme.
+
+
+nb memprof memory profile ruby gem rvm rewrite binary allocate object collect garbage dump heap upload
+http://memprof.com/
+
+What is memprof?  memprof is an open source Ruby gem that provides
+useful data about memory & performance for MRI-based Ruby VMs.
+It uses various binary rewriting techniques to insert hooks into the
+running Ruby process, allowing you to collect data without having to run
+a patched Ruby installation.  Currently, memprof provides data about
+object allocation, garbage collection, and full dumps of the Ruby heap.
+A heap dump is essentially a 'snapshot' of the live objects in your Ruby
+process at any point in time.
+
+What is memprof.com?  memprof.com is a tool for analyzing uploaded
+memprof dumps of the Ruby heap.  It is primarily useful for finding
+memory leaks in Ruby applications.  You can: view objects grouped by
+type or file of origin, view ruby class hierarchies, view the age of a
+given object, traverse object references, examine internal object
+details, and so on.
+
+
+nb w3c css2 box model dimension margin pad border property
+World wide web consortium.  20090908.  Box model.
+Cascading style sheets level 2 revision 1 (CSS 2.1) specification.
+http://www.w3.org/TR/CSS2/box.html
+
+Box dimensions.  Example of margins, padding, and borders.
+Margin properties; collapsing margins.  Padding properties.
+Border properties: border width; border color; border style; border
+shorthand properties.  The box model for inline elements in
+bidirectional context.

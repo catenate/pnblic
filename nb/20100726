@@ -1,0 +1,58 @@
+nb obscure world atlas
+Atlas obscura: A compedium of the world’s wonders, curiosities and
+esoterica.
+http://atlasobscura.com/
+
+
+nb git github video
+Howell, M.  20100723.  The power of Git: Revealed!  Tweetdeck blog.
+http://blog.tweetdeck.com/the-power-of-git-revealed
+
+Check out Max's six-part talk below to learn all about how Git's
+distributed nature, and Github's amazing collaboration tools, helped him
+succeed with Homebrew and helped us take our development to the next
+level at TweetDeck.
+
+
+nb torrent peer deploy software murder gem convert capistrano twitter
+http://github.com/lg/murder
+
+Murder is a method of using Bittorrent to distribute files to a large
+amount of servers within a production environment.  This allows for
+scaleable and fast deploys in environments of hundreds to tens of
+thousands of servers where centralized distribution systems wouldn't
+otherwise function.  A "Murder" is normally used to refer to a flock of
+crows, which in this case applies to a bunch of servers doing something.
+For the impatient, gem install murder and add these lines to your Capfile:¹
+
+	require 'murder'
+
+	set :deploy_via, :murder
+	after 'deploy:setup', 'murder:distribute_files'
+	before 'murder:start_seeding', 'murder:start_tracker'
+	after 'murder:stop_seeding', 'murder:stop_tracker'
+
+Murder (which by the way is the name for a flock of crows) is a
+combination of scripts written in Python and Ruby to easily deploy large
+binaries throughout your company’s datacenter(s).  It takes advantage of
+the fact that the environment in a datacenter is somewhat different from
+regular internet connections: low-latency access to servers, high
+bandwidth, no NAT/Firewall issues, no ISP traffic shaping, only trusted
+peers, etc.  This let us come up with a list of optimizations on top of
+BitTornado to make BitTorrent not only reasonable, but also effective on
+our internal network.  Since at the time we used Capistrano for
+signaling our servers to perform tasks, Murder also includes a
+Capistrano deploy strategy to make it easy for existing users of
+Capistrano to convert their file distribution to be decentralized.  The
+final component is the work Matt Freels (@mf) did in bundling everything
+into an easy to install ruby gem.  This further helped get Murder to be
+usable for more deploy tasks at Twitter.¹
+ ¹ http://engineering.twitter.com/2010/07/murder-fast-datacenter-code-deploys.html
+
+
+nb memoize f#
+http://www.atalasoft.com/cs/blogs/stevehawley/archive/2010/07/26/limit-your-memoization-please.aspx
+
+
+nb memoize haskell
+http://www.haskell.org/haskellwiki/Memoization

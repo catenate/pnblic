@@ -1,0 +1,48 @@
+nb java grep
+http://www.java.happycodings.com/Other/code15.html
+
+
+nb java compare read file method performance
+20080224.  Java tip: How to read files quickly.  Nadeau software consulting.
+http://nadeausoftware.com/articles/2008/02/java_tip_how_read_files_quickly#Aquickreviewoffilereadingclasses
+
+Java has several classes for reading files, with and without buffering,
+random access, thread safety, and memory mapping.  Some of these are
+much faster than the others.  This tip benchmarks 13 ways to read bytes
+from a file and shows which ways are the fastest.
+
+A quick review of file reading classes: FileInputStream with byte reads,
+FileInputStream with byte array reads, BufferedInputStream with byte
+reads, BufferedInputStream with byte array reads, RandomAccessFile with
+byte reads, RandomAccessFile with byte array reads, FileChannel with
+ByteBuffer and byte gets, FileChannel with ByteBuffer and byte array
+gets, FileChannel with array ByteBuffer and byte array access,
+FileChannel with direct ByteBuffer and byte gets, FileChannel with
+direct ByteBuffer and byte array gets, FileChannel with MappedByteBuffer
+and byte gets, FileChannel with MappedByteBuffer and byte array gets,
+FileReader and BufferedReader.  Benchmarks: full plot, zoomed plot,
+really zoomed plot, comparison to C.  Conclusions.  Further reading.
+
+If we have to pick a fastest approach, it would be one of three:
+FileChannel with a MappedByteBuffer and array reads (the magenta line
+with round dots that hits a low at 2Kbytes to 4Kbytes).  FileChannel
+with a direct ByteBuffer and array reads (the dark blue line with
+triangle dots that hits a low at 128Kbytes).  FileChannel with a wrapped
+array ByteBuffer and direct array access (the light blue line with
+triangle dots that hits a low at 256Kbytes).
+
+
+nb java compare buffer read input stream
+Keerat.  20060929.  BufferedReader vs InputStream.  Recursor: Random samplings.
+http://recursor.blogspot.com/2006/09/bufferedreader-vs-inputstream.html
+
+	File f = new File("USA.txt");
+	FileInputStream fin = new FileInputStream(f);
+	BufferedReader in = new BufferedReader(new InputStreamReader(fin));
+	String s = "";
+	long start = System.currentTimeMillis();
+	while ( (s = in.readLine()) != null) {
+	int x = s.length();
+	}
+	long finish = System.currentTimeMillis();
+	System.out.println(finish - start);

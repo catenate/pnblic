@@ -1,0 +1,60 @@
+nb memoize java dynamic proxy class hashmap cache optimize function result
+White, T.  20030820.  Memoization in Java using dynamic proxy classes.
+O’Reilly on Java.
+http://onjava.com/pub/a/onjava/2003/08/20/memoization.html
+
+
+nb memoize java closure hashmap cache optimize function result
+Mahieu, M.  20071201.  Memoization with Java closures.  Mark Mahieu's blog.
+http://markmahieu.blogspot.com/2007/11/memoization-with-java-closures.html
+
+
+nb generate rails api document
+/home/jdc/Dropbox/doc/pragprog/agile-web-development-with-rails_b6_0.txt:/rake doc:rails/
+web doc/api/index.html
+
+
+nb list gem version rails
+gem list --local rails
+
+
+nb functional programming overview
+Hutchison, B.  20090602.  OO/imperative programmers: ‘Study functional
+programming or be ignorant’.  My digital neuron.
+http://benhutchison.wordpress.com/2009/06/02/study-functional-programming-or-be-ignorant/
+
+Monads & friends
+http://www.haskell.org/all_about_monads/html/index.html
+
+Typeclasses
+http://www.haskell.org/sitewiki/images/8/85/TMR-Issue13.pdf
+/home/jdc/Downloads/TMR-Issue13.pdf
+
+Composability
+
+Laziness
+http://blog.interlinked.org/tutorials/haskell_laziness.htm
+
+Higher order functions
+http://en.wikipedia.org/wiki/Higher-order_function
+
+Functional reactive programming
+http://en.wikipedia.org/wiki/Functional_reactive_programming
+
+Software transactional memory
+http://www.haskell.org/haskellwiki/Software_transactional_memory
+
+Point-free style
+http://www.haskell.org/haskellwiki/Pointfree
+
+Zippers, Finger Trees and other Immutable Data Structures
+http://en.wikipedia.org/wiki/Zipper_(data_structure)
+http://scienceblogs.com/goodmath/2009/05/finally_finger_trees.php
+http://www.cs.cmu.edu/~rwh/theses/okasaki.pdf
+/home/jdc/Downloads/okasaki.pdf
+
+Real World Haskell
+http://www.realworldhaskell.org/blog/
+
+Hudak’s book
+http://www.haskell.org/soe/

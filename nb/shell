@@ -9,7 +9,7 @@ dump file.  The acme approach more quickly restores a work environment
 and provides commonly-used commands.
 
 
-nb script functional create github project kb backlog
+nb script function create github project kb backlog
 /home/jdc/mot/wabe/funsh.nw
 /home/jdc/Dropbox/wabe/funsh.pdf
 

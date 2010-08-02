@@ -5,11 +5,1651 @@
 w Newcol Kill Putall Dump acme.dump Exit 
 c          0 New Cut Paste Snarf Sort Zerox Delcol 
 c          1 New Cut Paste Snarf Sort Zerox Delcol 
-f          0           2           0           0   2.0697168 
-          2          43        3477           1           0 /home/jdc/Dropbox/nb/ Del Snarf Get | Look 
-f          0          15           0           0   4.1394336 
-         15          50          88           0           0 /home/jdc/git/pnblic/nb/20100728 Del Snarf | Look 
-f          1           7           0           0   2.0697168 
-          7          44         155           0           0 /home/jdc/git/pnblic/guide Del Snarf | Look 
-f          1           8          10          64   4.1394336 
-          8          47         915           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf | Look 
+f          0           1           0           0   2.0697168 
+          1          43        3398           1           0 /home/jdc/Dropbox/nb/ Del Snarf Get | Look 
+f          0           2           0           0   4.1394336 
+          2          46         449           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
+f          0           9        1453        1453  28.5403050 
+          9          86        1453           0           0 /home/jdc/git/pnblic/nb/20100801 Del Snarf Undo | Look 
+F          1           0        3457        3457   2.0697168        3457 
+          4          46        3457           0           1 /home/jdc/git/pnblic/+Errors Del Snarf | Look 
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   acme.dump
+#	modified:   nb/20100712
+#	modified:   nb/guide
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	nb/20100713
+#	nb/20100714
+#	nb/20100715
+#	nb/20100717
+#	nb/20100719
+#	nb/20100720
+#	nb/20100721
+#	nb/20100722
+#	nb/20100723
+#	nb/20100724
+#	nb/20100725
+#	nb/20100726
+#	nb/20100727
+#	nb/20100728
+#	nb/principle
+#	nb/recent
+#	nb/scratch
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .gitignore
+#	modified:   acme.dump
+#	modified:   nb/20100712
+#	modified:   nb/guide
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	nb/20100713
+#	nb/20100714
+#	nb/20100715
+#	nb/20100717
+#	nb/20100719
+#	nb/20100720
+#	nb/20100721
+#	nb/20100722
+#	nb/20100723
+#	nb/20100724
+#	nb/20100725
+#	nb/20100726
+#	nb/20100727
+#	nb/20100728
+#	nb/principle
+#	nb/recent
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .gitignore
+#	modified:   acme.dump
+#	modified:   guide
+#	modified:   nb/20100712
+#	modified:   nb/guide
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	nb/20100713
+#	nb/20100714
+#	nb/20100715
+#	nb/20100717
+#	nb/20100719
+#	nb/20100720
+#	nb/20100721
+#	nb/20100722
+#	nb/20100723
+#	nb/20100724
+#	nb/20100725
+#	nb/20100726
+#	nb/20100727
+#	nb/20100728
+#	nb/principle
+#	nb/recent
+no changes added to commit (use "git add" and/or "git commit -a")
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   .gitignore
+#	modified:   acme.dump
+#	modified:   guide
+#	modified:   nb/20100712
+#	new file:   nb/20100713
+#	new file:   nb/20100714
+#	new file:   nb/20100715
+#	new file:   nb/20100717
+#	new file:   nb/20100719
+#	new file:   nb/20100720
+#	new file:   nb/20100721
+#	new file:   nb/20100722
+#	new file:   nb/20100723
+#	new file:   nb/20100724
+#	new file:   nb/20100725
+#	new file:   nb/20100726
+#	new file:   nb/20100727
+#	new file:   nb/20100728
+#	modified:   nb/guide
+#	new file:   nb/principle
+#	new file:   nb/recent
+#
+[master 3609814] java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby version
+ 21 files changed, 1086 insertions(+), 2051 deletions(-)
+ rewrite acme.dump (99%)
+ create mode 100644 nb/20100713
+ create mode 100644 nb/20100714
+ create mode 100644 nb/20100715
+ create mode 100644 nb/20100717
+ create mode 100644 nb/20100719
+ create mode 100644 nb/20100720
+ create mode 100644 nb/20100721
+ create mode 100644 nb/20100722
+ create mode 100644 nb/20100723
+ create mode 100644 nb/20100724
+ create mode 100644 nb/20100725
+ create mode 100644 nb/20100726
+ create mode 100644 nb/20100727
+ create mode 100644 nb/20100728
+ rewrite nb/guide (85%)
+ create mode 100644 nb/principle
+ create mode 100755 nb/recent
+To git@github.com:catenate/pnblic.git
+   a7cddff..3609814  master -> master
+f          1           5         162         185   4.1394336 
+          5          44         263           0           0 /home/jdc/git/pnblic/guide Del Snarf | Look 
+F          1           2       25537       25537   6.2091503       25537 
+          6          58       25537           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf Undo Put | Look 
+20100720:nb java build create jar
+20100720:nb haskell multicore parallel programming concurrent simonmarlow
+20100720:nb chicagohaskell meetup
+20100721:nb robot programming language educate teach child
+20100721:nb java process
+20100721:nb java maximum open file error close reader destroy process
+20100722:nb java grep
+20100722:nb java compare read file method performance
+20100722:nb java compare buffer read input stream
+20100723:nb shell script edit passive voice weasel word lexical illusions
+20100723:nb home page host design
+20100723:nb emerging language create design oscon
+20100723:nb robpike go pragmatic feature economy
+20100723:nb ioke seph
+20100723:nb philmercutio thyrd visual nest grid triad
+20100723:nb parrot
+20100723:nb ur
+20100723:nb alaneliasen frink measure focus
+20100723:nb giladbracha newspeak realize concept
+20100723:nb f#
+20100723:nb jeremy ashkenas coffeescript javascript clear æsthetic document
+20100723:nb mirah duby
+20100723:nb io
+20100723:nb kodu
+20100723:nb clojure
+20100723:nb elang caja
+20100723:nb fancy
+20100723:nb bitc
+20100723:nb stevefolta trylon not innovate write self
+20100723:nb amoswenger ooc
+20100723:nb coherence subtext
+20100723:nb finch
+20100723:nb circa
+20100723:nb wheeler
+20100723:nb interval arithmetic
+20100723:nb stratified javascript
+20100723:nb factor
+20100723:nb dlang
+20100723:nb ambienttalk
+20100724:nb ruby tool category count github source watcher fork
+20100724:nb quark scale space video
+20100724:nb work progress wip limit ready working kanban tool work flow history
+20100724:nb frink unit measure calculate programming language
+20100725:nb paris catacomb group private restore untergunther
+20100725:nb haskell command line option
+20100725:nb rails version command
+20100725:nb project idea command line refactor tool ide ruby
+20100726:nb obscure world atlas
+20100726:nb git github video
+20100726:nb torrent peer deploy software murder gem convert capistrano twitter
+20100726:nb memoize f#
+20100726:nb memoize haskell
+20100727:nb memoize java dynamic proxy class hashmap cache optimize function result
+20100727:nb memoize java closure hashmap cache optimize function result
+20100727:nb generate rails api document
+20100727:nb list gem version rails
+20100727:nb functional programming overview
+20100728:nb cognitive surplus participate internet revolution clayshirky
+20100728:nb varnish web proxy cache virtual memory file back store architect efficient note
+20100728:nb physics cosmology model time space gravity constant light speed expand contract bigbang
+20100728:nb ssh agent remember pass phrase git auth
+20100728:nb cloud uniform build service
+20100728:nb sandman review
+java build create jar
+haskell multicore parallel programming concurrent simonmarlow
+chicagohaskell meetup
+robot programming language educate teach child
+java process
+java maximum open file error close reader destroy process
+java grep
+java compare read file method performance
+java compare buffer read input stream
+shell script edit passive voice weasel word lexical illusions
+home page host design
+emerging language create design oscon
+robpike go pragmatic feature economy
+ioke seph
+philmercutio thyrd visual nest grid triad
+parrot
+ur
+alaneliasen frink measure focus
+giladbracha newspeak realize concept
+f#
+jeremy ashkenas coffeescript javascript clear æsthetic document
+mirah duby
+io
+kodu
+clojure
+elang caja
+fancy
+bitc
+stevefolta trylon not innovate write self
+amoswenger ooc
+coherence subtext
+finch
+circa
+wheeler
+interval arithmetic
+stratified javascript
+factor
+dlang
+ambienttalk
+ruby tool category count github source watcher fork
+quark scale space video
+work progress wip limit ready working kanban tool work flow history
+frink unit measure calculate programming language
+paris catacomb group private restore untergunther
+haskell command line option
+rails version command
+project idea command line refactor tool ide ruby
+obscure world atlas
+git github video
+torrent peer deploy software murder gem convert capistrano twitter
+memoize f#
+memoize haskell
+memoize java dynamic proxy class hashmap cache optimize function result
+memoize java closure hashmap cache optimize function result
+generate rails api document
+list gem version rails
+functional programming overview
+cognitive surplus participate internet revolution clayshirky
+varnish web proxy cache virtual memory file back store architect efficient note
+physics cosmology model time space gravity constant light speed expand contract bigbang
+ssh agent remember pass phrase git auth
+cloud uniform build service
+sandman review
+java
+build
+create
+jar
+haskell
+multicore
+parallel
+programming
+concurrent
+simonmarlow
+chicagohaskell
+meetup
+robot
+programming
+language
+educate
+teach
+child
+java
+process
+java
+maximum
+open
+file
+error
+close
+reader
+destroy
+process
+java
+grep
+java
+compare
+read
+file
+method
+performance
+java
+compare
+buffer
+read
+input
+stream
+shell
+script
+edit
+passive
+voice
+weasel
+word
+lexical
+illusions
+home
+page
+host
+design
+emerging
+language
+create
+design
+oscon
+robpike
+go
+pragmatic
+feature
+economy
+ioke
+seph
+philmercutio
+thyrd
+visual
+nest
+grid
+triad
+parrot
+ur
+alaneliasen
+frink
+measure
+focus
+giladbracha
+newspeak
+realize
+concept
+f#
+jeremy
+ashkenas
+coffeescript
+javascript
+clear
+æsthetic
+document
+mirah
+duby
+io
+kodu
+clojure
+elang
+caja
+fancy
+bitc
+stevefolta
+trylon
+not
+innovate
+write
+self
+amoswenger
+ooc
+coherence
+subtext
+finch
+circa
+wheeler
+interval
+arithmetic
+stratified
+javascript
+factor
+dlang
+ambienttalk
+ruby
+tool
+category
+count
+github
+source
+watcher
+fork
+quark
+scale
+space
+video
+work
+progress
+wip
+limit
+ready
+working
+kanban
+tool
+work
+flow
+history
+frink
+unit
+measure
+calculate
+programming
+language
+paris
+catacomb
+group
+private
+restore
+untergunther
+haskell
+command
+line
+option
+rails
+version
+command
+project
+idea
+command
+line
+refactor
+tool
+ide
+ruby
+obscure
+world
+atlas
+git
+github
+video
+torrent
+peer
+deploy
+software
+murder
+gem
+convert
+capistrano
+twitter
+memoize
+f#
+memoize
+haskell
+memoize
+java
+dynamic
+proxy
+class
+hashmap
+cache
+optimize
+function
+result
+memoize
+java
+closure
+hashmap
+cache
+optimize
+function
+result
+generate
+rails
+api
+document
+list
+gem
+version
+rails
+functional
+programming
+overview
+cognitive
+surplus
+participate
+internet
+revolution
+clayshirky
+varnish
+web
+proxy
+cache
+virtual
+memory
+file
+back
+store
+architect
+efficient
+note
+physics
+cosmology
+model
+time
+space
+gravity
+constant
+light
+speed
+expand
+contract
+bigbang
+ssh
+agent
+remember
+pass
+phrase
+git
+auth
+cloud
+uniform
+build
+service
+sandman
+review
+java
+build
+create
+jar
+haskell
+multicore
+parallel
+programming
+concurrent
+simonmarlow
+chicagohaskell
+meetup
+robot
+programming
+language
+educate
+teach
+child
+java
+process
+java
+maximum
+open
+file
+error
+close
+reader
+destroy
+process
+java
+grep
+java
+compare
+read
+file
+method
+performance
+java
+compare
+buffer
+read
+input
+stream
+shell
+script
+edit
+passive
+voice
+weasel
+word
+lexical
+illusions
+home
+page
+host
+design
+emerging
+language
+create
+design
+oscon
+robpike
+go
+pragmatic
+feature
+economy
+ioke
+seph
+philmercutio
+thyrd
+visual
+nest
+grid
+triad
+parrot
+ur
+alaneliasen
+frink
+measure
+focus
+giladbracha
+newspeak
+realize
+concept
+f#
+jeremy
+ashkenas
+coffeescript
+javascript
+clear
+æsthetic
+document
+mirah
+duby
+io
+kodu
+clojure
+elang
+caja
+fancy
+bitc
+stevefolta
+trylon
+not
+innovate
+write
+self
+amoswenger
+ooc
+coherence
+subtext
+finch
+circa
+wheeler
+interval
+arithmetic
+stratified
+javascript
+factor
+dlang
+ambienttalk
+ruby
+tool
+category
+count
+github
+source
+watcher
+fork
+quark
+scale
+space
+video
+work
+progress
+wip
+limit
+ready
+working
+kanban
+tool
+work
+flow
+history
+frink
+unit
+measure
+calculate
+programming
+language
+paris
+catacomb
+group
+private
+restore
+untergunther
+haskell
+command
+line
+option
+rails
+version
+command
+project
+idea
+command
+line
+refactor
+tool
+ide
+ruby
+obscure
+world
+atlas
+git
+github
+video
+torrent
+peer
+deploy
+software
+murder
+gem
+convert
+capistrano
+twitter
+memoize
+f#
+memoize
+haskell
+memoize
+java
+dynamic
+proxy
+class
+hashmap
+cache
+optimize
+function
+result
+memoize
+java
+closure
+hashmap
+cache
+optimize
+function
+result
+generate
+rails
+api
+document
+list
+gem
+version
+rails
+functional
+programming
+overview
+cognitive
+surplus
+participate
+internet
+revolution
+clayshirky
+varnish
+web
+proxy
+cache
+virtual
+memory
+file
+back
+store
+architect
+efficient
+note
+physics
+cosmology
+model
+time
+space
+gravity
+constant
+light
+speed
+expand
+contract
+bigbang
+ssh
+agent
+remember
+pass
+phrase
+git
+auth
+cloud
+uniform
+build
+service
+sandman
+review
+build
+cache
+command
+compare
+create
+design
+document
+f#
+file
+frink
+function
+gem
+git
+github
+hashmap
+haskell
+java
+javascript
+language
+line
+measure
+memoize
+optimize
+process
+programming
+proxy
+rails
+read
+result
+ruby
+space
+tool
+version
+video
+work
+20100720: No such file or directory
+rc: line 9: token EOF: syntax error
+files=`{2010072*}: exit 1
+files=`{ls: exit 1
+rc: line 9: token EOF: syntax error
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+$count $k
+2 build
+3 cache
+3 command
+2 compare
+2 create
+2 design
+2 document
+2 f#
+3 file
+2 frink
+3 function
+2 gem
+3 git
+2 github
+2 hashmap
+4 haskell
+10 java
+2 javascript
+3 language
+2 line
+2 measure
+4 memoize
+2 optimize
+2 process
+4 programming
+2 proxy
+3 rails
+4 read
+2 result
+2 ruby
+2 space
+3 tool
+2 version
+2 video
+1 work
+2 build
+3 cache
+3 command
+2 compare
+2 create
+2 design
+2 document
+2 f#
+3 file
+2 frink
+3 function
+2 gem
+3 git
+2 github
+2 hashmap
+4 haskell
+10 java
+2 javascript
+3 language
+2 line
+2 measure
+4 memoize
+2 optimize
+2 process
+4 programming
+2 proxy
+3 rails
+4 read
+2 result
+2 ruby
+2 space
+3 tool
+2 version
+2 video
+1 work
+2 build
+3 cache
+3 command
+2 compare
+2 create
+2 design
+2 document
+2 f#
+3 file
+2 frink
+3 function
+2 gem
+3 git
+2 github
+2 hashmap
+4 haskell
+10 java
+2 javascript
+3 language
+2 line
+2 measure
+4 memoize
+2 optimize
+2 process
+4 programming
+2 proxy
+3 rails
+4 read
+2 result
+2 ruby
+2 space
+3 tool
+2 version
+2 video
+1 work
+
+2 build
+3 cache
+3 command
+2 compare
+2 create
+2 design
+2 document
+2 f#
+3 file
+2 frink
+3 function
+2 gem
+3 git
+2 github
+2 hashmap
+4 haskell
+10 java
+2 javascript
+3 language
+2 line
+2 measure
+4 memoize
+2 optimize
+2 process
+4 programming
+2 proxy
+3 rails
+4 read
+2 result
+2 ruby
+2 space
+3 tool
+2 version
+2 video
+1 work
+sort: global field set after -k
+2 build
+sort: global field set after -k
+3 cache
+sort: global field set after -k
+3 command
+sort: global field set after -k
+2 compare
+sort: global field set after -k
+2 create
+sort: global field set after -k
+2 design
+sort: global field set after -k
+2 document
+sort: global field set after -k
+2 f#
+sort: global field set after -k
+3 file
+sort: global field set after -k
+2 frink
+sort: global field set after -k
+3 function
+sort: global field set after -k
+2 gem
+sort: global field set after -k
+3 git
+sort: global field set after -k
+2 github
+sort: global field set after -k
+2 hashmap
+sort: global field set after -k
+4 haskell
+sort: global field set after -k
+10 java
+sort: global field set after -k
+2 javascript
+sort: global field set after -k
+3 language
+sort: global field set after -k
+2 line
+sort: global field set after -k
+2 measure
+sort: global field set after -k
+4 memoize
+sort: global field set after -k
+2 optimize
+sort: global field set after -k
+2 process
+sort: global field set after -k
+4 programming
+sort: global field set after -k
+2 proxy
+sort: global field set after -k
+3 rails
+sort: global field set after -k
+4 read
+sort: global field set after -k
+2 result
+sort: global field set after -k
+2 ruby
+sort: global field set after -k
+2 space
+sort: global field set after -k
+3 tool
+sort: global field set after -k
+2 version
+sort: global field set after -k
+2 video
+sort: global field set after -k
+1 work
+2 build
+3 cache
+3 command
+2 compare
+2 create
+2 design
+2 document
+2 f#
+3 file
+2 frink
+3 function
+2 gem
+3 git
+2 github
+2 hashmap
+4 haskell
+10 java
+2 javascript
+3 language
+2 line
+2 measure
+4 memoize
+2 optimize
+2 process
+4 programming
+2 proxy
+3 rails
+4 read
+2 result
+2 ruby
+2 space
+3 tool
+2 version
+2 video
+1 work
+2 build
+3 cache
+3 command
+2 compare
+2 create
+2 design
+2 document
+2 f#
+3 file
+2 frink
+3 function
+2 gem
+3 git
+2 github
+2 hashmap
+4 haskell
+10 java
+2 javascript
+3 language
+2 line
+2 measure
+4 memoize
+2 optimize
+2 process
+4 programming
+2 proxy
+3 rails
+4 read
+2 result
+2 ruby
+2 space
+3 tool
+2 version
+2 video
+1 work
+2 build
+3 cache
+3 command
+2 compare
+2 create
+2 design
+2 document
+2 f#
+3 file
+2 frink
+3 function
+2 gem
+3 git
+2 github
+2 hashmap
+4 haskell
+10 java
+2 javascript
+3 language
+2 line
+2 measure
+4 memoize
+2 optimize
+2 process
+4 programming
+2 proxy
+3 rails
+4 read
+2 result
+2 ruby
+2 space
+3 tool
+2 version
+2 video
+1 work
+1 work
+
+1 work
+1 work
+2 build
+2 optimize
+2 process
+2 compare
+2 create
+2 design
+2 document
+2 f#
+2 space
+2 frink
+2 proxy
+2 gem
+2 result
+2 github
+2 hashmap
+2 version
+2 javascript
+2 ruby
+2 line
+2 measure
+2 video
+3 cache
+3 command
+3 file
+3 function
+3 git
+3 rails
+3 tool
+3 language
+4 programming
+4 read
+4 haskell
+4 memoize
+10 java
+
+1 work
+2 build
+2 optimize
+2 process
+2 compare
+2 create
+2 design
+2 document
+2 f#
+2 space
+2 frink
+2 proxy
+2 gem
+2 result
+2 github
+2 hashmap
+2 version
+2 javascript
+2 ruby
+2 line
+2 measure
+2 video
+3 cache
+3 command
+3 file
+3 function
+3 git
+3 rails
+3 tool
+3 language
+4 programming
+4 read
+4 haskell
+4 memoize
+10 java
+
+10 java
+4 haskell
+4 memoize
+4 programming
+4 read
+3 git
+3 cache
+3 language
+3 command
+3 rails
+3 file
+3 function
+3 tool
+2 build
+2 create
+2 github
+2 hashmap
+2 design
+2 javascript
+2 document
+2 line
+2 measure
+2 f#
+2 optimize
+2 process
+2 compare
+2 proxy
+2 frink
+2 gem
+2 result
+2 ruby
+2 space
+2 version
+2 video
+1 work
+java haskell memoize programming read git cache language command rails file function tool build create github hashmap design javascript
+document line measure f# optimize process compare proxy frink gem result ruby space version video work
+Recent http://j.mp/pnblic: java haskell memoize programming read git cache language command rails file function tool build create github
+hashmap design javascript Recent http://j.mp/pnblic: document line measure f# optimize process compare proxy frink gem result ruby space
+version video work
+Recent http://j.mp/pnblic: java Recent http://j.mp/pnblic: haskell Recent http://j.mp/pnblic: memoize Recent http://j.mp/pnblic: programming
+Recent http://j.mp/pnblic: read Recent http://j.mp/pnblic: git Recent http://j.mp/pnblic: cache Recent http://j.mp/pnblic: language Recent
+http://j.mp/pnblic: command Recent http://j.mp/pnblic: rails Recent http://j.mp/pnblic: file Recent http://j.mp/pnblic: function Recent
+http://j.mp/pnblic: tool Recent http://j.mp/pnblic: build Recent http://j.mp/pnblic: create Recent http://j.mp/pnblic: github Recent
+http://j.mp/pnblic: hashmap Recent http://j.mp/pnblic: design Recent http://j.mp/pnblic: javascript Recent http://j.mp/pnblic: document
+Recent http://j.mp/pnblic: line Recent http://j.mp/pnblic: measure Recent http://j.mp/pnblic: f# Recent http://j.mp/pnblic: optimize Recent
+http://j.mp/pnblic: process Recent http://j.mp/pnblic: compare Recent http://j.mp/pnblic: proxy Recent http://j.mp/pnblic: frink Recent
+http://j.mp/pnblic: gem Recent http://j.mp/pnblic: result Recent http://j.mp/pnblic: ruby Recent http://j.mp/pnblic: space Recent
+http://j.mp/pnblic: version Recent http://j.mp/pnblic: video Recent http://j.mp/pnblic: work
+Recent http://j.mp/pnblic: java haskell memoize programming read git cache language command rails file function tool build create github
+hashmap design javascript document line measure f# optimize process compare proxy frink gem result ruby space version video work
+
+Recent http://j.mp/pnblic: java haskell memoize programming read git cache language command rails file function tool build create github
+hashmap design javascript document line measure f# optimize process compare proxy frink gem result ruby space version video work
+    137
+    137
+Recent http://j.mp/pnblic: java haskell memoize read git cache language command rails file tool function build gem compare github hashmap
+create javascript design line measure document optimize process proxy f# frink result ruby space version video work
+Recent http://j.mp/pnblic: java haskell memoize read git cache language rails file tool function build gem create github hashmap design
+javascript document line measure compare optimize process proxy f# frink result ruby space version video work
+Recent http://j.mp/pnblic: java haskell memoize read git cache language rails tool function build gem create github hashmap design
+javascript document line measure compare optimize process proxy f# frink result ruby space version video work
+Recent http://j.mp/pnblic: java haskell memoize read function git cache rails tool build create gem design github hashmap document
+javascript line measure compare optimize process proxy f# frink result ruby space version video work
+Recent http://j.mp/pnblic: java haskell memoize read git cache rails tool build frink gem create github hashmap design javascript line
+measure compare optimize process proxy document f# result ruby space version video work
+chmod: cannot access `recent'chmod: exit 1
+: No such file or directory
+chmod: cannot access `recent': No such file or directory
+chmod: exit 1
+Recent http://j.mp/pnblic: java haskell memoize read git cache rails tool build frink gem create github hashmap design javascript line
+measure compare optimize process proxy document f# result ruby space version video work
+
+Recent http://j.mp/pnblic: java haskell memoize read git cache rails tool build frink gem create github hashmap design javascript 
+measure compare optimize process proxy document f# result ruby space version video work
+
+Recent http://j.mp/pnblic: java haskell memoize read git cache rails build f# frink gem create github hashmap design javascript line measure
+compare optimize process proxy document result ruby space version video work
+
+Recent http://j.mp/pnblic: java haskell memoize read git cache rails build f# frink gem create github hashmap design javascript 
+compare optimize process proxy document result ruby space version video work
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build gem document github hashmap f# javascript frink optimize process proxy
+result ruby space version video work
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build gem document github hashmap f# javascript frink optimize process proxy
+result ruby space version video work
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build gem document github hashmap f# javascript frink optimize process proxy
+result ruby space version video work
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby space
+version video work
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby version
+video work
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby version
+work
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby version
+    137
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby version
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby version
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby version
+grep '^nb ' 2010072* | grep java
+10
+20100720:nb java build create jar
+20100721:nb java process
+20100721:nb java maximum open file error close reader destroy process
+20100722:nb java grep
+20100722:nb java compare read file method performance
+20100722:nb java compare buffer read input stream
+20100723:nb jeremy ashkenas coffeescript javascript clear æsthetic document
+20100723:nb stratified javascript
+20100727:nb memoize java dynamic proxy class hashmap cache optimize function result
+20100727:nb memoize java closure hashmap cache optimize function result
+Recent http://j.mp/pnblic: java io lang ruby program rails time class list postgres tutorial git directory se6 memoize haskell build
+property string exec user array view world api layout database memory method operator hello clang runtime host store cache version gem word
+blog get clojure child markup github hashmap deploy model note heroku optimize page history compile project educate proxy builder refactor
+regex robpike index scheme css2 server shell sqlite input stream execute system teach test apprentice f# field util frink javascript web
+junit
+Recent http://j.mp/pnblic: java io lang ruby rails class time list postgres tutorial git directory se6 build memoize haskell property string
+array exec user view world api gem blog layout cache database memory hello method operator host runtime store clang version word get css2
+github hashmap markup deploy heroku history model note index optimize page child clojure proxy builder refactor regex robpike input scheme
+compile server shell sqlite apprentice stream educate system teach test execute f# field util javascript frink web junit
+Recent http://j.mp/pnblic: java io lang ruby rails class time list postgres git se6 directory memoize haskell property build string user
+exec array view world api blog gem layout clang cache memory method hello operator database host runtime store version word frink junit get
+github hashmap markup compile css2 heroku model note history optimize page child index proxy deploy refactor regex robpike input scheme
+builder server shell sqlite apprentice stream clojure system teach test educate execute util f# field web javascript
+Recent http://j.mp/pnblic: java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby version
+ls: 2010073*: No such file or directory
+sort: open /tmp/keywords: No such file or directory
+recent: exit 1
+rm: /tmp/keywords: No such file or directory
+sort: open /tmp/keywords: No such file or directory
+recent: exit 1
+rm: /tmp/keywords: No such file or directory
+Recent http://j.mp/pnblic: cache hashmap java memoize optimize proxy rails
+sort: open /tmp/keywords: No such file or directory
+recent: exit 1
+sort: open /tmp/keywords: No such file or directory
+recent: exit 1
+grep '^nb' 20100728 /dev/null | sed 's,^[^:]+: ?nb ,,' | fmt -w 1 | sort | uniq -d
+nb cognitive surplus participate internet revolution clayshirky
+nb varnish web proxy cache virtual memory file back store architect efficient note
+nb physics cosmology model time space gravity constant light speed expand contract bigbang
+nb ssh agent remember pass phrase git auth
+nb cloud uniform build service
+nb sandman review
+nb
+20100728:nb cognitive surplus participate internet revolution clayshirky
+20100728:nb varnish web proxy cache virtual memory file back store architect efficient note
+20100728:nb physics cosmology model time space gravity constant light speed expand contract bigbang
+20100728:nb ssh agent remember pass phrase git auth
+20100728:nb cloud uniform build service
+20100728:nb sandman review
+cognitive surplus participate internet revolution clayshirky
+varnish web proxy cache virtual memory file back store architect efficient note
+physics cosmology model time space gravity constant light speed expand contract bigbang
+ssh agent remember pass phrase git auth
+cloud uniform build service
+sandman review
+cognitive
+surplus
+participate
+internet
+revolution
+clayshirky
+varnish
+web
+proxy
+cache
+virtual
+memory
+file
+back
+store
+architect
+efficient
+note
+physics
+cosmology
+model
+time
+space
+gravity
+constant
+light
+speed
+expand
+contract
+bigbang
+ssh
+agent
+remember
+pass
+phrase
+git
+auth
+cloud
+uniform
+build
+service
+sandman
+review
+agent
+architect
+auth
+back
+bigbang
+build
+cache
+clayshirky
+cloud
+cognitive
+constant
+contract
+cosmology
+efficient
+expand
+file
+git
+gravity
+internet
+light
+memory
+model
+note
+participate
+pass
+phrase
+physics
+proxy
+remember
+review
+revolution
+sandman
+service
+space
+speed
+ssh
+store
+surplus
+time
+uniform
+varnish
+virtual
+web
+agent
+architect
+auth
+back
+bigbang
+build
+cache
+clayshirky
+cloud
+cognitive
+constant
+contract
+cosmology
+efficient
+expand
+file
+git
+gravity
+internet
+light
+memory
+model
+note
+participate
+pass
+phrase
+physics
+proxy
+remember
+review
+revolution
+sandman
+service
+space
+speed
+ssh
+store
+surplus
+time
+uniform
+varnish
+virtual
+web
+
+agent
+architect
+auth
+back
+bigbang
+build
+cache
+clayshirky
+cloud
+cognitive
+constant
+contract
+cosmology
+efficient
+expand
+file
+git
+gravity
+internet
+light
+memory
+model
+note
+participate
+pass
+phrase
+physics
+proxy
+remember
+review
+revolution
+sandman
+service
+space
+speed
+ssh
+store
+surplus
+time
+uniform
+varnish
+virtual
+web
+
+agent
+architect
+auth
+back
+bigbang
+build
+cache
+clayshirky
+cloud
+cognitive
+constant
+contract
+cosmology
+efficient
+expand
+file
+git
+gravity
+internet
+light
+memory
+model
+note
+participate
+pass
+phrase
+physics
+proxy
+remember
+review
+revolution
+sandman
+service
+space
+speed
+ssh
+store
+surplus
+time
+uniform
+varnish
+virtual
+web
+Recent http://j.mp/pnblic: agent architect auth back bigbang build cache clayshirky cloud cognitive constant contract cosmology efficient
+expand git gravity internet light memory model note participate pass phrase physics proxy remember review revolution sandman service speed
+ssh store surplus time uniform varnish virtual web
+sort: open /tmp/keywords: No such file or directory
+recent: exit 1
+Recent http://j.mp/pnblic: monad state fibonacci accumulator efficient haskell recurse speed
+f          1           7         167         186  34.3137255 
+          7          47         187           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf | Look 

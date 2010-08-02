@@ -1,7 +1,7 @@
 bin/nb tool
 git status
 git add .
-git commit -a -m 'java haskell memoize git cache rails build f# github hashmap frink javascript gem optimize proxy ruby version'
+git commit -a -m 'monad rush state strangiato villa fibonacci markknopfler jimihendrix accumulator efficient haskell heart recurse'
 git push origin master
 git checkout gh-pages
 ls -ltr /home/jdc/Dropbox/nb|tail

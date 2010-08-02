@@ -1,0 +1,178 @@
+nb design pattern ruby @devinterface
+Mancini, S.  20100721.  Design patterns in Ruby.  DevInterface blog.
+http://blog.devinterface.com/2010/06/design-patterns-in-ruby-introduction/
+
+
+nb haskell state monad
+nb contact anton vanstraaten email anton@appsolutions.com
+State is a pure monad that doesn't involve IO. It works by threading a
+state value through the monadic computation, so old states are discarded
+and new states are passed on, and no actual mutation is involved.
+This means there's no need to bring IO into it.  If you look at the type
+signature of execState, you'll see that unless the state type 's'
+involves IO, the return type can't involve IO. It can help to run little
+examples of this.  Here's a GHCi transcript:
+
+	Prelude> :m Control.Monad.State
+	Prelude Control.Monad.State> let addToState :: Int -> State Int ();
+	addToState x = do s <- get; put (s+x)
+	Prelude Control.Monad.State> let mAdd4 = addToState 4
+	Prelude Control.Monad.State> :t mAdd4
+	m :: State Int ()
+	Prelude Control.Monad.State> let s = execState mAdd4 2
+	Prelude Control.Monad.State> :t s
+	s :: Int
+	Prelude Control.Monad.State> s
+	6
+
+In the above, addToState is a monadic function that adds its argument x
+to the current state.  mAdd4 is a monadic value that adds 4 to whatever
+state it's eventually provided with.  When execState provides it with an
+initial state of 2, the monadic computation is run, and the returned
+result is 6, which is an Int, not a monadic type.
+
+> Or is it possible to call a function in a monad and return a pure
+> result? I think that is what the original poster was asking?
+
+If you use a function like execState (depending on the monad), you can
+typically run a monadic computation and get a non-monadic result.
+However, if you're doing that inside a monadic function, you still have
+to return a value of monadic type—so typically, you use 'return', which
+lifts a value into the monad.
+
+> I know that unsafePerformIO can do this, but I thought that was a bit
+> of a hack.
+
+IO is a special monad which has side effects.  unsafePerformIO is "just"
+one of the functions that can run IO actions, but because the monad has
+side effects, this is unsafe in general.  With a pure monad like State,
+there's no such issue.
+
+
+nb haskell monad tutorial
+Söylemez, E.  20100711.  Understanding Haskell monads.  The ertes world.
+http://ertes.de/articles/monads.html
+
+nb contact ertugrul soeylemez email es@ertes.de
+Ertugrul: It's a bit hidden in Haskell, but a monad instance consists of
+three functions:
+
+	fmap   :: (a -> b) -> (m a -> m b)
+	return :: a -> m a
+	join   :: m (m a) -> m a
+
+Nothing more is needed to define a monad.  In Haskell, a monad is
+expressed by 'return' and (>>=) instead, but this is equivalent.  The
+types of these functions tell you what you can do with the monad.  You
+can put values into it and you can turn a doubly wrapped monadic value
+into a singly wrapped monadic value (usually by dropping information).
+Unless there is a function, which has deeper comprehension of a monadic
+value than these two functions, like 'runState' or 'head', you can never
+get values out of it.  For the IO monad no such function can exist.
+This is intentional.
+
+nb contact ivan lazar miljenovic email ivan.miljenovic@gmail.com
+Ivan: You don't even need fmap defined for it to be a monad, since
+fmap f m = liftM f m = m >>= (return . f)
+
+Brandon: fmap/join and return/bind are isomorphic; given either set, you
+can produce the other.  The usual category-theory definition of monads
+uses the former; Haskell uses the latter, because it allows operations
+to easily be chained together.
+
+
+nb transparent referent monad
+nb contact brandon allbery email allbery@ece.cmu.edu radio kf8nh
+Brandon: The majority of monads¹ (State, Writer, Reader, etc.) are
+entirely referentially transparent² in their workings; in these cases,
+the wrapper is used simply to add a “hook” that is itself referentially
+transparent.  The three mentioned above are all quite similar, in that
+the “hook” just carries a second value along and the monad definition
+includes functions that can operate on that value (get, gets, put,
+modify; tell; ask, asks, local).  Other referentially transparent monads
+are used to provide controllable modification of control flow: Maybe and
+(Either a) let you short-circuit evaluation based on a notion of
+“failure”; list aka [] lets you operate on values “in parallel”,
+with backtracking when a branch fails.  Cont is the ultimate expression
+of this, in effect allowing the “hook” to be evaluated at any time by
+the wrapped operation; as such, it’s worth studying, but it will
+probably warp your brain a bit.  (It’s possible to derive any of the
+referentially transparent monads from Cont.)
+ ¹ A monad is just a wrapper that lets you take an action of some kind
+whenever the wrapped value is operated on.
+ ² "Pure" means "referentially transparent"; that is, it should always
+be possible to substitute an expression for its expansion without
+changing its meaning.
+
+
+nb state monad closure accumulator
+http://www.haskell.org/pipermail/haskell-cafe/2010-July/081145.html
+
+> Prelude> :m Control.Monad.State
+> Prelude Control.Monad.State> let addToState :: Int -> State Int ();
+> addToState x = do s <- get; put (s+x)
+> Prelude Control.Monad.State> let mAdd4 = addToState 4
+> Prelude Control.Monad.State> :t mAdd4
+> m :: State Int ()
+> Prelude Control.Monad.State> let s = execState mAdd4 2
+> Prelude Control.Monad.State> :t s
+> s :: Int
+> Prelude Control.Monad.State> s
+> 6
+
+Me: By this example State doesn't seem to give you anything more than a
+closure would, since it doesn't act like much of an accumulator (by, for
+example, storing 6 as its new internal value).
+
+Anton: Sure, the example was just intended to show a value being
+extracted from a monad, which was what was being asked about.
+Actually, in the example, the `put (s+x)` does store 6 as the new value
+of the state.  It's just that the example doesn't do anything with this
+new state other than extract it using execState.  You can use functions
+like addToState in a larger expression, though.  E.g., the following
+updates the internal state on each step and returns 14:
+
+	execState (addToState 4 >> addToState 5 >> addToState 3) 2
+
+
+nb fibonacci state monad accumulator
+http://www.haskell.org/pipermail/haskell-cafe/2010-July/081145.html
+
+Me: Could you use State for something like storing the latest two values
+of a Fibonacci series?  For example, each time you call it, it
+generates the next term, discards the oldest term, and stores the
+newly-generated term?
+
+Anton: You should really try to implement this as an exercise, in which
+case don't read any further!
+
+
+nb fibonacci state monad generate lazy filter
+http://www.haskell.org/pipermail/haskell-cafe/2010-July/081145.html
+
+Me: And could you then use this Fibonacci State monad in a lazy
+computation, to grab for example the first twenty even Fibonacci
+numbers, without computing and storing the series beyond what the
+filter asks for?
+
+
+nb fibonacci state monad recurse efficient range speed
+http://www.haskell.org/pipermail/haskell-cafe/2010-July/081145.html
+
+Me: We can generate Fibonacci series double-recursively in a lazy
+computation.  Would it be more or less efficient to use a Fibonacci
+State monad instead?  Would the State implementation provide a larger
+range before it blew the stack (which tail-recursion should prevent),
+or became too slow for impatient people?
+
+
+nb fibonacci state monad recurse memoize polymorph
+http://www.haskell.org/pipermail/haskell-cafe/2010-July/081145.html
+
+Me: Would Haskell memoize already-generated values in either case?  Could
+we write a general memoizer across both the recursive and State
+implementations, or must we write a specific one to each case?
+
+
+nb swcraft video @jsuchy 8lu
+http://bambuser.com/channel/softwarecraftsmanship

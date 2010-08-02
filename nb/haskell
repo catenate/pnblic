@@ -63,7 +63,7 @@ priate type).  The callee is free to instantiate the given function with
 *any types it wants*.  This is also what makes the ST monad safe incidentally.
 
 
-nb functional programming import interview johnhughes
+nb function programming import interview johnhughes
 Drobi, S. -20100608.  John Hughes on Why functional programming matters!
 QCon 2010.
 http://www.infoq.com/interviews/john-hughes-fp
@@ -264,7 +264,7 @@ by fold operators, and illustrate our new technique with a number of
 examples.
 
 
-nb pure functional data structure
+nb pure function data structure
 Okasaki, C.  19990701.  Purely functional data structures.  Cambridge
 university press.  220p.
 http://www.amazon.com/dp/0521663504/?tag=stackoverfl08-20

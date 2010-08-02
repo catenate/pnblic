@@ -8,7 +8,7 @@ and make revisions.  All files are stored securely on our servers,
 and can be password protected and encrypted for maximum security.
 
 
-nb functional program style assignment initialize
+nb function program style assignment initialize
 Vaillant, L.  20100714.  How to avoid the assignment statement.  @Laup's tutorials.
 http://www.loup-vaillant.fr/tutorials/avoid-assignment
 
@@ -16,7 +16,7 @@ Vaillant, L.  200906.  Assignment statement considered harmful.  @Laup's article
 http://www.loup-vaillant.fr/articles/assignment
 
 
-nb functional java api
+nb function java api
 http://functionaljava.org/
 http://functionaljava.googlecode.com/svn/artifacts/3.0/javadoc/index.html
 

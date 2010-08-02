@@ -69,12 +69,154 @@
 20100711:1 relational operator
 20100711:12 clang c++ operator
 20100711:16 logical operator
-20100712:1 teach child functional programming
-20100712:5 ruby book davidblack
-20100712:9 apprentice blog
-20100712:13 red green refactor process
-20100712:17 ruby project tree file directory layout
-20100712:21 ruby require file directory layout
+20100712:1 obtiva spike ruby rspec rails sqlite git heroku cucumber
+20100712:4 deploy heroku ruby host
+20100712:10 rails tutorial
+20100712:14 sqlite database
+20100712:18 java rosettacode hello world
+20100712:28 compile java
+20100712:33 junit test hello world
+20100712:37 java class constructor hello world
+20100712:41 java tutorial introduction
+20100712:46 handle catch exception junit test
+20100712:56 java array tutorial
+20100712:61 java foreach
+20100712:70 java 5 string array for loop
+20100712:85 execute bash shell command java process
+20100712:90 java util unzip zipfile
+20100712:103 java compare string == equals compareto method pointer
+20100712:122 java ioexception
+20100712:126 execute program java runtime process
+20100712:130 java input output tutorial nio stream file tutorial
+20100712:134 java array list read store file
+20100712:139 teach child function programming
+20100712:143 ruby book davidblack
+20100712:147 apprentice blog
+20100712:151 red green refactor process
+20100712:155 ruby project tree file directory layout
+20100712:159 ruby require file directory layout
+20100713:1 java list file subdirectory
+20100713:6 java io interface filename filter se6
+20100713:11 java matches regex compile pattern
+20100713:15 java util class array list se6
+20100713:20 story point estimate time complexity agile plan
+20100713:31 java lang class string se6
+20100713:35 java string split regex
+20100713:39 java boolean true false
+20100713:43 java lang class runtime se6 exec file set work directory
+20100713:51 java runtime exec port process builder
+20100713:56 java lang class process builder se6
+20100713:79 java tar
+20100714:1 crocodoc pdf doc ppt view markup annotate comment note version online share highlight strikeout  
+20100714:11 function program style assignment initialize
+20100714:19 function java api
+20100714:32 java final keyword class method  field
+20100715:1 java working directory system get property user
+20100715:12 java system get property list
+20100715:25 neilgaiman career @neilhimself @the_av_club
+20100715:30 postgres unix user account
+20100715:38 postgres create database cluster
+20100715:101 postgres host authenticate user
+20100715:110 restart postgres server
+20100715:114 postgres create user
+20100715:125 fix
+20100715:152 rails blog tutorial
+20100715:173 rails blog tutorial post index view
+20100715:178 jlang
+20100715:182 haml template markup
+20100715:186 typography mark history pilcrow ampersand section asterisk hedera 
+20100715:190 page text block layout ninth harmony
+20100715:194 lex yacc howto
+20100715:198 apprentice journeyman @coreyhaines
+20100717:1 git reference
+20100717:11 defend sql injection attack asp coldfusion c# delphi .net java perl php postgresql python ruby scheme xkcd
+20100717:22 memprof memory profile ruby gem rvm rewrite binary allocate object collect garbage dump heap upload
+20100717:42 w3c css2 box model dimension margin pad border property
+20100719:1 nokia siemens network function programming
+20100719:4 hibase persistent function programming environment telecom database perform load scheme index memory real time available gpl2
+20100719:20 css2 font property
+20100719:48 ruby rails irc #rubyonrails
+20100719:51 ubuntu ruby rails setup web server
+20100720:1 java build create jar
+20100720:22 haskell multicore parallel programming concurrent simonmarlow
+20100720:31 chicagohaskell meetup
+20100721:1 robot programming language educate teach child
+20100721:16 java process
+20100721:28 java maximum open file error close reader destroy process
+20100722:1 java grep
+20100722:5 java compare read file method performance
+20100722:35 java compare buffer read input stream
+20100723:1 shell script edit passive voice weasel word lexical illusions
+20100723:6 home page host design
+20100723:15 emerging language create design oscon
+20100723:16 robpike go pragmatic feature economy
+20100723:17 ioke seph
+20100723:18 philmercutio thyrd visual nest grid triad
+20100723:19 parrot
+20100723:20 ur
+20100723:21 alaneliasen frink measure focus
+20100723:22 giladbracha newspeak realize concept
+20100723:23 f#
+20100723:24 jeremy ashkenas coffeescript javascript clear æsthetic document
+20100723:25 mirah duby
+20100723:26 io
+20100723:27 kodu
+20100723:28 clojure
+20100723:29 elang caja
+20100723:30 fancy
+20100723:31 bitc
+20100723:32 stevefolta trylon not innovate write self
+20100723:33 amoswenger ooc
+20100723:34 coherence subtext
+20100723:35 finch
+20100723:36 circa
+20100723:37 wheeler
+20100723:38 interval arithmetic
+20100723:39 stratified javascript
+20100723:40 factor
+20100723:41 dlang
+20100723:42 ambienttalk
+20100724:6 ruby tool category count github source watcher fork
+20100724:16 quark scale space video
+20100724:25 work progress wip limit ready working kanban tool work flow history
+20100724:48 frink unit measure calculate programming language
+20100725:1 paris catacomb group private restore untergunther
+20100725:5 haskell command line option
+20100725:10 rails version command
+20100725:26 project idea command line refactor tool ide ruby
+20100726:1 obscure world atlas
+20100726:7 git github video
+20100726:17 torrent peer deploy software murder gem convert capistrano twitter
+20100726:53 memoize f#
+20100726:57 memoize haskell
+20100727:1 memoize java dynamic proxy class hashmap cache optimize function result
+20100727:7 memoize java closure hashmap cache optimize function result
+20100727:12 generate rails api document
+20100727:17 list gem version rails
+20100727:21 function programming overview
+20100728:1 cognitive surplus participate internet revolution clayshirky
+20100728:25 varnish web proxy cache virtual memory file back store architect efficient note
+20100728:30 physics cosmology model time space gravity constant light speed expand contract bigbang
+20100728:50 ssh agent remember pass phrase git auth
+20100728:54 cloud uniform build service
+20100728:62 sandman review
+20100730:1 design pattern ruby @devinterface
+20100730:6 haskell state monad
+20100730:7 contact anton vanstraaten email anton@appsolutions.com
+20100730:52 haskell monad tutorial
+20100730:56 contact ertugrul soeylemez email es@ertes.de
+20100730:74 contact ivan lazar miljenovic email ivan.miljenovic@gmail.com
+20100730:84 transparent referent monad
+20100730:85 contact brandon allbery email allbery@ece.cmu.edu radio kf8nh
+20100730:108 state monad closure accumulator
+20100730:138 fibonacci state monad accumulator
+20100730:150 fibonacci state monad generate lazy filter
+20100730:159 fibonacci state monad recurse efficient range speed
+20100730:169 fibonacci state monad recurse memoize polymorph
+20100730:177 swcraft video @jsuchy 8lu
+20100731:1 open source portfolio measure programmer ability company organization recruit policy @nathanmarz
+20100731:20 data structure course mit
+20100801:1 commerce business company user function programming
 apparatus:1 explore unfamiliar new code gloss term novel variation
 clojure:1 new user development environment problem fail java ide build system compile @taoeffect
 clojure:47 mmemail library clojars leiningen @slagyr
@@ -97,7 +239,7 @@ haskell:1 test tool suite strategy workflow
 haskell:5 develop web html5 css javascript @silkapp tag key value database
 haskell:10 anansi literate programming preprocessor noweb nuweb include tree
 haskell:21 rankntypes rank 2 polymorphism within function instance jwlato@gmail.com
-haskell:66 functional programming import interview johnhughes
+haskell:66 function programming import interview johnhughes
 haskell:72 parallel language status community @donsbot
 haskell:148 literate haskell example log analysis video
 haskell:153 potential x86 64 bit assembly haskell domain specific language embed dsl ghc haskell platform
@@ -110,7 +252,7 @@ haskell:229 bibliography donstewart book paper talk software
 haskell:235 parallel programming book paper list
 haskell:241 monad type class do notation presentation
 haskell:250 worker wrapper transform type recurse perform initial algebra semantic fold grahamhutton maurojaskelioff andygill
-haskell:267 pure functional data structure
+haskell:267 pure function data structure
 haskell:278 web framework unix
 haskell:292 tryhaskell repl
 haskell:296 monad intro exercise sigfpe
@@ -163,7 +305,7 @@ polyglot:260 ideone repl ada gnat assembler nasm gawk mawk bash bclang brainfuck
 polyglot:273 codepad repl c c++ d haskell lua ocaml php perl plaintext python ruby scheme tcl
 polyglot:280 online environment repl read eval print loop actionscript3 ada arc assembler awk bash basic bclang beanshell brainfuck clang c# c++lang clojure cobol coffeescript commonlisp dlang emacslisp erlang forth fortran golang groovy haskell icon iolang intercal java javascript lua mongodb nemerle nice objective-j ocaml ozlang pascal perl perl6 php pike postscript prolog python rlang ruby scala scheme smalltalk tcl unlambda visualbasic.net whitespace 
 polyglot:300 closure ruby
-polyglot:305 implement functional tutorial book spjones davidlester
+polyglot:305 implement function tutorial book spjones davidlester
 polyglot:315 choose language expert system
 polyglot:319 grow language video pdf guysteele
 polyglot:324 idiom reference string number regex
@@ -186,7 +328,7 @@ ruby:154 object orient data use
 ruby:158 app host cloud
 ruby:180 repl
 shell:1 cli log console command access frequency change directory list recent file helper script adaptive interface login last @mattmight
-shell:12 script functional create github project kb backlog
+shell:12 script function create github project kb backlog
 shell:17 heirloom bourne shell
 shell:21 logout
 swcraft:1 conference north america
@@ -222,7 +364,7 @@ swcraft:328 prototype
 swcraft:351 craftsman title
 swcraft:363 startup hacker painter paulgraham
 swcraft:367 productive efficient build unnecessary
-swcraft:372 todo github commit relevance functional koan haskell @abedra
+swcraft:372 todo github commit relevance function koan haskell @abedra
 swcraft:376 tao
 swcraft:381 good enough sufficient design economy necessary refactor
 swcraft:397 software engineering professional craft coöperate game lean process alistaircockburn

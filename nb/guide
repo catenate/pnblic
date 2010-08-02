@@ -1,8 +1,8 @@
 ../bin/nb
+../bin/recent | head -1 | wc -c
 echo New `{/home/jdc/bin/9/stardate | sed 's,\..*,,'}
 mv /home/jdc/Dropbox/nb/201007* .
-recent | head -1 | wc -c
-|fmt -w 72|sed 's,$,  ,'
+|fmt -w 72
+|sed 's,$,  ,'
 |sort|uniq
 |tr '[A-Z]' '[a-z]'
-

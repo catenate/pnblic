@@ -18,7 +18,7 @@ nb list gem version rails
 gem list --local rails
 
 
-nb functional programming overview
+nb function programming overview
 Hutchison, B.  20090602.  OO/imperative programmers: ‘Study functional
 programming or be ignorant’.  My digital neuron.
 http://benhutchison.wordpress.com/2009/06/02/study-functional-programming-or-be-ignorant/

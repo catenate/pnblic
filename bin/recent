@@ -1,9 +1,9 @@
 #!/usr/local/plan9/bin/rc
 
 rm -f /tmp/keywords
-files=`{ls 2010072[89] 2010073* 2010080*}
+files=`{ls 2010080[2-9]*}
 keywords=`{grep '^nb' $files /dev/null | grep -v 'nb contact' | sed 's,^[^:]+: ?nb ,,' | fmt -w 1 | sort | uniq -d }
-worthy=`{echo $keywords | fmt -w 1 | grep -v '(acoustic|command|company|compare|contact|create|design|document|email|file|function|language|line|live|measure|process|program|programming|project|read|result|space|tool|tutorial|video|work|[a-z]@[a-z])'}
+worthy=`{echo $keywords | fmt -w 1 | grep -v '(acoustic|application|command|company|compare|contact|controller|create|data|design|document|email|file|function|language|line|live|measure|model|output|process|program|programming|project|read|result|separate|space|tool|tutorial|video|view|work|[a-z]@[a-z])'}
 for(k in $worthy){
 	count=`{grep '^nb ' $files | grep -c $k}
 	echo $count^' '^$k

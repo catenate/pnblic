@@ -1,0 +1,15 @@
+nb count word line standard input output interact main haskell
+> main = interact wordCount
+>	where wordCount input = show (length (lines input)) ++ "\n"
+
+
+nb school fail educate inspire conform
+Goldson, E.  20100625.  Valedictorian speaks out against schooling in
+graduation speech.  Sott.net: Signs of the times.
+http://www.sott.net/articles/show/212383-V...aduation-Speech
+
+
+nb meta write program
+http://www.softwarequotes.com/showquotes.aspx?id=538&name=Anonymous#4916
+
+I would rather write programs that help me write programs than write programs.

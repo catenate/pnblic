@@ -1,17 +1,17 @@
 /home/jdc/git/pnblic
 /usr/local/plan9/font/times/latin1.7a.font
 /usr/local/plan9/font/fixed/unicode.4x6.font
-  0.0000000  59.8437500
+  0.0000000  58.3593750
 w Newcol Kill Putall Dump acme.dump Exit 
 c          0 New Cut Paste Snarf Sort Zerox Delcol 
 c          1 New Cut Paste Snarf Sort Zerox Delcol 
-f          0           1           0           0   2.0697168 
-          1          43        3398           1           0 /home/jdc/Dropbox/nb/ Del Snarf Get | Look 
-f          0           2           0           0   4.1394336 
-          2          46         449           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
-f          0           9        1453        1453  28.5403050 
-          9          86        1453           0           0 /home/jdc/git/pnblic/nb/20100801 Del Snarf Undo | Look 
-F          1           0        3457        3457   2.0697168        3457 
+f          0           1           0           0   2.0652174 
+          1          43        3437           1           0 /home/jdc/Dropbox/nb/ Del Snarf Get | Look 
+f          0           2           0           0   4.1304348 
+          2          46         457           1           0 /home/jdc/git/pnblic/nb/ Del Snarf Get | Look 
+f          0           8        3273        3273   6.1956522 
+          8          66        3273           0           0 /home/jdc/git/pnblic/nb/20100803 Del Snarf Undo | Look 
+F          1           0        3457        3457   2.0652174        3457 
           4          46        3457           0           1 /home/jdc/git/pnblic/+Errors Del Snarf | Look 
 # On branch master
 # Changed but not updated:
@@ -152,10 +152,10 @@ no changes added to commit (use "git add" and/or "git commit -a")
  create mode 100755 nb/recent
 To git@github.com:catenate/pnblic.git
    a7cddff..3609814  master -> master
-f          1           5         162         185   4.1394336 
-          5          44         263           0           0 /home/jdc/git/pnblic/guide Del Snarf | Look 
-F          1           2       25537       25537   6.2091503       25537 
-          6          58       25537           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf Undo Put | Look 
+f          1           5         162         185   4.1304348 
+          5          44         266           0           0 /home/jdc/git/pnblic/guide Del Snarf | Look 
+F          1           2       25619       25619   6.1956522       25619 
+          6          58       25619           0           1 /home/jdc/git/pnblic/nb/+Errors Del Snarf Undo Put | Look 
 20100720:nb java build create jar
 20100720:nb haskell multicore parallel programming concurrent simonmarlow
 20100720:nb chicagohaskell meetup
@@ -1651,5 +1651,7 @@ ssh store surplus time uniform varnish virtual web
 sort: open /tmp/keywords: No such file or directory
 recent: exit 1
 Recent http://j.mp/pnblic: monad state fibonacci accumulator efficient haskell recurse speed
-f          1           7         167         186  34.3137255 
-          7          47         187           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf | Look 
+New 20100803
+Recent http://j.mp/pnblic: @sakhmechet haskell identifier introspect
+f          1           7         130         140  58.2608696 
+          7          52         187           0           0 /home/jdc/git/pnblic/nb/guide Del Snarf Redo | Look 

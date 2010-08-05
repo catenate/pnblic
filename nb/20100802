@@ -1,0 +1,83 @@
+nb social micro payment share money fund month flattr
+https://flattr.com/
+http://www.crunchbase.com/company/flattr
+
+Flattr is a social micropayments system.  However, you must be willing
+to give to get.  In other words, before you can get flattred you need to
+add some funds and flattr others.  (You can add funds for several months
+at a time in order to minimize payment processing/fees which is what
+makes this economically more viable than previous systems.) Your monthly
+allocation is then divided equally amongst all of the things you flattr
+within that month.  Remember to flattr [any] things you find online and like.
+If you find something on the internet that you like, but it doesn’t have
+a flattr button, tell the site owner/creator to get a flattr account and
+put up a button so they can receive your love.  You can always adjust
+how much you want to flattr to others each month.  If you find lots of
+things to flattr in one single month you can easily increase the monthly amount.
+
+
+nb educate child lesson plan science read health news language literate society emotion math @brighthorizons
+Family resources for growing children.
+http://www.brighthorizons.com/growing/
+
+Bright Horizons has a web site with activities for "growing scientists"
+and "growing readers", a newsletter, information on staying healthy,
+learning at home, and specific lesson plans to get kids ready for school.
+I like this kind of condensed, vetted, planned stuff over random web sites.
+
+
+nb haskell repl
+Try Haskell.
+http://tryhaskell.org/?
+
+
+nb software tool forth lisp smalltalk python clang
+nb contact ivantikhonov email kefeer@brokestream.com
+Tikhonov, I.  Simplicity matters.
+http://brokestream.com/index.html
+
+Software.  log-malloc—log malloc/free with stack trace.  netboot—simple
+pxe-compatible dhcp and tftp server.  procstat—displays linux proc stat
+(/proc/pid/stat) in human-readable format.  tinyserial—small minicom
+replacement.  udp_redirect—udp port forwarder.  tinycaptcha—CAPTCHA
+anti-bot image generator.  git-loc—LOC count for git.
+
+Projects.  Click Forth.  WarSim.
+
+Proof-of-concept.  fo.py, mighty Forth Lisp SmallTalk mix in Python.
+Web server in 58 lines of C. Making weird things: Metaprogramming in C.
+
+Thoughts.  iptables MASQUERADE vs SNAT - mistery of netfilter.  I want
+mix of Forth, Lisp and Smalltalk.  Taking advantages of a bottleneck.
+C will kick Python ass forever.  poll vs epoll.  Libc usage.  Linux is
+not special.  Nice look matters.  Start from scratch.
+Software development is a service.  Web2.0 makes development easier.
+FizzBuzz in Forth.
+
+
+nb refactor resurrect program rewrite abstract level @spolsky
+Spolsky, J. -20000406.  Things you should never do, part I. Joel on software.
+http://www.joelonsoftware.com/articles/fog0000000069.html
+
+Try to keep it alive, resurrect it, in favor of rewriting it at same
+level of abstraction.
+
+
+nb under water sea bed river flow dense salt mediterranean black bosphorus strait
+Gray, R. -20100801.  Undersea river discovered flowing on sea bed.
+Telegraph: Environment.
+http://www.telegraph.co.uk/earth/environment/7920006/Undersea-river-discovered-flowing-on-sea-bed.html
+
+
+nb startup common video question apply @newsycombinator
+YCommonApp - Apply to 25+ YC-funded startups in under 10 minutes http://bit.ly/9Ge4s2
+
+
+nb rails dispatcher reload development code
+/home/jdc/Dropbox/doc/pragprog/agile-web-development-with-rails_b6_0.txt:/Rails dispatcher/
+
+It turns out that the Rails dispatcher is pretty clever.  In development
+mode (as opposed to testing or production), it automatically reloads
+application source ﬁles when a new request comes along.  That way, when
+we edit our application, the dispatcher makes sure it’s running the most
+recent changes.

@@ -1,7 +1,7 @@
 bin/nb tool
 git status
 git add .
-git commit -a -m 'monad rush state strangiato villa fibonacci markknopfler jimihendrix accumulator efficient haskell heart recurse'
+git commit -a -m 'rails haskell @sakhmechet mvc identifier ruby action educate flow instance interact introspect math word'
 git push origin master
 git checkout gh-pages
 ls -ltr /home/jdc/Dropbox/nb|tail
